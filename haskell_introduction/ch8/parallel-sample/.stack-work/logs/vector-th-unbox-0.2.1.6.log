@@ -1,0 +1,7 @@
+Configuring vector-th-unbox-0.2.1.6...
+Preprocessing library for vector-th-unbox-0.2.1.6..
+Building library for vector-th-unbox-0.2.1.6..
+[1 of 1] Compiling Data.Vector.Unboxed.Deriving ( Data/Vector/Unboxed/Deriving.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Vector/Unboxed/Deriving.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/kiron/.stack/snapshots/x86_64-osx/lts-12.5/8.4.3/lib/x86_64-osx-ghc-8.4.3/vector-th-unbox-0.2.1.6-4zK7oCb71eH1479ZMEneUA
+Registering library for vector-th-unbox-0.2.1.6..

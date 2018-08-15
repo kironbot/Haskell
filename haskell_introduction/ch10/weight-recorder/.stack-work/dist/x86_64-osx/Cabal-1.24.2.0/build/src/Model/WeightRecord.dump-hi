@@ -1,0 +1,1635 @@
+
+==================== FINAL INTERFACE ====================
+2018-08-15 02:42:13.857818 UTC
+
+interface weight-recorder-0.1.0.0-2Cz4nHR2skdHQxdlS1Wnkh:Model.WeightRecord 8002
+  interface hash: bdf36f2b0202556805e1067cd1074482
+  ABI hash: de7548d7b11a4587c3a27e9e8940f742
+  export-list hash: a4e16a4e6e9c5a9770d9e6d0b3ba678e
+  orphan hash: 2454348fc8ba8f20e4809f1ee26dfd77
+  flag hash: 6c5063391121c8abc4d711346b80dbff
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  Model.WeightRecord.insertNewWRecord
+  Model.WeightRecord.nwrTime'
+  Model.WeightRecord.nwrUserId'
+  Model.WeightRecord.nwrWeight'
+  Model.WeightRecord.selectWRecord
+  Model.WeightRecord.NewWRecord{Model.WeightRecord.NewWRecord nwrTime nwrUserId nwrWeight}
+module dependencies: Entity.WeightRecord
+package dependencies: HDBC-2.4.0.1@HDBC-2.4.0.1-LNXn2N08eDoGJ5oIBmpngp
+                      HDBC-session-0.1.1.1@HDBC-session-0.1.1.1-JDTu7GaiWFA1X5nFX78y9e
+                      HDBC-sqlite3-2.3.3.1@HDBC-sqlite3-2.3.3.1-JU8hYIEMLA12FsMcPNRVAY
+                      array-0.5.1.1@array-0.5.1.1 base-4.9.1.0
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1 mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      names-th-0.2.0.3@names-th-0.2.0.3-FWd9uhhaPk73vacdw3xBxG
+                      old-locale-1.0.0.7@old-locale-1.0.0.7-KGBP1BSKxH5GCm0LnZP04j
+                      old-time-1.1.0.3@old-time-1.1.0.3-KWRsMSdY26c2L27Y9n9cyq
+                      persistable-record-0.4.2.0@persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k
+                      relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc
+                      relational-schemas-0.1.3.1@relational-schemas-0.1.3.1-48FrZ7ufBIEDGv4W1BXtvU
+                      sql-words-0.1.5.1@sql-words-0.1.5.1-6ekOanNrtOKYD1ABcjRAD
+                      template-haskell-2.11.1.0
+                      text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR
+                      th-data-compat-0.0.2.4@th-data-compat-0.0.2.4-GbISCvWnyQk60k5xubIzhH
+                      th-reify-compat-0.0.1.2@th-reify-compat-0.0.1.2-6M0IwJ7dfMh1DXggrHIiQT
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      utf8-string-1.0.1.1@utf8-string-1.0.1.1-1DpjxLeTvGg7ttZZojxJR5
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.C
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Map
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Num
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Text
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Time
+         persistable-record-0.4.2.0@persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO:Database.Record.Instances
+         relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Monad.Aggregate
+         relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.Record.Persistable
+         relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.Schema.SQLite3
+         relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.SqlValueExtra
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Complex base-4.9.1.0:Data.Either
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD:Data.DList
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+import  -/  HDBC-2.4.0.1@HDBC-2.4.0.1-LNXn2N08eDoGJ5oIBmpngp:Database.HDBC 81def1f2571db1f654818c2f11fc5e39
+import  -/  HDBC-2.4.0.1@HDBC-2.4.0.1-LNXn2N08eDoGJ5oIBmpngp:Database.HDBC.SqlValue e971255e69f4f4eb1fbe6f911ce0571a
+import  -/  HDBC-2.4.0.1@HDBC-2.4.0.1-LNXn2N08eDoGJ5oIBmpngp:Database.HDBC.Statement c0f76d7e23115ed6d4032671fd388743
+import  -/  HDBC-2.4.0.1@HDBC-2.4.0.1-LNXn2N08eDoGJ5oIBmpngp:Database.HDBC.Types c9d0a2b578643f48fda3fe109806ccfa
+import  -/  HDBC-2.4.0.1@HDBC-2.4.0.1-LNXn2N08eDoGJ5oIBmpngp:Database.HDBC.Utils c96932600c0a26920de29d9d2d8a1d71
+import  -/  array-0.5.1.1@array-0.5.1.1:Data.Array.Base a1a813de21dd195f39f7a053a2142a3f
+import  -/  base-4.9.1.0:Control.Exception a76dd9666251322fe34dbcca3a0817bf
+import  -/  base-4.9.1.0:Control.Exception.Base 1e106916283856f4d9caeddab92cd861
+import  -/  base-4.9.1.0:GHC.Arr dbae05e7a9c0aba55cc706ecf0406507
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.IO.Handle.FD bf0291e0f2b6c0eca5446f986999f1cc
+import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
+import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  base-4.9.1.0:System.IO c9de64c5f5407c4cf1c52500c4d15200
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  integer-gmp-1.0.0.1:GHC.Integer.Type 318df275d77dcdb18e0006d8d7870c2a
+import  -/  persistable-record-0.4.2.0@persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO:Database.Record.FromSql c5ab02c7efd7b519496c6077c8f23b6e
+import  -/  persistable-record-0.4.2.0@persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO:Database.Record.Persistable 79bf0c3373134f6aa84491cc8358dc68
+import  -/  persistable-record-0.4.2.0@persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO:Database.Record.ToSql c6d57bc81acc55b1d8d4790455c050ba
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query 3aeb1aebd32fb0b1988eeee2b4535a3f
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Monad.Class 2e0adf449cb1e120f2e97a935b1a8b1b
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Monad.Trans.Ordering c76436451b8e52b12485ce60cfeaf8e0
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Pi.Unsafe 80bc802197f832709a157eb70cacdfcd
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Projectable da385b32a6bcb2c6e74bcee5a542d758
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.ProjectableExtended 90cd5ab2c563e3eb60807b9422607439
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Pure bc2d37458b615a7a091ca100c5f46b06
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Relation 2375807226089939049c4acca39382ec
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Type 0b2b503fdf646cd8e2d8efd2086c9935
+import  -/  relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.Query.TH c2fa6a3076455bf35a48f7065275c484
+import  -/  relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.Record fa65e03f0a2e0a4451fb960accdab43e
+import  -/  relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.Record.Insert 04c3c40651db438b926836179ebaa8ca
+import  -/  relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.Record.Query 241c6f62b07cfd2af4af4bf0dc3fd355
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime 60caa95741700c9c499e3cb90b4be40d
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime 7c0577d8171eae7ec83c841433ddc85a
+import  -/  Entity.WeightRecord 9bb96eae10f11557cd474334e9b7dace
+  exports: b54f9e52695679ce85003c7faa4b7124
+  WeightRecord b84190cb6a4716ac83ba40cf9ea25272
+  tableOfWeightRecord b84190cb6a4716ac83ba40cf9ea25272
+  time' 1a21bdd924e9940bc5d738a1ef042e53
+  userId' d25f5587571e7c5aac252a794202d5f7
+  weight' c64f401ff47edbcf8c4378fca7ce4763
+  weightRecord 739d3d15aebb4ee2d173879cfd246c97
+13bcdca7df349e8665f24b01e4f12a90
+  $fFromSqlSqlValueNewWRecord ::
+    Database.Record.FromSql.FromSql
+      Database.HDBC.SqlValue.SqlValue Model.WeightRecord.NewWRecord
+  DFunId
+  {- Arity: 1, Strictness: <L,U>m, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Model.WeightRecord.$fFromSqlSqlValueNewWRecord_$crecordFromSql
+                  `cast`
+                (Sym (Database.Record.FromSql.N:FromSql[0]) <Database.HDBC.SqlValue.SqlValue>_N <Model.WeightRecord.NewWRecord>_N) -}
+13bcdca7df349e8665f24b01e4f12a90
+  $fFromSqlSqlValueNewWRecord1 ::
+    [Database.HDBC.SqlValue.SqlValue]
+    -> (Model.WeightRecord.NewWRecord,
+        [Database.HDBC.SqlValue.SqlValue])
+  {- Arity: 1, Strictness: <L,U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: [Database.HDBC.SqlValue.SqlValue]) ->
+                 case Model.WeightRecord.$w$crecordFromSql
+                        w of ww { (#,#) ww1 ww2 ->
+                 (ww1, ww2) }) -}
+13bcdca7df349e8665f24b01e4f12a90
+  $fFromSqlSqlValueNewWRecord_$crecordFromSql ::
+    Database.Record.FromSql.RecordFromSql
+      Database.HDBC.SqlValue.SqlValue Model.WeightRecord.NewWRecord
+  {- Arity: 1, Strictness: <L,U>m,
+     Unfolding: InlineRule (0, True, True)
+                Model.WeightRecord.$fFromSqlSqlValueNewWRecord1
+                  `cast`
+                (Sym (Database.Record.FromSql.N:RecordFromSql[0]
+                          <Database.HDBC.SqlValue.SqlValue>_R
+                          <Model.WeightRecord.NewWRecord>_R)) -}
+13bcdca7df349e8665f24b01e4f12a90
+  $fPersistableWidthNewWRecord ::
+    Database.Record.Persistable.PersistableWidth
+      Model.WeightRecord.NewWRecord
+  DFunId
+  {- Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Model.WeightRecord.$fPersistableWidthNewWRecord_$cpersistableWidth
+                  `cast`
+                (Sym (Database.Record.Persistable.N:PersistableWidth[0]) <Model.WeightRecord.NewWRecord>_N) -}
+7979e69f55996c5868b68084c9c37a90
+  $fPersistableWidthNewWRecord1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Int"#) -}
+f18391949d59a4eb87b0624dc2920eeb
+  $fPersistableWidthNewWRecord2 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 3#) -}
+e02b05d5edbe1e64354e8156113655d0
+  $fPersistableWidthNewWRecord3 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Arr.Array GHC.Types.Int GHC.Types.Int #)
+  {- Arity: 1,
+     Unfolding: (\ (s1# :: GHC.Prim.State#
+                             GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newArray#
+                        @ GHC.Types.Int
+                        @ GHC.Prim.RealWorld
+                        4#
+                        (GHC.Arr.arrEleBottom @ GHC.Types.Int)
+                        s1# of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Prim.writeArray#
+                        @ GHC.Prim.RealWorld
+                        @ GHC.Types.Int
+                        ipv1
+                        0#
+                        Model.WeightRecord.$fPersistableWidthNewWRecord_a1
+                        ipv of s4# { DEFAULT ->
+                 case GHC.Prim.writeArray#
+                        @ GHC.Prim.RealWorld
+                        @ GHC.Types.Int
+                        ipv1
+                        1#
+                        Model.WeightRecord.$fPersistableWidthNewWRecord5
+                        s4# of s4#1 { DEFAULT ->
+                 case GHC.Prim.writeArray#
+                        @ GHC.Prim.RealWorld
+                        @ GHC.Types.Int
+                        ipv1
+                        2#
+                        Model.WeightRecord.$fPersistableWidthNewWRecord4
+                        s4#1 of s4#2 { DEFAULT ->
+                 case GHC.Prim.writeArray#
+                        @ GHC.Prim.RealWorld
+                        @ GHC.Types.Int
+                        ipv1
+                        3#
+                        Model.WeightRecord.$fPersistableWidthNewWRecord2
+                        s4#2 of s4#3 { DEFAULT ->
+                 case GHC.Prim.unsafeFreezeArray#
+                        @ GHC.Prim.RealWorld
+                        @ GHC.Types.Int
+                        ipv1
+                        s4#3 of ds2 { (#,#) ipv2 ipv3 ->
+                 (# ipv2,
+                    GHC.Arr.Array
+                      @ GHC.Types.Int
+                      @ GHC.Types.Int
+                      Model.WeightRecord.$fPersistableWidthNewWRecord_a1
+                      Model.WeightRecord.$fPersistableWidthNewWRecord2
+                      4#
+                      ipv3 #) } } } } } }) -}
+a6f9983011575272b3a9cd21aed24a68
+  $fPersistableWidthNewWRecord4 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 2#) -}
+d77a1685208d5d7bc278e09a1e106f8d
+  $fPersistableWidthNewWRecord5 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 1#) -}
+13bcdca7df349e8665f24b01e4f12a90
+  $fPersistableWidthNewWRecord_$cpersistableWidth ::
+    Database.Record.Persistable.PersistableRecordWidth
+      Model.WeightRecord.NewWRecord
+  {- Unfolding: (case Model.WeightRecord.columnOffsetsNewWRecord of wild { GHC.Arr.Array l u dt ds ->
+                 case l of wild1 { GHC.Types.I# m ->
+                 case u of wild2 { GHC.Types.I# n ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<=# m 3#) of wild4 {
+                   GHC.Types.False
+                   -> (GHC.Arr.indexError
+                         @ GHC.Types.Int
+                         @ GHC.Types.Int
+                         GHC.Show.$fShowInt
+                         (wild1, wild2)
+                         Model.WeightRecord.$fPersistableWidthNewWRecord2
+                         Model.WeightRecord.$fPersistableWidthNewWRecord1)
+                        `cast`
+                      (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                                <Model.WeightRecord.NewWRecord>_P))
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# 3# n) of wild5 {
+                        GHC.Types.False
+                        -> (GHC.Arr.indexError
+                              @ GHC.Types.Int
+                              @ GHC.Types.Int
+                              GHC.Show.$fShowInt
+                              (wild1, wild2)
+                              Model.WeightRecord.$fPersistableWidthNewWRecord2
+                              Model.WeightRecord.$fPersistableWidthNewWRecord1)
+                             `cast`
+                           (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                                     <Model.WeightRecord.NewWRecord>_P))
+                        GHC.Types.True
+                        -> case GHC.Prim.indexArray#
+                                  @ GHC.Types.Int
+                                  ds
+                                  (GHC.Prim.-# 3# m) of ds4 { Unit# ipv ->
+                           ipv
+                             `cast`
+                           (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                                     <Model.WeightRecord.NewWRecord>_P)) } } } } } }) -}
+8337c89b14224d18bcf920c3209b4740
+  $fPersistableWidthNewWRecord_a1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+13bcdca7df349e8665f24b01e4f12a90
+  $fProductConstructor(->) ::
+    Database.Relational.Query.Pure.ProductConstructor
+      (GHC.Types.Int
+       -> Data.Time.LocalTime.LocalTime.LocalTime
+       -> GHC.Types.Double
+       -> Model.WeightRecord.NewWRecord)
+  DFunId
+  {- Arity: 3, HasNoCafRefs, Strictness: <S,U><S,U><S,U>m,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Model.WeightRecord.$WNewWRecord
+                  `cast`
+                (Sym (Database.Relational.Query.Pure.N:ProductConstructor[0]
+                          <GHC.Types.Int
+                           -> Data.Time.LocalTime.LocalTime.LocalTime
+                           -> GHC.Types.Double
+                           -> Model.WeightRecord.NewWRecord>_N)) -}
+13bcdca7df349e8665f24b01e4f12a90
+  $fToSqlSqlValueNewWRecord ::
+    Database.Record.ToSql.ToSql
+      Database.HDBC.SqlValue.SqlValue Model.WeightRecord.NewWRecord
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Database.HDBC.SqlValue.SqlValue
+                  @ Model.WeightRecord.NewWRecord
+                  Model.WeightRecord.$fPersistableWidthNewWRecord_$cpersistableWidth
+                    `cast`
+                  (Sym (Database.Record.Persistable.N:PersistableWidth[0]) <Model.WeightRecord.NewWRecord>_N)
+                  Model.WeightRecord.$fToSqlSqlValueNewWRecord_$crecordToSql -}
+13bcdca7df349e8665f24b01e4f12a90
+  $fToSqlSqlValueNewWRecord1 ::
+    Model.WeightRecord.NewWRecord
+    -> Database.Record.ToSql.ToSqlM Database.HDBC.SqlValue.SqlValue ()
+  {- Arity: 1, Strictness: <S(LSL),1*U(U,U,U)>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Model.WeightRecord.NewWRecord) ->
+                 case w of ww { Model.WeightRecord.NewWRecord ww1 ww2 ww3 ->
+                 case Model.WeightRecord.$w$crecordToSql
+                        ww1
+                        ww2
+                        ww3 of ww4 { (#,#) ww5 ww6 ->
+                 (ww5, ww6)
+                   `cast`
+                 (Trans
+                      (Sym (Data.Functor.Identity.N:Identity[0]
+                                <((), Data.DList.DList Database.HDBC.SqlValue.SqlValue)>_R))
+                      (Sym (Control.Monad.Trans.Writer.Lazy.N:WriterT[0]
+                                <Data.DList.DList Database.HDBC.SqlValue.SqlValue>_N
+                                <Data.Functor.Identity.Identity>_R
+                                <()>_N))) } }) -}
+13bcdca7df349e8665f24b01e4f12a90
+  $fToSqlSqlValueNewWRecord_$crecordToSql ::
+    Database.Record.ToSql.RecordToSql
+      Database.HDBC.SqlValue.SqlValue Model.WeightRecord.NewWRecord
+  {- Arity: 1, Strictness: <S(LSL),1*U(U,U,U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Model.WeightRecord.$fToSqlSqlValueNewWRecord1
+                  `cast`
+                (Sym (Database.Record.ToSql.N:RecordToSql[0]
+                          <Database.HDBC.SqlValue.SqlValue>_N
+                          <Model.WeightRecord.NewWRecord>_R)) -}
+da5d22a9017ce8decd4c32f71f937585
+  $s$fApplicativeRestrictings ::
+    GHC.Base.Applicative
+      (Database.Relational.Query.Monad.Trans.Restricting.Restrictings
+         c
+         (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+            Database.Relational.Query.Monad.BaseType.ConfigureQuery))
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ c.
+                  @ (Database.Relational.Query.Monad.Trans.Restricting.Restrictings
+                       c
+                       (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                          Database.Relational.Query.Monad.BaseType.ConfigureQuery))
+                  (Model.WeightRecord.$s$fApplicativeRestrictings_$s$fMonadQualifyqRestrictings_$cp3MonadQualify
+                     @ c)
+                  (Database.Relational.Query.Monad.Trans.Restricting.$fApplicativeRestrictings_$cpure
+                     @ c
+                     @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                          Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+                     Model.WeightRecord.$s$fApplicativeRestrictings_$dApplicative)
+                  (Database.Relational.Query.Monad.Trans.Restricting.$fApplicativeRestrictings_$c<*>
+                     @ c
+                     @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                          Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+                     Model.WeightRecord.$s$fApplicativeRestrictings_$dApplicative)
+                  (Database.Relational.Query.Monad.Trans.Restricting.$fApplicativeRestrictings_$c*>
+                     @ c
+                     @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                          Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+                     Model.WeightRecord.$s$fApplicativeRestrictings_$dApplicative)
+                  (Database.Relational.Query.Monad.Trans.Restricting.$fApplicativeRestrictings_$c<*
+                     @ c
+                     @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                          Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+                     Model.WeightRecord.$s$fApplicativeRestrictings_$dApplicative) -}
+c9db49bbfbbc89b808452aac2a7b939b
+  $s$fApplicativeRestrictings1 ::
+    GHC.Base.Functor
+      (Database.Relational.Query.Monad.Trans.Qualify.Qualify
+         (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+            Data.Functor.Identity.Identity))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Model.WeightRecord.$s$fApplicativeRestrictings_$s$fFunctorQualify -}
+13784d610c35c4424d6b97dbd92802a5
+  $s$fApplicativeRestrictings2 ::
+    GHC.Base.Functor
+      (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+         Data.Functor.Identity.Identity)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Model.WeightRecord.$s$fApplicativeRestrictings_$s$fFunctorQueryConfig -}
+21f53755e850f859f2fb0e199102c008
+  $s$fApplicativeRestrictings_$dApplicative ::
+    GHC.Base.Applicative
+      (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+         Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Database.Relational.Query.Monad.Trans.Join.$fApplicativeQueryJoin_$s$fApplicativeQueryJoin -}
+91fd07a57619b5564e10f2a6e09f2dcf
+  $s$fApplicativeRestrictings_$dFunctor ::
+    GHC.Base.Functor
+      (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+         Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Model.WeightRecord.$s$fApplicativeRestrictings_$s$fFunctorQueryJoin -}
+d781fe8ad079fdf385d8247b30f59234
+  $s$fApplicativeRestrictings_$s$fFunctorQualify ::
+    GHC.Base.Functor
+      (Database.Relational.Query.Monad.Trans.Qualify.Qualify
+         (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+            Data.Functor.Identity.Identity))
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Database.Relational.Query.Monad.Trans.Qualify.Qualify
+                       (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                          Data.Functor.Identity.Identity))
+                  (Database.Relational.Query.Monad.Trans.Qualify.$fFunctorQualify_$cfmap
+                     @ (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                          Data.Functor.Identity.Identity)
+                     Model.WeightRecord.$s$fApplicativeRestrictings2)
+                  (Database.Relational.Query.Monad.Trans.Qualify.$fFunctorQualify_$c<$
+                     @ (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                          Data.Functor.Identity.Identity)
+                     Model.WeightRecord.$s$fApplicativeRestrictings2) -}
+03b4b4784a5f2927c6936d61d5ec2a97
+  $s$fApplicativeRestrictings_$s$fFunctorQueryConfig ::
+    GHC.Base.Functor
+      (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+         Data.Functor.Identity.Identity)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                       Data.Functor.Identity.Identity)
+                  (Database.Relational.Query.Monad.Trans.Config.$fFunctorQueryConfig_$cfmap
+                     @ Data.Functor.Identity.Identity
+                     Data.Functor.Identity.$fFunctorIdentity)
+                  (Database.Relational.Query.Monad.Trans.Config.$fFunctorQueryConfig_$c<$
+                     @ Data.Functor.Identity.Identity
+                     Data.Functor.Identity.$fFunctorIdentity) -}
+58433bb83799ed02b35f2077df75227c
+  $s$fApplicativeRestrictings_$s$fFunctorQueryJoin ::
+    GHC.Base.Functor
+      (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+         (Database.Relational.Query.Monad.Trans.Qualify.Qualify
+            (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+               Data.Functor.Identity.Identity)))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                       (Database.Relational.Query.Monad.Trans.Qualify.Qualify
+                          (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                             Data.Functor.Identity.Identity)))
+                  (Database.Relational.Query.Monad.Trans.Join.$fFunctorQueryJoin_$cfmap
+                     @ (Database.Relational.Query.Monad.Trans.Qualify.Qualify
+                          (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                             Data.Functor.Identity.Identity))
+                     Model.WeightRecord.$s$fApplicativeRestrictings1)
+                  (Database.Relational.Query.Monad.Trans.Join.$fFunctorQueryJoin_$c<$
+                     @ (Database.Relational.Query.Monad.Trans.Qualify.Qualify
+                          (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                             Data.Functor.Identity.Identity))
+                     Model.WeightRecord.$s$fApplicativeRestrictings1) -}
+9c2755b4b891410fac4777af3d6a02a3
+  $s$fApplicativeRestrictings_$s$fFunctorRestrictings ::
+    GHC.Base.Functor
+      (Database.Relational.Query.Monad.Trans.Restricting.Restrictings
+         c
+         (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+            Database.Relational.Query.Monad.BaseType.ConfigureQuery))
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ c.
+                  @ (Database.Relational.Query.Monad.Trans.Restricting.Restrictings
+                       c
+                       (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                          Database.Relational.Query.Monad.BaseType.ConfigureQuery))
+                  (Database.Relational.Query.Monad.Trans.Restricting.$fFunctorRestrictings_$cfmap
+                     @ c
+                     @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                          Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+                     Model.WeightRecord.$s$fApplicativeRestrictings_$dFunctor)
+                  (Database.Relational.Query.Monad.Trans.Restricting.$fFunctorRestrictings_$c<$
+                     @ c
+                     @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                          Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+                     Model.WeightRecord.$s$fApplicativeRestrictings_$dFunctor) -}
+4b0f26d5a96b30b76ee72d24d1176fd6
+  $s$fApplicativeRestrictings_$s$fMonadQualifyqRestrictings_$cp3MonadQualify ::
+    GHC.Base.Functor
+      (Database.Relational.Query.Monad.Trans.Restricting.Restrictings
+         c
+         (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+            Database.Relational.Query.Monad.BaseType.ConfigureQuery))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Model.WeightRecord.$s$fApplicativeRestrictings_$s$fFunctorRestrictings -}
+418e31a03d4c178f9565472a47de1f47
+  $s$fMonadOrderings_$s$fMonadRestrictings ::
+    GHC.Base.Monad
+      (Database.Relational.Query.Monad.Trans.Restricting.Restrictings
+         c
+         (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+            Database.Relational.Query.Monad.BaseType.ConfigureQuery))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ c.
+                  @ (Database.Relational.Query.Monad.Trans.Restricting.Restrictings
+                       c
+                       (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                          Database.Relational.Query.Monad.BaseType.ConfigureQuery))
+                  (Model.WeightRecord.$s$fMonadOrderings_$s$fMonadRestrictings_$cp1Monad
+                     @ c)
+                  (Database.Relational.Query.Monad.Trans.Restricting.$fMonadRestrictings_$c>>=
+                     @ c
+                     @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                          Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+                     Database.Relational.Query.Monad.Trans.Join.$fMonadQualifyqQueryJoin_$s$fMonadQueryJoin)
+                  (Database.Relational.Query.Monad.Trans.Restricting.$fMonadRestrictings_$c>>
+                     @ c
+                     @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                          Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+                     Database.Relational.Query.Monad.Trans.Join.$fMonadQualifyqQueryJoin_$s$fMonadQueryJoin)
+                  (Database.Relational.Query.Monad.Trans.Restricting.$fMonadRestrictings_$creturn
+                     @ c
+                     @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                          Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+                     Database.Relational.Query.Monad.Trans.Join.$fMonadQualifyqQueryJoin_$s$fMonadQueryJoin)
+                  (Database.Relational.Query.Monad.Trans.Restricting.$fMonadRestrictings_$cfail
+                     @ c
+                     @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                          Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+                     Database.Relational.Query.Monad.Trans.Join.$fMonadQualifyqQueryJoin_$s$fMonadQueryJoin) -}
+77dfc0f9da0b3266c5ebddebdbf8f12e
+  $s$fMonadOrderings_$s$fMonadRestrictings_$cp1Monad ::
+    GHC.Base.Applicative
+      (Database.Relational.Query.Monad.Trans.Restricting.Restrictings
+         c
+         (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+            Database.Relational.Query.Monad.BaseType.ConfigureQuery))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Model.WeightRecord.$s$fApplicativeRestrictings -}
+05fbaa578b46dde97a06608ab884eee9
+  $tc'NewWRecord :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12826100660069361077##
+                   9001436747902861149##
+                   Model.WeightRecord.$trModule
+                   Model.WeightRecord.$tc'NewWRecord1) -}
+f6b5baf9539de1792385a56cff84bb80
+  $tc'NewWRecord1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'NewWRecord"#) -}
+0b995110b6753b40de02759c5af5b584
+  $tcNewWRecord :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   9911893374464432621##
+                   17053212302013499651##
+                   Model.WeightRecord.$trModule
+                   Model.WeightRecord.$tcNewWRecord1) -}
+f75fecfa56fe7c0c341baf8c527d34bf
+  $tcNewWRecord1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "NewWRecord"#) -}
+a1eec2d5b23d2eaa2e2f4b7ffb550654
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Model.WeightRecord.$trModule2
+                   Model.WeightRecord.$trModule1) -}
+6dee6640e5d79f3c5d328634dc3bcc4e
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Model.WeightRecord"#) -}
+f4a9cfe63e2b2f009884d0057e1910f7
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "weight-recorder-0.1.0.0-2Cz4nHR2skdHQxdlS1Wnkh"#) -}
+13bcdca7df349e8665f24b01e4f12a90
+  $w$crecordFromSql ::
+    [Database.HDBC.SqlValue.SqlValue]
+    -> (# Model.WeightRecord.NewWRecord,
+          [Database.HDBC.SqlValue.SqlValue] #)
+  {- Arity: 1, Strictness: <L,U>, Inline: [0],
+     Unfolding: (\ (w :: [Database.HDBC.SqlValue.SqlValue]) ->
+                 let {
+                   ds :: [Database.HDBC.SqlValue.SqlValue]
+                   = case w of wild {
+                       [] -> GHC.List.scanl2 @ Database.HDBC.SqlValue.SqlValue
+                       : ds1 xs -> xs }
+                 } in
+                 let {
+                   ds1 :: [Database.HDBC.SqlValue.SqlValue]
+                   = case ds of wild {
+                       [] -> GHC.List.scanl2 @ Database.HDBC.SqlValue.SqlValue
+                       : ds2 xs -> xs }
+                 } in
+                 (# case Database.HDBC.SqlValue.$fConvertibleSqlValueInt_$csafeConvert
+                           (GHC.List.head @ Database.HDBC.SqlValue.SqlValue w) of wild {
+                      Data.Either.Left e
+                      -> case e of ww { Data.Convertible.Base.ConvertError ww1 ww2 ww3 ww4 ->
+                         case Data.Convertible.Base.convert2 @ GHC.Types.Int ww1 ww2 ww3 ww4
+                         ret_ty Model.WeightRecord.NewWRecord
+                         of {} }
+                      Data.Either.Right r
+                      -> case r of dt { GHC.Types.I# dt1 ->
+                         case Database.HDBC.SqlValue.$fConvertibleSqlValueLocalTime_$csafeConvert
+                                (GHC.List.head @ Database.HDBC.SqlValue.SqlValue ds) of wild1 {
+                           Data.Either.Left e
+                           -> case e of ww { Data.Convertible.Base.ConvertError ww1 ww2 ww3 ww4 ->
+                              case Data.Convertible.Base.convert2
+                                     @ Data.Time.LocalTime.LocalTime.LocalTime
+                                     ww1
+                                     ww2
+                                     ww3
+                                     ww4
+                              ret_ty Model.WeightRecord.NewWRecord
+                              of {} }
+                           Data.Either.Right r1
+                           -> case r1 of dt2 { Data.Time.LocalTime.LocalTime.LocalTime ipv ipv1 ->
+                              case ds1 of wild2 {
+                                []
+                                -> case GHC.List.badHead ret_ty Model.WeightRecord.NewWRecord of {}
+                                : x ds2
+                                -> case Database.HDBC.SqlValue.$fConvertibleSqlValueDouble_$csafeConvert
+                                          x of wild3 {
+                                     Data.Either.Left e
+                                     -> case e of ww { Data.Convertible.Base.ConvertError ww1 ww2 ww3 ww4 ->
+                                        case Data.Convertible.Base.convert2
+                                               @ GHC.Types.Double
+                                               ww1
+                                               ww2
+                                               ww3
+                                               ww4
+                                        ret_ty Model.WeightRecord.NewWRecord
+                                        of {} }
+                                     Data.Either.Right r2
+                                     -> case r2 of dt3 { GHC.Types.D# dt4 ->
+                                        Model.WeightRecord.NewWRecord dt1 dt2 dt4 } } } } } } },
+                    GHC.List.tail @ Database.HDBC.SqlValue.SqlValue ds1 #)) -}
+dace7cdadae469290c099492432e2bfd
+  $w$crecordToSql ::
+    GHC.Prim.Int#
+    -> Data.Time.LocalTime.LocalTime.LocalTime
+    -> GHC.Prim.Double#
+    -> (# (), Data.DList.DList Database.HDBC.SqlValue.SqlValue #)
+  {- Arity: 3, Strictness: <L,U><S,U><L,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: Data.Time.LocalTime.LocalTime.LocalTime)
+                   (ww2 :: GHC.Prim.Double#) ->
+                 let {
+                   eta :: GHC.Types.Double {- Strictness: m -} = GHC.Types.D# ww2
+                 } in
+                 let {
+                   ds :: Database.HDBC.SqlValue.SqlValue
+                   = Database.HDBC.SqlValue.SqlDouble eta
+                 } in
+                 let {
+                   ds1 :: Database.HDBC.SqlValue.SqlValue
+                   = Database.HDBC.SqlValue.SqlLocalTime ww1
+                 } in
+                 let {
+                   ds2 :: Database.HDBC.SqlValue.SqlValue
+                   = case Data.Convertible.Instances.Num.$fConvertibleIntInt64_$csafeConvert
+                            (GHC.Types.I# ww) of wild {
+                       Data.Either.Left l
+                       -> case l of ww3 { Data.Convertible.Base.ConvertError ww4 ww5 ww6 ww7 ->
+                          Data.Convertible.Base.convert2
+                            @ Database.HDBC.SqlValue.SqlValue
+                            ww4
+                            ww5
+                            ww6
+                            ww7 }
+                       Data.Either.Right r -> Database.HDBC.SqlValue.SqlInt64 r }
+                 } in
+                 let {
+                   ds3 :: [Database.HDBC.SqlValue.SqlValue]
+                   = GHC.Types.:
+                       @ Database.HDBC.SqlValue.SqlValue
+                       ds2
+                       (GHC.Types.[] @ Database.HDBC.SqlValue.SqlValue)
+                 } in
+                 (# GHC.Tuple.(),
+                    (\ (eta1 :: [Database.HDBC.SqlValue.SqlValue]) ->
+                     GHC.Base.++
+                       @ Database.HDBC.SqlValue.SqlValue
+                       ds3
+                       (GHC.Types.:
+                          @ Database.HDBC.SqlValue.SqlValue
+                          ds1
+                          (GHC.Types.: @ Database.HDBC.SqlValue.SqlValue ds eta1)))
+                      `cast`
+                    (Sym (Data.DList.N:DList[0]
+                              <Database.HDBC.SqlValue.SqlValue>_R)) #)) -}
+13bcdca7df349e8665f24b01e4f12a90
+  data NewWRecord
+    = NewWRecord {nwrUserId :: {-# UNPACK #-}GHC.Types.Int,
+                  nwrTime :: !Data.Time.LocalTime.LocalTime.LocalTime,
+                  nwrWeight :: {-# UNPACK #-}GHC.Types.Double}
+ba253b9d5477f3c44d669dc6f3bf2b1d
+  columnOffsetsNewWRecord ::
+    GHC.Arr.Array GHC.Types.Int GHC.Types.Int
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ (GHC.Arr.Array GHC.Types.Int GHC.Types.Int)
+                        Model.WeightRecord.$fPersistableWidthNewWRecord3 of ds1 { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+2b13c94ff98c4b2a4cfb99412cedfa41
+  insertNewWRecord ::
+    Database.HDBC.Types.IConnection c =>
+    Model.WeightRecord.NewWRecord
+    -> c -> GHC.Types.IO GHC.Integer.Type.Integer
+  {- Arity: 4,
+     Strictness: <S(LC(C(S(SL)))LLLLLLLLLLLLL),U(A,1*C1(C1(U(U,A))),1*C1(U),A,A,C(C1(C1(U(U,U(C(C1(U(U,U))),A,A,C(U(U,A)),A,A,A,A))))),A,A,A,A,A,A,A,A,A)><L,U><L,U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Model.WeightRecord.insertNewWRecord1
+                  `cast`
+                (forall (c :: <*>_N).
+                 <Database.HDBC.Types.IConnection c>_R
+                 ->_R <Model.WeightRecord.NewWRecord>_R
+                 ->_R <c>_R
+                 ->_R Sym (GHC.Types.N:IO[0] <GHC.Integer.Type.Integer>_R)) -}
+3d2bff7d767fd44ff78b39d30e97c53a
+  insertNewWRecord1 ::
+    Database.HDBC.Types.IConnection c =>
+    Model.WeightRecord.NewWRecord
+    -> c
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Integer.Type.Integer #)
+  {- Arity: 4,
+     Strictness: <S(LC(C(S(SL)))LLLLLLLLLLLLL),U(A,1*C1(C1(U(U,A))),1*C1(U),A,A,C(C1(C1(U(U,U(C(C1(U(U,U))),A,A,C(U(U,A)),A,A,A,A))))),A,A,A,A,A,A,A,A,A)><L,U><L,U><S,U>,
+     Unfolding: (\ @ c
+                   ($dIConnection :: Database.HDBC.Types.IConnection c)
+                   (wr :: Model.WeightRecord.NewWRecord)
+                   (conn :: c)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.catch#
+                        @ GHC.Integer.Type.Integer
+                        @ GHC.Exception.SomeException
+                        (GHC.Magic.lazy
+                           @ (GHC.Types.IO GHC.Integer.Type.Integer)
+                           (\ (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                            GHC.Prim.catch#
+                              @ GHC.Integer.Type.Integer
+                              @ GHC.Exception.SomeException
+                              (GHC.Magic.lazy
+                                 @ (GHC.Types.IO GHC.Integer.Type.Integer)
+                                 (\ (eta3 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                                  Database.HDBC.Record.Statement.runNoFetch1
+                                    @ Database.Relational.Query.Type.Insert
+                                    @ c
+                                    @ Model.WeightRecord.NewWRecord
+                                    Database.Relational.Query.Type.untypeInsert
+                                      `cast`
+                                    (Sym (Database.Relational.Query.Type.N:UntypeableNoFetch[0]
+                                              <Database.Relational.Query.Type.Insert>_N))
+                                    $dIConnection
+                                    Model.WeightRecord.$fToSqlSqlValueNewWRecord
+                                    conn
+                                    Model.WeightRecord.insertNewWRecord_ins
+                                    wr
+                                    eta3)
+                                   `cast`
+                                 (Sym (GHC.Types.N:IO[0] <GHC.Integer.Type.Integer>_R)))
+                                `cast`
+                              (GHC.Types.N:IO[0] <GHC.Integer.Type.Integer>_R)
+                              Model.WeightRecord.insertNewWRecord2
+                              eta)
+                             `cast`
+                           (Sym (GHC.Types.N:IO[0] <GHC.Integer.Type.Integer>_R)))
+                          `cast`
+                        (GHC.Types.N:IO[0] <GHC.Integer.Type.Integer>_R)
+                        (\ (e1 :: GHC.Exception.SomeException)[OneShot]
+                           (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                         case GHC.Prim.catch#
+                                @ ()
+                                @ GHC.Exception.SomeException
+                                (GHC.Magic.lazy
+                                   @ (GHC.Types.IO ())
+                                   (Database.HDBC.Types.rollback @ c $dIConnection conn))
+                                  `cast`
+                                (GHC.Types.N:IO[0] <()>_R)
+                                Database.HDBC.Utils.withTransaction2
+                                eta1 of ds1 { (#,#) ipv ipv1 ->
+                         GHC.Prim.raiseIO#
+                           @ GHC.Exception.SomeException
+                           @ GHC.Integer.Type.Integer
+                           e1
+                           ipv })
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case (Database.HDBC.Types.commit @ c $dIConnection conn)
+                        `cast`
+                      (GHC.Types.N:IO[0] <()>_R)
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 (# ipv2, ipv1 #) } }) -}
+a0d086c0b6ca11621bc9650dfb6e3e78
+  insertNewWRecord10 :: GHC.Base.String
+  {- Unfolding: (Database.Relational.Query.SQL.$winsertChunkSQL
+                   @ Entity.WeightRecord.WeightRecord
+                   @ Model.WeightRecord.NewWRecord
+                   1#
+                   Model.WeightRecord.insertNewWRecord_w2
+                   Entity.WeightRecord.tableOfWeightRecord) -}
+75a4523ece2d8c503831d63f027e6356
+  insertNewWRecord2 ::
+    GHC.Exception.SomeException
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Integer.Type.Integer #)
+  {- Arity: 2,
+     Unfolding: (\ (e1 :: GHC.Exception.SomeException)[OneShot]
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case e1 of wild { GHC.Exception.SomeException e100 $dException1 e2 ->
+                 case (GHC.Exception.$p1Exception @ e100 $dException1)
+                        `cast`
+                      (Data.Typeable.Internal.N:Typeable[0] <*>_N <e100>_N)
+                        (GHC.Prim.proxy#
+                           @ *
+                           @ e100) of wild1 { Data.Typeable.Internal.TypeRep dt dt1 ds2 ds3 ds4 ->
+                 case Database.HDBC.Statement.$fExceptionSqlError7 of wild2 { Data.Typeable.Internal.TypeRep dt2 dt3 ds5 ds6 ds7 ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.eqWord# dt dt2) of wild3 {
+                   GHC.Types.False
+                   -> GHC.Prim.raiseIO#
+                        @ GHC.Exception.SomeException
+                        @ GHC.Integer.Type.Integer
+                        wild
+                        eta
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.eqWord# dt1 dt3) of wild4 {
+                        GHC.Types.False
+                        -> GHC.Prim.raiseIO#
+                             @ GHC.Exception.SomeException
+                             @ GHC.Integer.Type.Integer
+                             wild
+                             eta
+                        GHC.Types.True
+                        -> case GHC.IO.Handle.Text.hPutStr2
+                                  GHC.IO.Handle.FD.stderr
+                                  (Database.HDBC.Statement.$fExceptionSqlError_$cshow
+                                     e2
+                                       `cast`
+                                     (UnsafeCo representational e100 Database.HDBC.Statement.SqlError))
+                                  GHC.Types.True
+                                  eta of ds1 { (#,#) ipv ipv1 ->
+                           (# ipv, Model.WeightRecord.insertNewWRecord3 #) } } } } } }) -}
+e5f95a754121c365f446cadb5a6447e6
+  insertNewWRecord3 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (0) -}
+28ab47cfa5c850dbe8c4b58dacb7840f
+  insertNewWRecord4 ::
+    GHC.Base.Maybe (GHC.Base.String, GHC.Types.Int)
+  {- Strictness: m2,
+     Unfolding: (GHC.Base.Just
+                   @ (GHC.Base.String, GHC.Types.Int)
+                   Model.WeightRecord.insertNewWRecord5) -}
+6e66016dd19f500676d82074d877c9aa
+  insertNewWRecord5 :: (GHC.Base.String, GHC.Types.Int)
+  {- Strictness: m,
+     Unfolding: ((Model.WeightRecord.insertNewWRecord6,
+                  Model.WeightRecord.insertNewWRecord_n)) -}
+0ed4e86ead9ba6811bed6523798bd021
+  insertNewWRecord6 :: GHC.Base.String
+  {- Unfolding: (Database.Relational.Query.SQL.$winsertChunkSQL
+                   @ Entity.WeightRecord.WeightRecord
+                   @ Model.WeightRecord.NewWRecord
+                   86#
+                   Model.WeightRecord.insertNewWRecord_w2
+                   Entity.WeightRecord.tableOfWeightRecord) -}
+749d059b536d73d52a7af10d9e381eae
+  insertNewWRecord7 ::
+    Database.Relational.Query.Pi.Unsafe.Pi'
+      Entity.WeightRecord.WeightRecord Model.WeightRecord.NewWRecord
+  {- Strictness: m2,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Map
+                   @ Entity.WeightRecord.WeightRecord
+                   @ Model.WeightRecord.NewWRecord
+                   Model.WeightRecord.insertNewWRecord8) -}
+8d9e77526a9f287a5c7a387a183eddcc
+  insertNewWRecord8 :: [GHC.Types.Int]
+  {- Unfolding: (case Entity.WeightRecord.userId'2 of wild1 { GHC.Types.I# x ->
+                 let {
+                   y1 :: GHC.Prim.Int# = GHC.Prim.-# (GHC.Prim.+# x 1#) 1#
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.># x y1) of wild3 {
+                   GHC.Types.False
+                   -> letrec {
+                        go :: GHC.Prim.Int# -> [GHC.Types.Int]
+                          {- Arity: 1, Strictness: <L,U> -}
+                        = \ (x1 :: GHC.Prim.Int#) ->
+                          GHC.Types.:
+                            @ GHC.Types.Int
+                            (GHC.Types.I# x1)
+                            (case GHC.Prim.tagToEnum#
+                                    @ GHC.Types.Bool
+                                    (GHC.Prim.==# x1 y1) of wild4 {
+                               GHC.Types.False -> go (GHC.Prim.+# x1 1#)
+                               GHC.Types.True -> Model.WeightRecord.insertNewWRecord_n1 })
+                      } in
+                      GHC.Base.++
+                        @ GHC.Types.Int
+                        (go x)
+                        Model.WeightRecord.insertNewWRecord9
+                   GHC.Types.True
+                   -> GHC.Base.++
+                        @ GHC.Types.Int
+                        Model.WeightRecord.insertNewWRecord_n1
+                        Model.WeightRecord.insertNewWRecord9 } }) -}
+e7ff4f51c6315e13e8bd94460cd460a2
+  insertNewWRecord9 :: [GHC.Types.Int]
+  {- Unfolding: (case Entity.WeightRecord.weight'2 of wild1 { GHC.Types.I# x ->
+                 GHC.Enum.eftInt x (GHC.Prim.-# (GHC.Prim.+# x 1#) 1#) }) -}
+230462ba513e12874514f717f76e986b
+  insertNewWRecord_ins ::
+    Database.Relational.Query.Type.Insert Model.WeightRecord.NewWRecord
+  {- Strictness: m,
+     Unfolding: (Database.Relational.Query.Type.Insert
+                   @ Model.WeightRecord.NewWRecord
+                   Model.WeightRecord.insertNewWRecord10
+                   Model.WeightRecord.insertNewWRecord4) -}
+ff57b1c86bf6baf903d2d1af4af723b2
+  insertNewWRecord_n :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 86#) -}
+53568b8d6193630373f61566a862c82a
+  insertNewWRecord_n1 :: [GHC.Types.Int]
+  {- Unfolding: (case Entity.WeightRecord.time'2 of wild1 { GHC.Types.I# x ->
+                 GHC.Enum.eftInt x (GHC.Prim.-# (GHC.Prim.+# x 1#) 1#) }) -}
+7204b1cabfb5f1e0f4d79a747f1ae2a2
+  insertNewWRecord_w2 ::
+    Database.Relational.Query.Pi.Unsafe.Pi
+      Entity.WeightRecord.WeightRecord Model.WeightRecord.NewWRecord
+  {- Strictness: m,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Pi
+                   @ Entity.WeightRecord.WeightRecord
+                   @ Model.WeightRecord.NewWRecord
+                   Model.WeightRecord.insertNewWRecord7
+                   Model.WeightRecord.$fPersistableWidthNewWRecord2
+                     `cast`
+                   (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                             <Model.WeightRecord.NewWRecord>_P))) -}
+53538c31b4b7dcd2b01bfa0a25b5eab1
+  nwrTime ::
+    Model.WeightRecord.NewWRecord
+    -> Data.Time.LocalTime.LocalTime.LocalTime
+  RecSel Left Model.WeightRecord.NewWRecord
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,U(U,U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Model.WeightRecord.NewWRecord) ->
+                 case ds of wild { Model.WeightRecord.NewWRecord dt ds1 dt1 ->
+                 ds1 }) -}
+f37999be61334361effe1908c0a6a810
+  nwrTime' ::
+    Database.Relational.Query.Pi.Unsafe.Pi
+      Model.WeightRecord.NewWRecord
+      Data.Time.LocalTime.LocalTime.LocalTime
+  {- Strictness: m,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Pi
+                   @ Model.WeightRecord.NewWRecord
+                   @ Data.Time.LocalTime.LocalTime.LocalTime
+                   Model.WeightRecord.nwrTime'1
+                   Database.Record.Persistable.unsafeValueWidth1
+                     `cast`
+                   (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                             <Data.Time.LocalTime.LocalTime.LocalTime>_P))) -}
+f37e64bf23537cd4ea58d15b473fc81b
+  nwrTime'1 ::
+    Database.Relational.Query.Pi.Unsafe.Pi'
+      Model.WeightRecord.NewWRecord
+      Data.Time.LocalTime.LocalTime.LocalTime
+  {- Strictness: m1,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Leftest
+                   @ Model.WeightRecord.NewWRecord
+                   @ Data.Time.LocalTime.LocalTime.LocalTime
+                   Model.WeightRecord.nwrTime'2) -}
+b9207f9e1aae628edf073ffd00f6a5de
+  nwrTime'10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "libraries/array/Data/Array/Base.hs"#) -}
+1416c7291d5a090d1de0dfd405784939
+  nwrTime'11 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Data.Array.Base"#) -}
+dcdbf8f5e1da6ef99f317f9fb1fd5405
+  nwrTime'12 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "array-0.5.1.1"#) -}
+3ac2615577c60f2c5c67f7e916624ba5
+  nwrTime'13 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "error"#) -}
+747d3b4587af1e044b95bf4aaadb125f
+  nwrTime'2 :: GHC.Types.Int
+  {- Unfolding: (case Model.WeightRecord.columnOffsetsNewWRecord of wild { GHC.Arr.Array l u dt ds1 ->
+                 case l of wild1 { GHC.Types.I# m ->
+                 case u of wild2 { GHC.Types.I# n ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<=# m 1#) of wild4 {
+                   GHC.Types.False
+                   -> GHC.Arr.indexError
+                        @ GHC.Types.Int
+                        @ GHC.Types.Int
+                        GHC.Show.$fShowInt
+                        (wild1, wild2)
+                        Model.WeightRecord.$fPersistableWidthNewWRecord5
+                        Model.WeightRecord.$fPersistableWidthNewWRecord1
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# 1# n) of wild5 {
+                        GHC.Types.False
+                        -> GHC.Arr.indexError
+                             @ GHC.Types.Int
+                             @ GHC.Types.Int
+                             GHC.Show.$fShowInt
+                             (wild1, wild2)
+                             Model.WeightRecord.$fPersistableWidthNewWRecord5
+                             Model.WeightRecord.$fPersistableWidthNewWRecord1
+                        GHC.Types.True
+                        -> let {
+                             w :: GHC.Prim.Int# = GHC.Prim.-# 1# m
+                           } in
+                           let {
+                             $j :: GHC.Prim.Void# -> GHC.Types.Int
+                               {- Arity: 1, Strictness: <B,A>x -}
+                             = \ (w1 :: GHC.Prim.Void#)[OneShot] ->
+                               GHC.Err.error
+                                 @ 'GHC.Types.PtrRepLifted
+                                 @ GHC.Types.Int
+                                 Model.WeightRecord.nwrTime'4
+                                   `cast`
+                                 (Sym (GHC.Classes.N:IP[0]
+                                           <"callStack">_N <GHC.Stack.Types.CallStack>_N))
+                                 (GHC.CString.unpackAppendCString#
+                                    "Error in array index; "#
+                                    (case GHC.Show.$wshowSignedInt
+                                            0#
+                                            w
+                                            (GHC.Types.[]
+                                               @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                                     GHC.Base.++
+                                       @ GHC.Types.Char
+                                       (GHC.Types.: @ GHC.Types.Char ww5 ww6)
+                                       (GHC.CString.unpackAppendCString#
+                                          " not in range [0.."#
+                                          (case GHC.Show.$wshowSignedInt
+                                                  0#
+                                                  dt
+                                                  (GHC.Types.[]
+                                                     @ GHC.Types.Char) of ww1 { (#,#) ww2 ww3 ->
+                                           GHC.Base.++
+                                             @ GHC.Types.Char
+                                             (GHC.Types.: @ GHC.Types.Char ww2 ww3)
+                                             Model.WeightRecord.nwrTime'3 })) }))
+                           } in
+                           case GHC.Prim.tagToEnum#
+                                  @ GHC.Types.Bool
+                                  (GHC.Prim.<=# 0# w) of wild6 {
+                             GHC.Types.False -> $j GHC.Prim.void#
+                             GHC.Types.True
+                             -> case GHC.Prim.tagToEnum#
+                                       @ GHC.Types.Bool
+                                       (GHC.Prim.<# w dt) of wild7 {
+                                  GHC.Types.False -> $j GHC.Prim.void#
+                                  GHC.Types.True
+                                  -> case GHC.Prim.indexArray#
+                                            @ GHC.Types.Int
+                                            ds1
+                                            w of ds4 { Unit# ipv ->
+                                     ipv } } } } } } } }) -}
+a36bcc5b1725f9847fd5b9cc4c496a3e
+  nwrTime'3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ")"#) -}
+b2816cc66a87361275f8c8cbe168f4f5
+  nwrTime'4 :: GHC.Stack.Types.CallStack
+  {- Unfolding: (GHC.Stack.Types.PushCallStack
+                   Model.WeightRecord.nwrTime'13
+                   Model.WeightRecord.nwrTime'5
+                   GHC.Stack.Types.EmptyCallStack) -}
+2c7156837ab537ea11862d46a0218d4e
+  nwrTime'5 :: GHC.Stack.Types.SrcLoc
+  {- Unfolding: (GHC.Stack.Types.SrcLoc
+                   Model.WeightRecord.nwrTime'12
+                   Model.WeightRecord.nwrTime'11
+                   Model.WeightRecord.nwrTime'10
+                   Model.WeightRecord.nwrTime'9
+                   Model.WeightRecord.nwrTime'8
+                   Model.WeightRecord.nwrTime'7
+                   Model.WeightRecord.nwrTime'6) -}
+dde52084e2313c518e5c1b210c8810c6
+  nwrTime'6 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 76#) -}
+81c1dab61c3396ab786447deb37f9277
+  nwrTime'7 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 88#) -}
+cf71fad0364a66b6af50d1f7d8828576
+  nwrTime'8 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 31#) -}
+9ec45a4f44f146421d7f54ea10b3baf3
+  nwrTime'9 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 87#) -}
+a0a20804a3ea75d5bd4d03699566fa1e
+  nwrUserId :: Model.WeightRecord.NewWRecord -> GHC.Types.Int
+  RecSel Left Model.WeightRecord.NewWRecord
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(U,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Model.WeightRecord.NewWRecord) ->
+                 case ds of wild { Model.WeightRecord.NewWRecord dt ds1 dt1 ->
+                 GHC.Types.I# dt }) -}
+47869204297fb50cce5fd6d6706858a4
+  nwrUserId' ::
+    Database.Relational.Query.Pi.Unsafe.Pi
+      Model.WeightRecord.NewWRecord GHC.Types.Int
+  {- Strictness: m,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Pi
+                   @ Model.WeightRecord.NewWRecord
+                   @ GHC.Types.Int
+                   Model.WeightRecord.nwrUserId'1
+                   Database.Record.Persistable.unsafeValueWidth1
+                     `cast`
+                   (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                             <GHC.Types.Int>_P))) -}
+2fafcba14ec094e3b5fbed1780494dc0
+  nwrUserId'1 ::
+    Database.Relational.Query.Pi.Unsafe.Pi'
+      Model.WeightRecord.NewWRecord GHC.Types.Int
+  {- Strictness: m1,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Leftest
+                   @ Model.WeightRecord.NewWRecord
+                   @ GHC.Types.Int
+                   Model.WeightRecord.nwrUserId'2) -}
+3e89a0c7f37f9ec6669d56ff77038c5b
+  nwrUserId'2 :: GHC.Types.Int
+  {- Unfolding: (case Model.WeightRecord.columnOffsetsNewWRecord of wild { GHC.Arr.Array l u dt ds1 ->
+                 case l of wild1 { GHC.Types.I# m ->
+                 case u of wild2 { GHC.Types.I# n ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<=# m 0#) of wild4 {
+                   GHC.Types.False
+                   -> GHC.Arr.indexError
+                        @ GHC.Types.Int
+                        @ GHC.Types.Int
+                        GHC.Show.$fShowInt
+                        (wild1, wild2)
+                        Model.WeightRecord.$fPersistableWidthNewWRecord_a1
+                        Model.WeightRecord.$fPersistableWidthNewWRecord1
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# 0# n) of wild5 {
+                        GHC.Types.False
+                        -> GHC.Arr.indexError
+                             @ GHC.Types.Int
+                             @ GHC.Types.Int
+                             GHC.Show.$fShowInt
+                             (wild1, wild2)
+                             Model.WeightRecord.$fPersistableWidthNewWRecord_a1
+                             Model.WeightRecord.$fPersistableWidthNewWRecord1
+                        GHC.Types.True
+                        -> let {
+                             w :: GHC.Prim.Int# = GHC.Prim.-# 0# m
+                           } in
+                           let {
+                             $j :: GHC.Prim.Void# -> GHC.Types.Int
+                               {- Arity: 1, Strictness: <B,A>x -}
+                             = \ (w1 :: GHC.Prim.Void#)[OneShot] ->
+                               GHC.Err.error
+                                 @ 'GHC.Types.PtrRepLifted
+                                 @ GHC.Types.Int
+                                 Model.WeightRecord.nwrTime'4
+                                   `cast`
+                                 (Sym (GHC.Classes.N:IP[0]
+                                           <"callStack">_N <GHC.Stack.Types.CallStack>_N))
+                                 (GHC.CString.unpackAppendCString#
+                                    "Error in array index; "#
+                                    (case GHC.Show.$wshowSignedInt
+                                            0#
+                                            w
+                                            (GHC.Types.[]
+                                               @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                                     GHC.Base.++
+                                       @ GHC.Types.Char
+                                       (GHC.Types.: @ GHC.Types.Char ww5 ww6)
+                                       (GHC.CString.unpackAppendCString#
+                                          " not in range [0.."#
+                                          (case GHC.Show.$wshowSignedInt
+                                                  0#
+                                                  dt
+                                                  (GHC.Types.[]
+                                                     @ GHC.Types.Char) of ww1 { (#,#) ww2 ww3 ->
+                                           GHC.Base.++
+                                             @ GHC.Types.Char
+                                             (GHC.Types.: @ GHC.Types.Char ww2 ww3)
+                                             Model.WeightRecord.nwrTime'3 })) }))
+                           } in
+                           case GHC.Prim.tagToEnum#
+                                  @ GHC.Types.Bool
+                                  (GHC.Prim.<=# 0# w) of wild6 {
+                             GHC.Types.False -> $j GHC.Prim.void#
+                             GHC.Types.True
+                             -> case GHC.Prim.tagToEnum#
+                                       @ GHC.Types.Bool
+                                       (GHC.Prim.<# w dt) of wild7 {
+                                  GHC.Types.False -> $j GHC.Prim.void#
+                                  GHC.Types.True
+                                  -> case GHC.Prim.indexArray#
+                                            @ GHC.Types.Int
+                                            ds1
+                                            w of ds4 { Unit# ipv ->
+                                     ipv } } } } } } } }) -}
+57e4402f5b4e6378de97f8a70e469a09
+  nwrWeight :: Model.WeightRecord.NewWRecord -> GHC.Types.Double
+  RecSel Left Model.WeightRecord.NewWRecord
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Model.WeightRecord.NewWRecord) ->
+                 case ds of wild { Model.WeightRecord.NewWRecord dt ds1 dt1 ->
+                 GHC.Types.D# dt1 }) -}
+5c3d80409891d966b5a52cd8c6f3c182
+  nwrWeight' ::
+    Database.Relational.Query.Pi.Unsafe.Pi
+      Model.WeightRecord.NewWRecord GHC.Types.Double
+  {- Strictness: m,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Pi
+                   @ Model.WeightRecord.NewWRecord
+                   @ GHC.Types.Double
+                   Model.WeightRecord.nwrWeight'1
+                   Database.Record.Persistable.unsafeValueWidth1
+                     `cast`
+                   (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                             <GHC.Types.Double>_P))) -}
+c3973911b2cf58398782044b5db64bd6
+  nwrWeight'1 ::
+    Database.Relational.Query.Pi.Unsafe.Pi'
+      Model.WeightRecord.NewWRecord GHC.Types.Double
+  {- Strictness: m1,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Leftest
+                   @ Model.WeightRecord.NewWRecord
+                   @ GHC.Types.Double
+                   Model.WeightRecord.nwrWeight'2) -}
+cc6f5a4876be6508c4ddf65821910094
+  nwrWeight'2 :: GHC.Types.Int
+  {- Unfolding: (case Model.WeightRecord.columnOffsetsNewWRecord of wild { GHC.Arr.Array l u dt ds1 ->
+                 case l of wild1 { GHC.Types.I# m ->
+                 case u of wild2 { GHC.Types.I# n ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<=# m 2#) of wild4 {
+                   GHC.Types.False
+                   -> GHC.Arr.indexError
+                        @ GHC.Types.Int
+                        @ GHC.Types.Int
+                        GHC.Show.$fShowInt
+                        (wild1, wild2)
+                        Model.WeightRecord.$fPersistableWidthNewWRecord4
+                        Model.WeightRecord.$fPersistableWidthNewWRecord1
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# 2# n) of wild5 {
+                        GHC.Types.False
+                        -> GHC.Arr.indexError
+                             @ GHC.Types.Int
+                             @ GHC.Types.Int
+                             GHC.Show.$fShowInt
+                             (wild1, wild2)
+                             Model.WeightRecord.$fPersistableWidthNewWRecord4
+                             Model.WeightRecord.$fPersistableWidthNewWRecord1
+                        GHC.Types.True
+                        -> let {
+                             w :: GHC.Prim.Int# = GHC.Prim.-# 2# m
+                           } in
+                           let {
+                             $j :: GHC.Prim.Void# -> GHC.Types.Int
+                               {- Arity: 1, Strictness: <B,A>x -}
+                             = \ (w1 :: GHC.Prim.Void#)[OneShot] ->
+                               GHC.Err.error
+                                 @ 'GHC.Types.PtrRepLifted
+                                 @ GHC.Types.Int
+                                 Model.WeightRecord.nwrTime'4
+                                   `cast`
+                                 (Sym (GHC.Classes.N:IP[0]
+                                           <"callStack">_N <GHC.Stack.Types.CallStack>_N))
+                                 (GHC.CString.unpackAppendCString#
+                                    "Error in array index; "#
+                                    (case GHC.Show.$wshowSignedInt
+                                            0#
+                                            w
+                                            (GHC.Types.[]
+                                               @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                                     GHC.Base.++
+                                       @ GHC.Types.Char
+                                       (GHC.Types.: @ GHC.Types.Char ww5 ww6)
+                                       (GHC.CString.unpackAppendCString#
+                                          " not in range [0.."#
+                                          (case GHC.Show.$wshowSignedInt
+                                                  0#
+                                                  dt
+                                                  (GHC.Types.[]
+                                                     @ GHC.Types.Char) of ww1 { (#,#) ww2 ww3 ->
+                                           GHC.Base.++
+                                             @ GHC.Types.Char
+                                             (GHC.Types.: @ GHC.Types.Char ww2 ww3)
+                                             Model.WeightRecord.nwrTime'3 })) }))
+                           } in
+                           case GHC.Prim.tagToEnum#
+                                  @ GHC.Types.Bool
+                                  (GHC.Prim.<=# 0# w) of wild6 {
+                             GHC.Types.False -> $j GHC.Prim.void#
+                             GHC.Types.True
+                             -> case GHC.Prim.tagToEnum#
+                                       @ GHC.Types.Bool
+                                       (GHC.Prim.<# w dt) of wild7 {
+                                  GHC.Types.False -> $j GHC.Prim.void#
+                                  GHC.Types.True
+                                  -> case GHC.Prim.indexArray#
+                                            @ GHC.Types.Int
+                                            ds1
+                                            w of ds4 { Unit# ipv ->
+                                     ipv } } } } } } } }) -}
+d4427af92a2c8730399d0e41c698b9a7
+  selectWRecord ::
+    Database.HDBC.Types.IConnection c =>
+    GHC.Types.Int
+    -> c -> GHC.Types.IO [Entity.WeightRecord.WeightRecord]
+  {- Arity: 4,
+     Strictness: <S(LLLLLC(C(C(S(SS(C(C(S(SL)))LLLLLLL)))))LLLLLLLLL),1*U(A,A,A,A,A,1*C1(C1(C1(U(U,1*U(1*C1(C1(U(U,A))),A,A,A,C(U(U,1*U)),A,A,A))))),A,A,A,A,A,A,A,A,A)><L,U><L,U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Model.WeightRecord.selectWRecord1
+                  `cast`
+                (forall (c :: <*>_N).
+                 <Database.HDBC.Types.IConnection c>_R
+                 ->_R <GHC.Types.Int>_R
+                 ->_R <c>_R
+                 ->_R Sym (GHC.Types.N:IO[0]
+                               <[Entity.WeightRecord.WeightRecord]>_R)) -}
+7fd4bf50e0a998abbc7ad32f79e621e2
+  selectWRecord1 ::
+    Database.HDBC.Types.IConnection c =>
+    GHC.Types.Int
+    -> c
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          [Entity.WeightRecord.WeightRecord] #)
+  {- Arity: 4,
+     Strictness: <S(LLLLLC(C(C(S(SS(C(C(S(SL)))LLLLLLL)))))LLLLLLLLL),1*U(A,A,A,A,A,1*C1(C1(C1(U(U,1*U(1*C1(C1(U(U,A))),A,A,A,C(U(U,1*U)),A,A,A))))),A,A,A,A,A,A,A,A,A)><L,U><L,U><S,U>,
+     Unfolding: (\ @ c
+                   ($dIConnection :: Database.HDBC.Types.IConnection c)
+                   (uid :: GHC.Types.Int)
+                   (conn :: c)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case (Database.HDBC.Types.prepare
+                         @ c
+                         $dIConnection
+                         conn
+                         Model.WeightRecord.selectWRecord2)
+                        `cast`
+                      (GHC.Types.N:IO[0] <Database.HDBC.Statement.Statement>_R)
+                        s of ds { (#,#) ipv ipv1 ->
+                 case ipv1 of ww { Database.HDBC.Statement.Statement ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ->
+                 Database.HDBC.Record.Query.$wrunPreparedQuery
+                   @ GHC.Types.Int
+                   @ Entity.WeightRecord.WeightRecord
+                   Database.HDBC.Record.Persistable.$fToSqlSqlValueInt
+                   Entity.WeightRecord.fromSqlOfWeightRecord1
+                     `cast`
+                   (Trans
+                        (Sym (Database.Record.FromSql.N:RecordFromSql[0]
+                                  <Database.HDBC.SqlValue.SqlValue>_R
+                                  <Entity.WeightRecord.WeightRecord>_R))
+                        (Sym (Database.Record.FromSql.N:FromSql[0]) <Database.HDBC.SqlValue.SqlValue>_N <Entity.WeightRecord.WeightRecord>_N))
+                   ww1
+                   ww5
+                   uid
+                   ipv } }) -}
+42441a2f5c258aa19e9e1814701e0d22
+  selectWRecord2 :: GHC.Base.String
+  {- Unfolding: (Database.Relational.Query.Type.relationalQuerySQL
+                   @ GHC.Types.Int
+                   @ Entity.WeightRecord.WeightRecord
+                   Database.Relational.Query.Internal.Config.defaultConfig
+                   Model.WeightRecord.selectWRecord3
+                     `cast`
+                   (Sym (Database.Relational.Query.Monad.BaseType.N:Relation[0]
+                             <GHC.Types.Int>_P <Entity.WeightRecord.WeightRecord>_P))
+                   (GHC.Types.[] @ Language.SQL.Keyword.Internal.Type.Keyword)) -}
+40cfe22f76a136000d1846713a0dacf6
+  selectWRecord3 ::
+    Database.Relational.Query.Monad.BaseType.ConfigureQuery
+      Database.Relational.Query.Internal.Sub.SubQuery
+  {- Unfolding: (Database.Relational.Query.Monad.Simple.toSubQuery
+                   @ GHC.Types.Int
+                   @ Entity.WeightRecord.WeightRecord
+                   Model.WeightRecord.selectWRecord4
+                     `cast`
+                   (Trans
+                        (<Database.Relational.Query.Monad.Trans.JoinState.JoinContext>_R
+                         ->_R Trans
+                                  (Sym (Control.Monad.Trans.State.Lazy.N:StateT[0]
+                                            <GHC.Types.Int>_N
+                                            <Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                                               Data.Functor.Identity.Identity>_R
+                                            <(((((Database.Relational.Query.Projectable.PlaceHolders
+                                                    GHC.Types.Int,
+                                                  Database.Relational.Query.Internal.Sub.Projection
+                                                    Database.Relational.Query.Internal.ContextType.Flat
+                                                    Entity.WeightRecord.WeightRecord),
+                                                 Data.DList.DList
+                                                   Database.Relational.Query.Internal.BaseSQL.OrderingTerm),
+                                                Data.DList.DList
+                                                  (Database.Relational.Query.Internal.Sub.Projection
+                                                     Database.Relational.Query.Internal.ContextType.Flat
+                                                     (GHC.Base.Maybe GHC.Types.Bool))),
+                                               Database.Relational.Query.Monad.Trans.JoinState.JoinContext),
+                                              Data.Monoid.Last
+                                                Database.Relational.Query.Internal.BaseSQL.Duplication)>_N))
+                                  (Sym (Control.Monad.Trans.Writer.Lazy.N:WriterT[0]
+                                            <Data.Monoid.Last
+                                               Database.Relational.Query.Internal.BaseSQL.Duplication>_N
+                                            (Database.Relational.Query.Monad.Trans.Qualify.N:Qualify[0] <Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                                                                                                           Data.Functor.Identity.Identity>_N)
+                                            <((((Database.Relational.Query.Projectable.PlaceHolders
+                                                   GHC.Types.Int,
+                                                 Database.Relational.Query.Internal.Sub.Projection
+                                                   Database.Relational.Query.Internal.ContextType.Flat
+                                                   Entity.WeightRecord.WeightRecord),
+                                                Data.DList.DList
+                                                  Database.Relational.Query.Internal.BaseSQL.OrderingTerm),
+                                               Data.DList.DList
+                                                 (Database.Relational.Query.Internal.Sub.Projection
+                                                    Database.Relational.Query.Internal.ContextType.Flat
+                                                    (GHC.Base.Maybe GHC.Types.Bool))),
+                                              Database.Relational.Query.Monad.Trans.JoinState.JoinContext)>_N)))
+                        (Trans
+                             (Sym (Control.Monad.Trans.State.Lazy.N:StateT[0]
+                                       <Database.Relational.Query.Monad.Trans.JoinState.JoinContext>_N
+                                       <Control.Monad.Trans.Writer.Lazy.WriterT
+                                          (Data.Monoid.Last
+                                             Database.Relational.Query.Internal.BaseSQL.Duplication)
+                                          (Database.Relational.Query.Monad.Trans.Qualify.Qualify
+                                             (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                                                Data.Functor.Identity.Identity))>_R
+                                       <(((Database.Relational.Query.Projectable.PlaceHolders
+                                             GHC.Types.Int,
+                                           Database.Relational.Query.Internal.Sub.Projection
+                                             Database.Relational.Query.Internal.ContextType.Flat
+                                             Entity.WeightRecord.WeightRecord),
+                                          Data.DList.DList
+                                            Database.Relational.Query.Internal.BaseSQL.OrderingTerm),
+                                         Data.DList.DList
+                                           (Database.Relational.Query.Internal.Sub.Projection
+                                              Database.Relational.Query.Internal.ContextType.Flat
+                                              (GHC.Base.Maybe GHC.Types.Bool)))>_N))
+                             (Trans
+                                  (Sym (Control.Monad.Trans.Writer.Lazy.N:WriterT[0]
+                                            <Data.DList.DList
+                                               (Database.Relational.Query.Internal.Sub.Projection
+                                                  Database.Relational.Query.Internal.ContextType.Flat
+                                                  (GHC.Base.Maybe GHC.Types.Bool))>_N
+                                            (Database.Relational.Query.Monad.Trans.Join.N:QueryJoin[0]
+                                                 <Database.Relational.Query.Monad.Trans.Qualify.Qualify
+                                                    (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                                                       Data.Functor.Identity.Identity)>_R)
+                                            <((Database.Relational.Query.Projectable.PlaceHolders
+                                                 GHC.Types.Int,
+                                               Database.Relational.Query.Internal.Sub.Projection
+                                                 Database.Relational.Query.Internal.ContextType.Flat
+                                                 Entity.WeightRecord.WeightRecord),
+                                              Data.DList.DList
+                                                Database.Relational.Query.Internal.BaseSQL.OrderingTerm)>_N))
+                                  (Trans
+                                       (Sym (Control.Monad.Trans.Writer.Lazy.N:WriterT[0]
+                                                 <Data.DList.DList
+                                                    Database.Relational.Query.Internal.BaseSQL.OrderingTerm>_N
+                                                 (Database.Relational.Query.Monad.Trans.Restricting.N:Restrictings[0]
+                                                      <Database.Relational.Query.Internal.ContextType.Flat>_N <Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                                                                                                                 Database.Relational.Query.Monad.BaseType.ConfigureQuery>_N)
+                                                 <(Database.Relational.Query.Projectable.PlaceHolders
+                                                     GHC.Types.Int,
+                                                   Database.Relational.Query.Internal.Sub.Projection
+                                                     Database.Relational.Query.Internal.ContextType.Flat
+                                                     Entity.WeightRecord.WeightRecord)>_N))
+                                       (Sym (Database.Relational.Query.Monad.Trans.Ordering.N:Orderings[0]
+                                                 <Database.Relational.Query.Internal.ContextType.Flat>_P) <Database.Relational.Query.Monad.Trans.Restricting.Restrictings
+                                                                                                             Database.Relational.Query.Internal.ContextType.Flat
+                                                                                                             (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                                                                                                                Database.Relational.Query.Monad.BaseType.ConfigureQuery)>_N <(Database.Relational.Query.Projectable.PlaceHolders
+                                                                                                                                                                                GHC.Types.Int,
+                                                                                                                                                                              Database.Relational.Query.Internal.Sub.Projection
+                                                                                                                                                                                Database.Relational.Query.Internal.ContextType.Flat
+                                                                                                                                                                                Entity.WeightRecord.WeightRecord)>_N)))))) -}
+bb482cd670148b9a4d33070e31b19885
+  selectWRecord4 ::
+    Database.Relational.Query.Monad.Trans.JoinState.JoinContext
+    -> GHC.Types.Int
+    -> Database.Relational.Query.Monad.Trans.Config.QueryConfig
+         Data.Functor.Identity.Identity
+         ((((((Database.Relational.Query.Projectable.PlaceHolders
+                 GHC.Types.Int,
+               Database.Relational.Query.Internal.Sub.Projection
+                 Database.Relational.Query.Internal.ContextType.Flat
+                 Entity.WeightRecord.WeightRecord),
+              Data.DList.DList
+                Database.Relational.Query.Internal.BaseSQL.OrderingTerm),
+             Data.DList.DList
+               (Database.Relational.Query.Internal.Sub.Projection
+                  Database.Relational.Query.Internal.ContextType.Flat
+                  (GHC.Base.Maybe GHC.Types.Bool))),
+            Database.Relational.Query.Monad.Trans.JoinState.JoinContext),
+           Data.Monoid.Last
+             Database.Relational.Query.Internal.BaseSQL.Duplication),
+          GHC.Types.Int)
+  {- Arity: 2 -}
+instance Database.Record.FromSql.FromSql [Database.HDBC.SqlValue.SqlValue,
+                                          Model.WeightRecord.NewWRecord]
+  = Model.WeightRecord.$fFromSqlSqlValueNewWRecord
+instance Database.Record.Persistable.PersistableWidth [Model.WeightRecord.NewWRecord]
+  = Model.WeightRecord.$fPersistableWidthNewWRecord
+instance Database.Relational.Query.Pure.ProductConstructor [(->)]
+  = Model.WeightRecord.$fProductConstructor(->)
+instance Database.Record.ToSql.ToSql [Database.HDBC.SqlValue.SqlValue,
+                                      Model.WeightRecord.NewWRecord]
+  = Model.WeightRecord.$fToSqlSqlValueNewWRecord
+"SPEC/Model.WeightRecord $fApplicativeRestrictings _ @ (QueryJoin
+                                                         ConfigureQuery)" [ALWAYS] forall @ c
+                                                                                                                                                            ($dApplicative :: GHC.Base.Applicative
+                                                                                                                                                                                (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                                                                                                                                                                                   Database.Relational.Query.Monad.BaseType.ConfigureQuery))
+  Database.Relational.Query.Monad.Trans.Restricting.$fApplicativeRestrictings @ c
+                                                                              @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                                                                                   Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+                                                                              $dApplicative
+  = Model.WeightRecord.$s$fApplicativeRestrictings @ c
+"SPEC/Model.WeightRecord $fFunctorQualify @ (QueryConfig Identity)" [ALWAYS] forall ($dFunctor :: GHC.Base.Functor
+                                                                                                    (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                                                                                                       Data.Functor.Identity.Identity))
+  Database.Relational.Query.Monad.Trans.Qualify.$fFunctorQualify @ (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                                                                      Data.Functor.Identity.Identity)
+                                                                 $dFunctor
+  = Model.WeightRecord.$s$fApplicativeRestrictings_$s$fFunctorQualify
+"SPEC/Model.WeightRecord $fFunctorQueryConfig @ Identity" [ALWAYS] forall ($dFunctor :: GHC.Base.Functor
+                                                                                          Data.Functor.Identity.Identity)
+  Database.Relational.Query.Monad.Trans.Config.$fFunctorQueryConfig @ Data.Functor.Identity.Identity
+                                                                    $dFunctor
+  = Model.WeightRecord.$s$fApplicativeRestrictings_$s$fFunctorQueryConfig
+"SPEC/Model.WeightRecord $fFunctorQueryJoin @ (Qualify
+                                                (QueryConfig Identity))" [ALWAYS] forall ($dFunctor :: GHC.Base.Functor
+                                                                                                                                                                (Database.Relational.Query.Monad.Trans.Qualify.Qualify
+                                                                                                                                                                   (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                                                                                                                                                                      Data.Functor.Identity.Identity)))
+  Database.Relational.Query.Monad.Trans.Join.$fFunctorQueryJoin @ (Database.Relational.Query.Monad.Trans.Qualify.Qualify
+                                                                     (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                                                                        Data.Functor.Identity.Identity))
+                                                                $dFunctor
+  = Model.WeightRecord.$s$fApplicativeRestrictings_$s$fFunctorQueryJoin
+"SPEC/Model.WeightRecord $fFunctorRestrictings _ @ (QueryJoin
+                                                     ConfigureQuery)" [ALWAYS] forall @ c
+                                                                                                                                                    ($dFunctor :: GHC.Base.Functor
+                                                                                                                                                                    (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                                                                                                                                                                       Database.Relational.Query.Monad.BaseType.ConfigureQuery))
+  Database.Relational.Query.Monad.Trans.Restricting.$fFunctorRestrictings @ c
+                                                                          @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                                                                               Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+                                                                          $dFunctor
+  = Model.WeightRecord.$s$fApplicativeRestrictings_$s$fFunctorRestrictings
+      @ c
+"SPEC/Model.WeightRecord $fMonadQualifyqRestrictings_$cp3MonadQualify @ (Qualify
+                                                                          (QueryConfig
+                                                                             Identity)) @ (QueryJoin
+                                                                                             ConfigureQuery) _" [ALWAYS] forall @ c
+                                                                                                                                                                                                                                                                                                                                                                                                             ($dMonadQualify :: Database.Relational.Query.Monad.Class.MonadQualify
+                                                                                                                                                                                                                                                                                                                                                                                                                                  (Database.Relational.Query.Monad.Trans.Qualify.Qualify
+                                                                                                                                                                                                                                                                                                                                                                                                                                     (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                                                                                                                                                                                                                                                                                                                                                                                                                                        Data.Functor.Identity.Identity))
+                                                                                                                                                                                                                                                                                                                                                                                                                                  (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                                                                                                                                                                                                                                                                                                                                                                                                                                     Database.Relational.Query.Monad.BaseType.ConfigureQuery))
+  Database.Relational.Query.Monad.Trans.Restricting.$fMonadQualifyqRestrictings_$cp3MonadQualify @ (Database.Relational.Query.Monad.Trans.Qualify.Qualify
+                                                                                                      (Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                                                                                                         Data.Functor.Identity.Identity))
+                                                                                                 @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                                                                                                      Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+                                                                                                 @ c
+                                                                                                 $dMonadQualify
+  = Model.WeightRecord.$s$fApplicativeRestrictings_$s$fMonadQualifyqRestrictings_$cp3MonadQualify
+      @ c
+"SPEC/Model.WeightRecord $fMonadRestrictings _ @ (QueryJoin
+                                                   ConfigureQuery)" [ALWAYS] forall @ c
+                                                                                                                                                ($dMonad :: GHC.Base.Monad
+                                                                                                                                                              (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                                                                                                                                                                 Database.Relational.Query.Monad.BaseType.ConfigureQuery))
+  Database.Relational.Query.Monad.Trans.Restricting.$fMonadRestrictings @ c
+                                                                        @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                                                                             Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+                                                                        $dMonad
+  = Model.WeightRecord.$s$fMonadOrderings_$s$fMonadRestrictings @ c
+"SPEC/Model.WeightRecord $fMonadRestrictings_$cp1Monad _ @ (QueryJoin
+                                                             ConfigureQuery)" [ALWAYS] forall @ c
+                                                                                                                                                                    ($dMonad :: GHC.Base.Monad
+                                                                                                                                                                                  (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                                                                                                                                                                                     Database.Relational.Query.Monad.BaseType.ConfigureQuery))
+  Database.Relational.Query.Monad.Trans.Restricting.$fMonadRestrictings_$cp1Monad @ c
+                                                                                  @ (Database.Relational.Query.Monad.Trans.Join.QueryJoin
+                                                                                       Database.Relational.Query.Monad.BaseType.ConfigureQuery)
+                                                                                  $dMonad
+  = Model.WeightRecord.$s$fMonadOrderings_$s$fMonadRestrictings_$cp1Monad
+      @ c
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

@@ -1,0 +1,14 @@
+Configuring Spock-core-0.12.0.0...
+Building Spock-core-0.12.0.0...
+Preprocessing library Spock-core-0.12.0.0...
+[1 of 8] Compiling Web.Spock.Internal.Wire ( src/Web/Spock/Internal/Wire.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Web/Spock/Internal/Wire.o )
+[2 of 8] Compiling Web.Spock.Internal.Util ( src/Web/Spock/Internal/Util.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Web/Spock/Internal/Util.o )
+[3 of 8] Compiling Web.Spock.Internal.Cookies ( src/Web/Spock/Internal/Cookies.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Web/Spock/Internal/Cookies.o )
+[4 of 8] Compiling Web.Spock.Internal.CoreAction ( src/Web/Spock/Internal/CoreAction.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Web/Spock/Internal/CoreAction.o )
+[5 of 8] Compiling Web.Spock.Internal.Config ( src/Web/Spock/Internal/Config.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Web/Spock/Internal/Config.o )
+[6 of 8] Compiling Web.Spock.Action ( src/Web/Spock/Action.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Web/Spock/Action.o )
+[7 of 8] Compiling Web.Spock.Routing ( src/Web/Spock/Routing.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Web/Spock/Routing.o )
+[8 of 8] Compiling Web.Spock.Core   ( src/Web/Spock/Core.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Web/Spock/Core.o )
+Installing library in
+/Users/kiron/.stack/snapshots/x86_64-osx/lts-8.24/8.0.2/lib/x86_64-osx-ghc-8.0.2/Spock-core-0.12.0.0-8w9OLkKz20fD58S5LNd2nn
+Registering Spock-core-0.12.0.0...

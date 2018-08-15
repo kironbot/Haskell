@@ -1,0 +1,1439 @@
+
+==================== FINAL INTERFACE ====================
+2018-08-15 02:42:14.464404 UTC
+
+interface weight-recorder-0.1.0.0-2Cz4nHR2skdHQxdlS1Wnkh:Entity.User 8002
+  interface hash: d70fc7d4ce27a835b8c7e4a2cde6d533
+  ABI hash: 59a334beca52fa5d94356eafcbe9606b
+  export-list hash: dd6135568efdddc9f04b2e3ff24c5ccf
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 00e3aa1b229db2efab53978c957c07e3
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  Entity.User.columnOffsetsUser
+  Entity.User.fromSqlOfUser
+  Entity.User.id'
+  Entity.User.insertQueryUser
+  Entity.User.insertUser
+  Entity.User.name'
+  Entity.User.password'
+  Entity.User.selectUser
+  Entity.User.tableOfUser
+  Entity.User.toSqlOfUser
+  Entity.User.updateUser
+  Entity.User.user
+  Entity.User.User{Entity.User.User id name password}
+module dependencies:
+package dependencies: HDBC-2.4.0.1@HDBC-2.4.0.1-LNXn2N08eDoGJ5oIBmpngp
+                      HDBC-session-0.1.1.1@HDBC-session-0.1.1.1-JDTu7GaiWFA1X5nFX78y9e
+                      HDBC-sqlite3-2.3.3.1@HDBC-sqlite3-2.3.3.1-JU8hYIEMLA12FsMcPNRVAY
+                      array-0.5.1.1@array-0.5.1.1 base-4.9.1.0
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1 mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      names-th-0.2.0.3@names-th-0.2.0.3-FWd9uhhaPk73vacdw3xBxG
+                      old-locale-1.0.0.7@old-locale-1.0.0.7-KGBP1BSKxH5GCm0LnZP04j
+                      old-time-1.1.0.3@old-time-1.1.0.3-KWRsMSdY26c2L27Y9n9cyq
+                      persistable-record-0.4.2.0@persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k
+                      relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc
+                      relational-schemas-0.1.3.1@relational-schemas-0.1.3.1-48FrZ7ufBIEDGv4W1BXtvU
+                      sql-words-0.1.5.1@sql-words-0.1.5.1-6ekOanNrtOKYD1ABcjRAD
+                      template-haskell-2.11.1.0
+                      text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR
+                      th-data-compat-0.0.2.4@th-data-compat-0.0.2.4-GbISCvWnyQk60k5xubIzhH
+                      th-reify-compat-0.0.1.2@th-reify-compat-0.0.1.2-6M0IwJ7dfMh1DXggrHIiQT
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      utf8-string-1.0.1.1@utf8-string-1.0.1.1-1DpjxLeTvGg7ttZZojxJR5
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.C
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Map
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Num
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Text
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Time
+         persistable-record-0.4.2.0@persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO:Database.Record.Instances
+         relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Monad.Aggregate
+         relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.Record.Persistable
+         relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.Schema.SQLite3
+         relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.SqlValueExtra
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Complex base-4.9.1.0:Data.Either
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD:Data.DList
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+import  -/  HDBC-2.4.0.1@HDBC-2.4.0.1-LNXn2N08eDoGJ5oIBmpngp:Database.HDBC.SqlValue e971255e69f4f4eb1fbe6f911ce0571a
+import  -/  HDBC-sqlite3-2.3.3.1@HDBC-sqlite3-2.3.3.1-JU8hYIEMLA12FsMcPNRVAY:Database.HDBC.Sqlite3 4702d54ba2855adba083d3558c4ed4cb
+import  -/  HDBC-sqlite3-2.3.3.1@HDBC-sqlite3-2.3.3.1-JU8hYIEMLA12FsMcPNRVAY:Database.HDBC.Sqlite3.Connection accfbd9b0059100c3fc332e099c67421
+import  -/  array-0.5.1.1@array-0.5.1.1:Data.Array.Base a1a813de21dd195f39f7a053a2142a3f
+import  -/  base-4.9.1.0:GHC.Arr dbae05e7a9c0aba55cc706ecf0406507
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
+import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  persistable-record-0.4.2.0@persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO:Database.Record.FromSql c5ab02c7efd7b519496c6077c8f23b6e
+import  -/  persistable-record-0.4.2.0@persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO:Database.Record.KeyConstraint 8311c8018fcaad2718dbe660b52d0ef5
+import  -/  persistable-record-0.4.2.0@persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO:Database.Record.Persistable 79bf0c3373134f6aa84491cc8358dc68
+import  -/  persistable-record-0.4.2.0@persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO:Database.Record.ToSql c6d57bc81acc55b1d8d4790455c050ba
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Constraint 16b9f2f147dbcf9f80502ba24ec9bbdf
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Derives 0ae97d8929b72ad5e7980bdf1c7c4f6a
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Monad.BaseType bed58cecefa49874f46c599eda4559bf
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Pi 27ded4cb3a9d9609ee24c8445cb1485f
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Pi.Unsafe 80bc802197f832709a157eb70cacdfcd
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Pure bc2d37458b615a7a091ca100c5f46b06
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Relation 2375807226089939049c4acca39382ec
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Table 1dab9fd9d2dd71716840a9236692263b
+import  -/  relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Type 0b2b503fdf646cd8e2d8efd2086c9935
+import  -/  relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.Query.TH c2fa6a3076455bf35a48f7065275c484
+import  -/  relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.Schema.Driver e1a9abf5906c7f70fe8128323909d06d
+import  -/  relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.Schema.SQLite3 3ed44c0b3ed5ddf09f3829f2bbde6f3a
+eacc81d6716ab03862a378b3e104c3de
+  $fFromSqlSqlValueUser ::
+    Database.Record.FromSql.FromSql
+      Database.HDBC.SqlValue.SqlValue Entity.User.User
+  DFunId
+  {- Arity: 1, Strictness: <L,U>m, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Entity.User.fromSqlOfUser
+                  `cast`
+                (Sym (Database.Record.FromSql.N:FromSql[0]) <Database.HDBC.SqlValue.SqlValue>_N <Entity.User.User>_N) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fHasColumnConstraintNotNullUser ::
+    Database.Record.KeyConstraint.HasColumnConstraint
+      Database.Record.KeyConstraint.NotNull Entity.User.User
+  DFunId
+  {- Strictness: m, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Entity.User.$fHasColumnConstraintNotNullUser_$ccolumnConstraint
+                  `cast`
+                (Sym (Database.Record.KeyConstraint.N:HasColumnConstraint[0]) <Database.Record.KeyConstraint.NotNull>_N <Entity.User.User>_N) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fHasColumnConstraintNotNullUser_$ccolumnConstraint ::
+    Database.Record.KeyConstraint.ColumnConstraint
+      Database.Record.KeyConstraint.NotNull Entity.User.User
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Entity.User.$fHasColumnConstraintNotNullUser_a1
+                  `cast`
+                (Sym (Database.Record.KeyConstraint.N:ColumnConstraint[0]
+                          <Database.Record.KeyConstraint.NotNull>_P <Entity.User.User>_P)) -}
+92e80b03b7e20b04971140f25318feed
+  $fHasColumnConstraintNotNullUser_a1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fHasColumnConstraintPrimaryUser ::
+    Database.Record.KeyConstraint.HasColumnConstraint
+      Database.Record.KeyConstraint.Primary Entity.User.User
+  DFunId
+  {- Strictness: m, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Entity.User.$fHasColumnConstraintPrimaryUser_$ccolumnConstraint
+                  `cast`
+                (Sym (Database.Record.KeyConstraint.N:HasColumnConstraint[0]) <Database.Record.KeyConstraint.Primary>_N <Entity.User.User>_N) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fHasColumnConstraintPrimaryUser_$ccolumnConstraint ::
+    Database.Record.KeyConstraint.ColumnConstraint
+      Database.Record.KeyConstraint.Primary Entity.User.User
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Entity.User.$fHasColumnConstraintNotNullUser_a1
+                  `cast`
+                (Sym (Database.Record.KeyConstraint.N:ColumnConstraint[0]
+                          <Database.Record.KeyConstraint.Primary>_P <Entity.User.User>_P)) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fHasConstraintKeyPrimaryUserInt ::
+    Database.Relational.Query.Constraint.HasConstraintKey
+      Database.Record.KeyConstraint.Primary
+      Entity.User.User
+      GHC.Types.Int
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Database.Record.KeyConstraint.Primary
+                  @ Entity.User.User
+                  @ GHC.Types.Int
+                  (Database.Record.Persistable.unsafeValueWidth @ GHC.Types.Int)
+                    `cast`
+                  (Sym (Database.Record.Persistable.N:PersistableWidth[0]) <GHC.Types.Int>_N)
+                  Entity.User.$fHasConstraintKeyPrimaryUserInt_$cconstraintKey -}
+7f3f8649b17e9242e9881eac774fe257
+  $fHasConstraintKeyPrimaryUserInt1 :: [GHC.Types.Int]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Int
+                   Entity.User.$fHasColumnConstraintNotNullUser_a1
+                   (GHC.Types.[] @ GHC.Types.Int)) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fHasConstraintKeyPrimaryUserInt_$cconstraintKey ::
+    Database.Relational.Query.Constraint.Key
+      Database.Record.KeyConstraint.Primary
+      Entity.User.User
+      GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Database.Relational.Query.Constraint.Key
+                   @ Database.Record.KeyConstraint.Primary
+                   @ Entity.User.User
+                   @ GHC.Types.Int
+                   Entity.User.$fHasConstraintKeyPrimaryUserInt1
+                   Database.Record.Persistable.unsafeValueWidth1
+                     `cast`
+                   (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                             <GHC.Types.Int>_P))) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fHasKeyConstraintPrimaryUser ::
+    Database.Record.KeyConstraint.HasKeyConstraint
+      Database.Record.KeyConstraint.Primary Entity.User.User
+  DFunId
+  {- Strictness: m2, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Entity.User.$fHasKeyConstraintPrimaryUser_$ckeyConstraint
+                  `cast`
+                (Sym (Database.Record.KeyConstraint.N:HasKeyConstraint[0]) <Database.Record.KeyConstraint.Primary>_N <Entity.User.User>_N) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fHasKeyConstraintPrimaryUser_$ckeyConstraint ::
+    Database.Record.KeyConstraint.KeyConstraint
+      Database.Record.KeyConstraint.Primary Entity.User.User
+  {- Strictness: m2,
+     Unfolding: InlineRule (0, True, True)
+                Entity.User.$fHasConstraintKeyPrimaryUserInt1
+                  `cast`
+                (Sym (Database.Record.KeyConstraint.N:KeyConstraint[0]
+                          <Database.Record.KeyConstraint.Primary>_P <Entity.User.User>_P)) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fPersistableWidthUser ::
+    Database.Record.Persistable.PersistableWidth Entity.User.User
+  DFunId
+  {- Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Entity.User.$fPersistableWidthUser_$cpersistableWidth
+                  `cast`
+                (Sym (Database.Record.Persistable.N:PersistableWidth[0]) <Entity.User.User>_N) -}
+f2f4d5b74df321ff5b1c08257804afa2
+  $fPersistableWidthUser1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Int"#) -}
+42ea55f6079d543f64e6f5bccede3b25
+  $fPersistableWidthUser2 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 3#) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fPersistableWidthUser_$cpersistableWidth ::
+    Database.Record.Persistable.PersistableRecordWidth Entity.User.User
+  {- Unfolding: (case Entity.User.columnOffsetsUser of wild { GHC.Arr.Array l u dt ds ->
+                 case l of wild1 { GHC.Types.I# m ->
+                 case u of wild2 { GHC.Types.I# n ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<=# m 3#) of wild4 {
+                   GHC.Types.False
+                   -> (GHC.Arr.indexError
+                         @ GHC.Types.Int
+                         @ GHC.Types.Int
+                         GHC.Show.$fShowInt
+                         (wild1, wild2)
+                         Entity.User.$fPersistableWidthUser2
+                         Entity.User.$fPersistableWidthUser1)
+                        `cast`
+                      (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                                <Entity.User.User>_P))
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# 3# n) of wild5 {
+                        GHC.Types.False
+                        -> (GHC.Arr.indexError
+                              @ GHC.Types.Int
+                              @ GHC.Types.Int
+                              GHC.Show.$fShowInt
+                              (wild1, wild2)
+                              Entity.User.$fPersistableWidthUser2
+                              Entity.User.$fPersistableWidthUser1)
+                             `cast`
+                           (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                                     <Entity.User.User>_P))
+                        GHC.Types.True
+                        -> case GHC.Prim.indexArray#
+                                  @ GHC.Types.Int
+                                  ds
+                                  (GHC.Prim.-# 3# m) of ds4 { Unit# ipv ->
+                           ipv
+                             `cast`
+                           (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                                     <Entity.User.User>_P)) } } } } } }) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fProductConstructor(->) ::
+    Database.Relational.Query.Pure.ProductConstructor
+      (GHC.Types.Int
+       -> GHC.Base.String -> GHC.Base.String -> Entity.User.User)
+  DFunId
+  {- Arity: 3, HasNoCafRefs, Strictness: <S,U><S,U><S,U>m,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Entity.User.$WUser
+                  `cast`
+                (Sym (Database.Relational.Query.Pure.N:ProductConstructor[0]
+                          <GHC.Types.Int
+                           -> GHC.Base.String -> GHC.Base.String -> Entity.User.User>_N)) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fShowUser :: GHC.Show.Show Entity.User.User
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Entity.User.User
+                  Entity.User.$fShowUser_$cshowsPrec
+                  Entity.User.$fShowUser_$cshow
+                  Entity.User.$fShowUser_$cshowList -}
+eacc81d6716ab03862a378b3e104c3de
+  $fShowUser1 :: Entity.User.User -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Entity.User.User) (w1 :: GHC.Base.String) ->
+                 case w of ww { Entity.User.User ww1 ww2 ww3 ->
+                 Entity.User.$w$cshowsPrec 0# ww1 ww2 ww3 w1 }) -}
+7c146b3709fd798a8083574287dd1f40
+  $fShowUser2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "User {"#) -}
+ddccd244c3165b9e00b113eb4f578f3f
+  $fShowUser3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+ac1cd550422b1224258df81cc59e10a6
+  $fShowUser4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "password = "#) -}
+1d3f50edd0915276f315f1f34c69c08f
+  $fShowUser5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "name = "#) -}
+787a2fc25a596a8eeba8bac533989a61
+  $fShowUser6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+7adda866f1f72b2cee87219495e9106f
+  $fShowUser7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "id = "#) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fShowUser_$cshow :: Entity.User.User -> GHC.Base.String
+  {- Arity: 1, Strictness: <S(LSS),1*U(U,U,U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Entity.User.User) ->
+                 Entity.User.$fShowUser_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fShowUser_$cshowList :: [Entity.User.User] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Entity.User.User
+                   Entity.User.$fShowUser1) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fShowUser_$cshowsPrec ::
+    GHC.Types.Int -> Entity.User.User -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><S(LSS),1*U(U,U,U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Entity.User.User)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Entity.User.User ww3 ww4 ww5 ->
+                 Entity.User.$w$cshowsPrec ww1 ww3 ww4 ww5 w2 } }) -}
+eacc81d6716ab03862a378b3e104c3de
+  $fTableDerivableUser ::
+    Database.Relational.Query.Table.TableDerivable Entity.User.User
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Entity.User.User
+                  Entity.User.$fPersistableWidthUser_$cpersistableWidth
+                    `cast`
+                  (Sym (Database.Record.Persistable.N:PersistableWidth[0]) <Entity.User.User>_N)
+                  Entity.User.$fTableDerivableUser_$cderivedTable -}
+eacc81d6716ab03862a378b3e104c3de
+  $fTableDerivableUser_$cderivedTable ::
+    Database.Relational.Query.Table.Table Entity.User.User
+  {- Unfolding: InlineRule (0, True, True) Entity.User.tableOfUser -}
+eacc81d6716ab03862a378b3e104c3de
+  $fToSqlSqlValueUser ::
+    Database.Record.ToSql.ToSql
+      Database.HDBC.SqlValue.SqlValue Entity.User.User
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Database.HDBC.SqlValue.SqlValue
+                  @ Entity.User.User
+                  Entity.User.$fPersistableWidthUser_$cpersistableWidth
+                    `cast`
+                  (Sym (Database.Record.Persistable.N:PersistableWidth[0]) <Entity.User.User>_N)
+                  Entity.User.toSqlOfUser -}
+54d06463822dac7e722ff995da7884b5
+  $sid' ::
+    Database.Relational.Query.Pi.Unsafe.Pi
+      Entity.User.User Entity.User.User
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, False)
+                (Database.Relational.Query.Pi.Unsafe.Pi
+                   @ Entity.User.User
+                   @ Entity.User.User
+                   (Database.Relational.Query.Pi.Unsafe.Leftest
+                      @ Entity.User.User
+                      @ Entity.User.User
+                      Database.Relational.Query.Pi.fst'1)
+                   Entity.User.$fPersistableWidthUser_$cpersistableWidth) -}
+8cfd77d271d21ed27d239b7d403629d7
+  $tc'User :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   8583062854412309199##
+                   6538559288826537199##
+                   Entity.User.$trModule
+                   Entity.User.$tc'User1) -}
+ba7285ba7232897e3f4230e0b0bc64c3
+  $tc'User1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'User"#) -}
+348cbbaba5fcde5edca4f7b63fc90df0
+  $tcUser :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4477950302831878128##
+                   7429701026847319284##
+                   Entity.User.$trModule
+                   Entity.User.$tcUser1) -}
+7091bbaa1c87fd9be84d204a0e95f8c7
+  $tcUser1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "User"#) -}
+ac2e46b405e4204af2c346fe20843728
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Entity.User.$trModule2
+                   Entity.User.$trModule1) -}
+5254cbb296933b74deeee754f6a09f8e
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Entity.User"#) -}
+b42321c66b3f4dcba71241b9e58feced
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "weight-recorder-0.1.0.0-2Cz4nHR2skdHQxdlS1Wnkh"#) -}
+aefd18c12b839e56e383b50e35770000
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Base.String
+    -> GHC.Base.String
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 5, Strictness: <S,U><L,U><S,U><S,U><L,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Base.String)
+                   (ww3 :: GHC.Base.String)
+                   (w :: GHC.Base.String) ->
+                 let {
+                   g :: GHC.Base.String -> GHC.Base.String
+                     {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Entity.User.$fShowUser7
+                       (case GHC.Show.$wshowSignedInt
+                               0#
+                               ww1
+                               (GHC.Base.++
+                                  @ GHC.Types.Char
+                                  Entity.User.$fShowUser6
+                                  (GHC.Base.++
+                                     @ GHC.Types.Char
+                                     Entity.User.$fShowUser5
+                                     (GHC.Types.:
+                                        @ GHC.Types.Char
+                                        GHC.Show.shows6
+                                        (GHC.Show.showLitString
+                                           ww2
+                                           (GHC.Types.:
+                                              @ GHC.Types.Char
+                                              GHC.Show.shows6
+                                              (GHC.Base.++
+                                                 @ GHC.Types.Char
+                                                 Entity.User.$fShowUser6
+                                                 (GHC.Base.++
+                                                    @ GHC.Types.Char
+                                                    Entity.User.$fShowUser4
+                                                    (GHC.Types.:
+                                                       @ GHC.Types.Char
+                                                       GHC.Show.shows6
+                                                       (GHC.Show.showLitString
+                                                          ww3
+                                                          (GHC.Types.:
+                                                             @ GHC.Types.Char
+                                                             GHC.Show.shows6
+                                                             (GHC.Base.++
+                                                                @ GHC.Types.Char
+                                                                Entity.User.$fShowUser3
+                                                                x))))))))))) of ww4 { (#,#) ww5 ww6 ->
+                        GHC.Types.: @ GHC.Types.Char ww5 ww6 })
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False
+                   -> GHC.Base.++ @ GHC.Types.Char Entity.User.$fShowUser2 (g w)
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (GHC.Base.++
+                           @ GHC.Types.Char
+                           Entity.User.$fShowUser2
+                           (g (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w))) }) -}
+eacc81d6716ab03862a378b3e104c3de
+  $wfromSqlOfUser ::
+    [Database.HDBC.SqlValue.SqlValue]
+    -> (# Entity.User.User, [Database.HDBC.SqlValue.SqlValue] #)
+  {- Arity: 1, Strictness: <L,U>, Inline: [0],
+     Unfolding: (\ (w :: [Database.HDBC.SqlValue.SqlValue]) ->
+                 let {
+                   ds :: [Database.HDBC.SqlValue.SqlValue]
+                   = case w of wild {
+                       [] -> GHC.List.scanl2 @ Database.HDBC.SqlValue.SqlValue
+                       : ds1 xs -> xs }
+                 } in
+                 let {
+                   ds1 :: [Database.HDBC.SqlValue.SqlValue]
+                   = case ds of wild {
+                       [] -> GHC.List.scanl2 @ Database.HDBC.SqlValue.SqlValue
+                       : ds2 xs -> xs }
+                 } in
+                 (# case Database.HDBC.SqlValue.$fConvertibleSqlValueInt_$csafeConvert
+                           (GHC.List.head @ Database.HDBC.SqlValue.SqlValue w) of wild {
+                      Data.Either.Left e
+                      -> case e of ww { Data.Convertible.Base.ConvertError ww1 ww2 ww3 ww4 ->
+                         case Data.Convertible.Base.convert2 @ GHC.Types.Int ww1 ww2 ww3 ww4
+                         ret_ty Entity.User.User
+                         of {} }
+                      Data.Either.Right r
+                      -> case r of dt { GHC.Types.I# dt1 ->
+                         case Database.HDBC.SqlValue.$fConvertibleSqlValueByteString_$csafeConvert1
+                                (GHC.List.head @ Database.HDBC.SqlValue.SqlValue ds) of wild1 {
+                           Data.Either.Left e
+                           -> case e of ww { Data.Convertible.Base.ConvertError ww1 ww2 ww3 ww4 ->
+                              case Data.Convertible.Base.convert2
+                                     @ GHC.Base.String
+                                     ww1
+                                     ww2
+                                     ww3
+                                     ww4
+                              ret_ty Entity.User.User
+                              of {} }
+                           Data.Either.Right r1
+                           -> case r1 of dt2 { DEFAULT ->
+                              case Database.HDBC.SqlValue.$fConvertibleSqlValueByteString_$csafeConvert1
+                                     (GHC.List.head
+                                        @ Database.HDBC.SqlValue.SqlValue
+                                        ds1) of wild2 {
+                                Data.Either.Left e
+                                -> case e of ww { Data.Convertible.Base.ConvertError ww1 ww2 ww3 ww4 ->
+                                   case Data.Convertible.Base.convert2
+                                          @ GHC.Base.String
+                                          ww1
+                                          ww2
+                                          ww3
+                                          ww4
+                                   ret_ty Entity.User.User
+                                   of {} }
+                                Data.Either.Right r2
+                                -> case r2 of dt3 { DEFAULT ->
+                                   Entity.User.User dt1 dt2 dt3 } } } } } },
+                    GHC.List.tail @ Database.HDBC.SqlValue.SqlValue ds1 #)) -}
+ac0e005079f7aa82c5b5d0a07170bf01
+  $wtoSqlOfUser ::
+    GHC.Prim.Int#
+    -> GHC.Base.String
+    -> GHC.Base.String
+    -> (# (), Data.DList.DList Database.HDBC.SqlValue.SqlValue #)
+  {- Arity: 3, Strictness: <L,U><S,U><S,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Base.String)
+                   (ww2 :: GHC.Base.String) ->
+                 let {
+                   ds :: Database.HDBC.SqlValue.SqlValue
+                   = Database.HDBC.SqlValue.SqlString ww2
+                 } in
+                 let {
+                   ds1 :: Database.HDBC.SqlValue.SqlValue
+                   = Database.HDBC.SqlValue.SqlString ww1
+                 } in
+                 let {
+                   ds2 :: Database.HDBC.SqlValue.SqlValue
+                   = case Data.Convertible.Instances.Num.$fConvertibleIntInt64_$csafeConvert
+                            (GHC.Types.I# ww) of wild {
+                       Data.Either.Left l
+                       -> case l of ww3 { Data.Convertible.Base.ConvertError ww4 ww5 ww6 ww7 ->
+                          Data.Convertible.Base.convert2
+                            @ Database.HDBC.SqlValue.SqlValue
+                            ww4
+                            ww5
+                            ww6
+                            ww7 }
+                       Data.Either.Right r -> Database.HDBC.SqlValue.SqlInt64 r }
+                 } in
+                 let {
+                   ds3 :: [Database.HDBC.SqlValue.SqlValue]
+                   = GHC.Types.:
+                       @ Database.HDBC.SqlValue.SqlValue
+                       ds2
+                       (GHC.Types.[] @ Database.HDBC.SqlValue.SqlValue)
+                 } in
+                 (# GHC.Tuple.(),
+                    (\ (eta :: [Database.HDBC.SqlValue.SqlValue]) ->
+                     GHC.Base.++
+                       @ Database.HDBC.SqlValue.SqlValue
+                       ds3
+                       (GHC.Types.:
+                          @ Database.HDBC.SqlValue.SqlValue
+                          ds1
+                          (GHC.Types.: @ Database.HDBC.SqlValue.SqlValue ds eta)))
+                      `cast`
+                    (Sym (Data.DList.N:DList[0]
+                              <Database.HDBC.SqlValue.SqlValue>_R)) #)) -}
+eacc81d6716ab03862a378b3e104c3de
+  data User
+    = User {id :: {-# UNPACK #-}GHC.Types.Int,
+            name :: !GHC.Base.String,
+            password :: !GHC.Base.String}
+cf40a6b4c8c0a98c395db249211d941b
+  columnOffsetsUser :: GHC.Arr.Array GHC.Types.Int GHC.Types.Int
+  {- Unfolding: (case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ (GHC.Arr.Array GHC.Types.Int GHC.Types.Int)
+                        Entity.User.columnOffsetsUser1 of ds1 { (#,#) ipv ipv1 ->
+                 ipv1 }) -}
+aade254f35dd055d65b0f238a4c99954
+  columnOffsetsUser1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Arr.Array GHC.Types.Int GHC.Types.Int #)
+  {- Arity: 1,
+     Unfolding: (\ (s1# :: GHC.Prim.State#
+                             GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newArray#
+                        @ GHC.Types.Int
+                        @ GHC.Prim.RealWorld
+                        4#
+                        (GHC.Arr.arrEleBottom @ GHC.Types.Int)
+                        s1# of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Prim.writeArray#
+                        @ GHC.Prim.RealWorld
+                        @ GHC.Types.Int
+                        ipv1
+                        0#
+                        Entity.User.$fHasColumnConstraintNotNullUser_a1
+                        ipv of s4# { DEFAULT ->
+                 case GHC.Prim.writeArray#
+                        @ GHC.Prim.RealWorld
+                        @ GHC.Types.Int
+                        ipv1
+                        1#
+                        Entity.User.columnOffsetsUser3
+                        s4# of s4#1 { DEFAULT ->
+                 case GHC.Prim.writeArray#
+                        @ GHC.Prim.RealWorld
+                        @ GHC.Types.Int
+                        ipv1
+                        2#
+                        Entity.User.columnOffsetsUser2
+                        s4#1 of s4#2 { DEFAULT ->
+                 case GHC.Prim.writeArray#
+                        @ GHC.Prim.RealWorld
+                        @ GHC.Types.Int
+                        ipv1
+                        3#
+                        Entity.User.$fPersistableWidthUser2
+                        s4#2 of s4#3 { DEFAULT ->
+                 case GHC.Prim.unsafeFreezeArray#
+                        @ GHC.Prim.RealWorld
+                        @ GHC.Types.Int
+                        ipv1
+                        s4#3 of ds2 { (#,#) ipv2 ipv3 ->
+                 (# ipv2,
+                    GHC.Arr.Array
+                      @ GHC.Types.Int
+                      @ GHC.Types.Int
+                      Entity.User.$fHasColumnConstraintNotNullUser_a1
+                      Entity.User.$fPersistableWidthUser2
+                      4#
+                      ipv3 #) } } } } } }) -}
+af9ef2fea16be82df7980077aca8e016
+  columnOffsetsUser2 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 2#) -}
+0c6333c7155ea0d9625baee8caa7495c
+  columnOffsetsUser3 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 1#) -}
+eacc81d6716ab03862a378b3e104c3de
+  fromSqlOfUser ::
+    Database.Record.FromSql.RecordFromSql
+      Database.HDBC.SqlValue.SqlValue Entity.User.User
+  {- Arity: 1, Strictness: <L,U>m,
+     Unfolding: InlineRule (0, True, True)
+                Entity.User.fromSqlOfUser1
+                  `cast`
+                (Sym (Database.Record.FromSql.N:RecordFromSql[0]
+                          <Database.HDBC.SqlValue.SqlValue>_R <Entity.User.User>_R)) -}
+eacc81d6716ab03862a378b3e104c3de
+  fromSqlOfUser1 ::
+    [Database.HDBC.SqlValue.SqlValue]
+    -> (Entity.User.User, [Database.HDBC.SqlValue.SqlValue])
+  {- Arity: 1, Strictness: <L,U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: [Database.HDBC.SqlValue.SqlValue]) ->
+                 case Entity.User.$wfromSqlOfUser w of ww { (#,#) ww1 ww2 ->
+                 (ww1, ww2) }) -}
+5c5c05f1d42d1cbef4242532b9399827
+  id :: Entity.User.User -> GHC.Types.Int
+  RecSel Left Entity.User.User
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(U,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Entity.User.User) ->
+                 case ds of wild { Entity.User.User dt ds1 ds2 ->
+                 GHC.Types.I# dt }) -}
+aef4ed737bf39272a59b86d09acf41df
+  id' ::
+    Database.Relational.Query.Pi.Unsafe.Pi
+      Entity.User.User GHC.Types.Int
+  {- Strictness: m,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Pi
+                   @ Entity.User.User
+                   @ GHC.Types.Int
+                   Entity.User.id'1
+                   Database.Record.Persistable.unsafeValueWidth1
+                     `cast`
+                   (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                             <GHC.Types.Int>_P))) -}
+6e4ce62720341c6d8e2cea28033bfa8e
+  id'1 ::
+    Database.Relational.Query.Pi.Unsafe.Pi'
+      Entity.User.User GHC.Types.Int
+  {- Strictness: m1,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Leftest
+                   @ Entity.User.User
+                   @ GHC.Types.Int
+                   Entity.User.id'2) -}
+382addb39817be22e737b756c837fe35
+  id'10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "libraries/array/Data/Array/Base.hs"#) -}
+df32730369d42e330285dbd7edb16d0c
+  id'11 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Data.Array.Base"#) -}
+41544037d7005e774aa538fb46310184
+  id'12 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "array-0.5.1.1"#) -}
+f32db844cbd67cc6f8026046a42e9b6b
+  id'13 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "error"#) -}
+38e8c603081680f21c3c245ef00287bc
+  id'2 :: GHC.Types.Int
+  {- Unfolding: (case Entity.User.columnOffsetsUser of wild { GHC.Arr.Array l u dt ds1 ->
+                 case l of wild1 { GHC.Types.I# m ->
+                 case u of wild2 { GHC.Types.I# n ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<=# m 0#) of wild4 {
+                   GHC.Types.False
+                   -> GHC.Arr.indexError
+                        @ GHC.Types.Int
+                        @ GHC.Types.Int
+                        GHC.Show.$fShowInt
+                        (wild1, wild2)
+                        Entity.User.$fHasColumnConstraintNotNullUser_a1
+                        Entity.User.$fPersistableWidthUser1
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# 0# n) of wild5 {
+                        GHC.Types.False
+                        -> GHC.Arr.indexError
+                             @ GHC.Types.Int
+                             @ GHC.Types.Int
+                             GHC.Show.$fShowInt
+                             (wild1, wild2)
+                             Entity.User.$fHasColumnConstraintNotNullUser_a1
+                             Entity.User.$fPersistableWidthUser1
+                        GHC.Types.True
+                        -> let {
+                             w :: GHC.Prim.Int# = GHC.Prim.-# 0# m
+                           } in
+                           let {
+                             $j :: GHC.Prim.Void# -> GHC.Types.Int
+                               {- Arity: 1, Strictness: <B,A>x -}
+                             = \ (w1 :: GHC.Prim.Void#)[OneShot] ->
+                               GHC.Err.error
+                                 @ 'GHC.Types.PtrRepLifted
+                                 @ GHC.Types.Int
+                                 Entity.User.id'4
+                                   `cast`
+                                 (Sym (GHC.Classes.N:IP[0]
+                                           <"callStack">_N <GHC.Stack.Types.CallStack>_N))
+                                 (GHC.CString.unpackAppendCString#
+                                    "Error in array index; "#
+                                    (case GHC.Show.$wshowSignedInt
+                                            0#
+                                            w
+                                            (GHC.Types.[]
+                                               @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                                     GHC.Base.++
+                                       @ GHC.Types.Char
+                                       (GHC.Types.: @ GHC.Types.Char ww5 ww6)
+                                       (GHC.CString.unpackAppendCString#
+                                          " not in range [0.."#
+                                          (case GHC.Show.$wshowSignedInt
+                                                  0#
+                                                  dt
+                                                  (GHC.Types.[]
+                                                     @ GHC.Types.Char) of ww1 { (#,#) ww2 ww3 ->
+                                           GHC.Base.++
+                                             @ GHC.Types.Char
+                                             (GHC.Types.: @ GHC.Types.Char ww2 ww3)
+                                             Entity.User.id'3 })) }))
+                           } in
+                           case GHC.Prim.tagToEnum#
+                                  @ GHC.Types.Bool
+                                  (GHC.Prim.<=# 0# w) of wild6 {
+                             GHC.Types.False -> $j GHC.Prim.void#
+                             GHC.Types.True
+                             -> case GHC.Prim.tagToEnum#
+                                       @ GHC.Types.Bool
+                                       (GHC.Prim.<# w dt) of wild7 {
+                                  GHC.Types.False -> $j GHC.Prim.void#
+                                  GHC.Types.True
+                                  -> case GHC.Prim.indexArray#
+                                            @ GHC.Types.Int
+                                            ds1
+                                            w of ds4 { Unit# ipv ->
+                                     ipv } } } } } } } }) -}
+f175e465dabbc87e9f3d0a9135e27803
+  id'3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ")"#) -}
+962baef5cd736027672ddf7f81d9fd10
+  id'4 :: GHC.Stack.Types.CallStack
+  {- Strictness: m2,
+     Unfolding: (GHC.Stack.Types.PushCallStack
+                   Entity.User.id'13
+                   Entity.User.id'5
+                   GHC.Stack.Types.EmptyCallStack) -}
+de5e95f3a5e151ec3e6884162e454ce1
+  id'5 :: GHC.Stack.Types.SrcLoc
+  {- Strictness: m,
+     Unfolding: (GHC.Stack.Types.SrcLoc
+                   Entity.User.id'12
+                   Entity.User.id'11
+                   Entity.User.id'10
+                   Entity.User.id'9
+                   Entity.User.id'8
+                   Entity.User.id'7
+                   Entity.User.id'6) -}
+70e6dbddf7056600a7718b28ab590984
+  id'6 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 76#) -}
+9f7c9efa4b7019188002f54bdf1e7b64
+  id'7 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 88#) -}
+5e6016a0669042ccf4d866858ad5140c
+  id'8 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 31#) -}
+8bb80fde41a7093639f61dbe278b5f31
+  id'9 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 87#) -}
+464a2929494becddd21e12b4c89fce13
+  insertQueryUser ::
+    Database.Relational.Query.Monad.BaseType.Relation
+      p0 Entity.User.User
+    -> Database.Relational.Query.Type.InsertQuery p0
+  {- Arity: 1, Strictness: <C(C(S(SL))),1*C1(C1(U(1*U,A)))>,
+     Unfolding: InlineRule (0, True, True)
+                Entity.User.insertQueryUser1
+                  `cast`
+                (forall (p0 :: <*>_N).
+                 <Database.Relational.Query.Monad.BaseType.Relation
+                    p0 Entity.User.User>_R
+                 ->_R Sym (Database.Relational.Query.Type.N:InsertQuery[0]
+                               <p0>_P)) -}
+a27f992a8d34ee3c14562a102bf99c39
+  insertQueryUser1 ::
+    Database.Relational.Query.Monad.BaseType.Relation
+      p0 Entity.User.User
+    -> GHC.Base.String
+  {- Arity: 1, Strictness: <C(C(S(SL))),1*C1(C1(U(1*U,A)))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ p0
+                   (eta1 :: Database.Relational.Query.Monad.BaseType.Relation
+                              p0 Entity.User.User) ->
+                 Database.Relational.Query.Type.insertQuerySQL
+                   @ Entity.User.User
+                   @ Entity.User.User
+                   @ p0
+                   Database.Relational.Query.Internal.Config.defaultConfig
+                   Entity.User.tableOfUser
+                   Entity.User.$sid'
+                   eta1) -}
+1c981c926d2d8faa0e53e7ef47f6899e
+  insertUser ::
+    Database.Relational.Query.Type.Insert Entity.User.User
+  {- Strictness: m,
+     Unfolding: (Database.Relational.Query.Type.Insert
+                   @ Entity.User.User
+                   Entity.User.insertUser4
+                   Entity.User.insertUser1) -}
+6d5dcd69ead86dc2aa60caf1419fc21a
+  insertUser1 :: GHC.Base.Maybe (GHC.Base.String, GHC.Types.Int)
+  {- Strictness: m2,
+     Unfolding: (GHC.Base.Just
+                   @ (GHC.Base.String, GHC.Types.Int)
+                   Entity.User.insertUser2) -}
+5d7b37315466af195614245e37f305e1
+  insertUser2 :: (GHC.Base.String, GHC.Types.Int)
+  {- Strictness: m,
+     Unfolding: ((Entity.User.insertUser3, Entity.User.insertUser_n)) -}
+dcf45cdde31f6e3c9f39fee4382ece69
+  insertUser3 :: GHC.Base.String
+  {- Unfolding: (case Entity.User.insertUser_n of ww { GHC.Types.I# ww1 ->
+                 Database.Relational.Query.SQL.$winsertChunkSQL
+                   @ Entity.User.User
+                   @ Entity.User.User
+                   ww1
+                   Entity.User.$sid'
+                   Entity.User.tableOfUser }) -}
+e13e3ba93beb8ca869ad6edc19b91be1
+  insertUser4 :: GHC.Base.String
+  {- Unfolding: (Database.Relational.Query.SQL.$winsertChunkSQL
+                   @ Entity.User.User
+                   @ Entity.User.User
+                   1#
+                   Entity.User.$sid'
+                   Entity.User.tableOfUser) -}
+aea1892ea75964ee8c209fe1ff661c05
+  insertUser_n :: GHC.Types.Int
+  {- Unfolding: (case Entity.User.$fPersistableWidthUser_$cpersistableWidth
+                        `cast`
+                      (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                           <Entity.User.User>_P) of ww2 { GHC.Types.I# ww3 ->
+                 case ww3 of wild2 {
+                   DEFAULT
+                   -> case GHC.Prim.quotInt# 256# wild2 of ww4 { DEFAULT ->
+                      GHC.Types.I# (GHC.Prim.+# ww4 1#) }
+                   -1# -> GHC.Types.I# -255#
+                   0# -> case GHC.Real.divZeroError ret_ty GHC.Types.Int of {} } }) -}
+633f1e2f777e47d6180b97777e3e1871
+  name :: Entity.User.User -> GHC.Base.String
+  RecSel Left Entity.User.User
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Entity.User.User) ->
+                 case ds of wild { Entity.User.User dt ds1 ds2 -> ds1 }) -}
+784a956aef05fa1ccaa22c1428fbf772
+  name' ::
+    Database.Relational.Query.Pi.Unsafe.Pi
+      Entity.User.User GHC.Base.String
+  {- Strictness: m,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Pi
+                   @ Entity.User.User
+                   @ GHC.Base.String
+                   Entity.User.name'1
+                   Database.Record.Persistable.unsafeValueWidth1
+                     `cast`
+                   (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                             <GHC.Base.String>_P))) -}
+28f8c30bdf53f87c4119b9cd245dad40
+  name'1 ::
+    Database.Relational.Query.Pi.Unsafe.Pi'
+      Entity.User.User GHC.Base.String
+  {- Strictness: m1,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Leftest
+                   @ Entity.User.User
+                   @ GHC.Base.String
+                   Entity.User.name'2) -}
+0eb6d7e555848dfccd174fe73e33d220
+  name'2 :: GHC.Types.Int
+  {- Unfolding: (case Entity.User.columnOffsetsUser of wild { GHC.Arr.Array l u dt ds1 ->
+                 case l of wild1 { GHC.Types.I# m ->
+                 case u of wild2 { GHC.Types.I# n ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<=# m 1#) of wild4 {
+                   GHC.Types.False
+                   -> GHC.Arr.indexError
+                        @ GHC.Types.Int
+                        @ GHC.Types.Int
+                        GHC.Show.$fShowInt
+                        (wild1, wild2)
+                        Entity.User.columnOffsetsUser3
+                        Entity.User.$fPersistableWidthUser1
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# 1# n) of wild5 {
+                        GHC.Types.False
+                        -> GHC.Arr.indexError
+                             @ GHC.Types.Int
+                             @ GHC.Types.Int
+                             GHC.Show.$fShowInt
+                             (wild1, wild2)
+                             Entity.User.columnOffsetsUser3
+                             Entity.User.$fPersistableWidthUser1
+                        GHC.Types.True
+                        -> let {
+                             w :: GHC.Prim.Int# = GHC.Prim.-# 1# m
+                           } in
+                           let {
+                             $j :: GHC.Prim.Void# -> GHC.Types.Int
+                               {- Arity: 1, Strictness: <B,A>x -}
+                             = \ (w1 :: GHC.Prim.Void#)[OneShot] ->
+                               GHC.Err.error
+                                 @ 'GHC.Types.PtrRepLifted
+                                 @ GHC.Types.Int
+                                 Entity.User.id'4
+                                   `cast`
+                                 (Sym (GHC.Classes.N:IP[0]
+                                           <"callStack">_N <GHC.Stack.Types.CallStack>_N))
+                                 (GHC.CString.unpackAppendCString#
+                                    "Error in array index; "#
+                                    (case GHC.Show.$wshowSignedInt
+                                            0#
+                                            w
+                                            (GHC.Types.[]
+                                               @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                                     GHC.Base.++
+                                       @ GHC.Types.Char
+                                       (GHC.Types.: @ GHC.Types.Char ww5 ww6)
+                                       (GHC.CString.unpackAppendCString#
+                                          " not in range [0.."#
+                                          (case GHC.Show.$wshowSignedInt
+                                                  0#
+                                                  dt
+                                                  (GHC.Types.[]
+                                                     @ GHC.Types.Char) of ww1 { (#,#) ww2 ww3 ->
+                                           GHC.Base.++
+                                             @ GHC.Types.Char
+                                             (GHC.Types.: @ GHC.Types.Char ww2 ww3)
+                                             Entity.User.id'3 })) }))
+                           } in
+                           case GHC.Prim.tagToEnum#
+                                  @ GHC.Types.Bool
+                                  (GHC.Prim.<=# 0# w) of wild6 {
+                             GHC.Types.False -> $j GHC.Prim.void#
+                             GHC.Types.True
+                             -> case GHC.Prim.tagToEnum#
+                                       @ GHC.Types.Bool
+                                       (GHC.Prim.<# w dt) of wild7 {
+                                  GHC.Types.False -> $j GHC.Prim.void#
+                                  GHC.Types.True
+                                  -> case GHC.Prim.indexArray#
+                                            @ GHC.Types.Int
+                                            ds1
+                                            w of ds4 { Unit# ipv ->
+                                     ipv } } } } } } } }) -}
+01dd3f2078334f7a38cdbe1f684e2798
+  password :: Entity.User.User -> GHC.Base.String
+  RecSel Left Entity.User.User
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Entity.User.User) ->
+                 case ds of wild { Entity.User.User dt ds1 ds2 -> ds2 }) -}
+98f6ed54929ed887acc7ef1746f0f036
+  password' ::
+    Database.Relational.Query.Pi.Unsafe.Pi
+      Entity.User.User GHC.Base.String
+  {- Strictness: m,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Pi
+                   @ Entity.User.User
+                   @ GHC.Base.String
+                   Entity.User.password'1
+                   Database.Record.Persistable.unsafeValueWidth1
+                     `cast`
+                   (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                             <GHC.Base.String>_P))) -}
+dd4826605d2db1b4b8a2a3ee5f796057
+  password'1 ::
+    Database.Relational.Query.Pi.Unsafe.Pi'
+      Entity.User.User GHC.Base.String
+  {- Strictness: m1,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Leftest
+                   @ Entity.User.User
+                   @ GHC.Base.String
+                   Entity.User.password'2) -}
+89adb566aabc8275fd9b55fcf20da7d8
+  password'2 :: GHC.Types.Int
+  {- Unfolding: (case Entity.User.columnOffsetsUser of wild { GHC.Arr.Array l u dt ds1 ->
+                 case l of wild1 { GHC.Types.I# m ->
+                 case u of wild2 { GHC.Types.I# n ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<=# m 2#) of wild4 {
+                   GHC.Types.False
+                   -> GHC.Arr.indexError
+                        @ GHC.Types.Int
+                        @ GHC.Types.Int
+                        GHC.Show.$fShowInt
+                        (wild1, wild2)
+                        Entity.User.columnOffsetsUser2
+                        Entity.User.$fPersistableWidthUser1
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# 2# n) of wild5 {
+                        GHC.Types.False
+                        -> GHC.Arr.indexError
+                             @ GHC.Types.Int
+                             @ GHC.Types.Int
+                             GHC.Show.$fShowInt
+                             (wild1, wild2)
+                             Entity.User.columnOffsetsUser2
+                             Entity.User.$fPersistableWidthUser1
+                        GHC.Types.True
+                        -> let {
+                             w :: GHC.Prim.Int# = GHC.Prim.-# 2# m
+                           } in
+                           let {
+                             $j :: GHC.Prim.Void# -> GHC.Types.Int
+                               {- Arity: 1, Strictness: <B,A>x -}
+                             = \ (w1 :: GHC.Prim.Void#)[OneShot] ->
+                               GHC.Err.error
+                                 @ 'GHC.Types.PtrRepLifted
+                                 @ GHC.Types.Int
+                                 Entity.User.id'4
+                                   `cast`
+                                 (Sym (GHC.Classes.N:IP[0]
+                                           <"callStack">_N <GHC.Stack.Types.CallStack>_N))
+                                 (GHC.CString.unpackAppendCString#
+                                    "Error in array index; "#
+                                    (case GHC.Show.$wshowSignedInt
+                                            0#
+                                            w
+                                            (GHC.Types.[]
+                                               @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                                     GHC.Base.++
+                                       @ GHC.Types.Char
+                                       (GHC.Types.: @ GHC.Types.Char ww5 ww6)
+                                       (GHC.CString.unpackAppendCString#
+                                          " not in range [0.."#
+                                          (case GHC.Show.$wshowSignedInt
+                                                  0#
+                                                  dt
+                                                  (GHC.Types.[]
+                                                     @ GHC.Types.Char) of ww1 { (#,#) ww2 ww3 ->
+                                           GHC.Base.++
+                                             @ GHC.Types.Char
+                                             (GHC.Types.: @ GHC.Types.Char ww2 ww3)
+                                             Entity.User.id'3 })) }))
+                           } in
+                           case GHC.Prim.tagToEnum#
+                                  @ GHC.Types.Bool
+                                  (GHC.Prim.<=# 0# w) of wild6 {
+                             GHC.Types.False -> $j GHC.Prim.void#
+                             GHC.Types.True
+                             -> case GHC.Prim.tagToEnum#
+                                       @ GHC.Types.Bool
+                                       (GHC.Prim.<# w dt) of wild7 {
+                                  GHC.Types.False -> $j GHC.Prim.void#
+                                  GHC.Types.True
+                                  -> case GHC.Prim.indexArray#
+                                            @ GHC.Types.Int
+                                            ds1
+                                            w of ds4 { Unit# ipv ->
+                                     ipv } } } } } } } }) -}
+ead9831d24c59b6d2850f9de25745203
+  selectUser ::
+    Database.Relational.Query.Type.Query GHC.Types.Int Entity.User.User
+  {- Unfolding: InlineRule (0, True, True)
+                Entity.User.selectUser1
+                  `cast`
+                (Sym (Database.Relational.Query.Type.N:Query[0]
+                          <GHC.Types.Int>_P <Entity.User.User>_P)) -}
+65a2772c27a379f9ad51dc80bfe36c29
+  selectUser1 :: GHC.Base.String
+  {- Unfolding: (Database.Relational.Query.Type.relationalQuerySQL
+                   @ GHC.Types.Int
+                   @ Entity.User.User
+                   Database.Relational.Query.Internal.Config.defaultConfig
+                   Entity.User.selectUser2
+                     `cast`
+                   (Sym (Database.Relational.Query.Monad.BaseType.N:Relation[0]
+                             <GHC.Types.Int>_P <Entity.User.User>_P))
+                   (GHC.Types.[] @ Language.SQL.Keyword.Internal.Type.Keyword)) -}
+6c2eab41c6b17f55059b7ea844dc2c27
+  selectUser2 ::
+    Database.Relational.Query.Monad.BaseType.ConfigureQuery
+      Database.Relational.Query.Internal.Sub.SubQuery
+  {- Unfolding: (Database.Relational.Query.Derives.primary2
+                   @ GHC.Types.Int
+                   @ Entity.User.User
+                   Database.Record.Persistable.unsafeValueWidth1
+                     `cast`
+                   (Trans
+                        (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                                  <GHC.Types.Int>_P))
+                        (Sym (Database.Record.Persistable.N:PersistableWidth[0]) <GHC.Types.Int>_N))
+                   Entity.User.selectUser_key1
+                   Entity.User.selectUser3
+                     `cast`
+                   (Trans
+                        (<GHC.Types.Int>_R
+                         ->_R Trans
+                                  (<Database.Relational.Query.Internal.Config.Config>_R
+                                   ->_R Sym (Data.Functor.Identity.N:Identity[0]
+                                                 <(Database.Relational.Query.Internal.Sub.SubQuery,
+                                                   GHC.Types.Int)>_R))
+                                  (Trans
+                                       (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                 <*>_N
+                                                 <Database.Relational.Query.Internal.Config.Config>_R
+                                                 <Data.Functor.Identity.Identity>_R
+                                                 <(Database.Relational.Query.Internal.Sub.SubQuery,
+                                                   GHC.Types.Int)>_N))
+                                       (Sym (Database.Relational.Query.Monad.Trans.Config.N:QueryConfig[0]) <Data.Functor.Identity.Identity>_N <(Database.Relational.Query.Internal.Sub.SubQuery,
+                                                                                                                                                 GHC.Types.Int)>_N)))
+                        (Trans
+                             (Sym (Control.Monad.Trans.State.Lazy.N:StateT[0]
+                                       <GHC.Types.Int>_N
+                                       <Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                                          Data.Functor.Identity.Identity>_R
+                                       <Database.Relational.Query.Internal.Sub.SubQuery>_N))
+                             (Trans
+                                  (Sym (Database.Relational.Query.Monad.Trans.Qualify.N:Qualify[0]) <Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                                                                                                       Data.Functor.Identity.Identity>_N <Database.Relational.Query.Internal.Sub.SubQuery>_N)
+                                  (Sym (Database.Relational.Query.Monad.BaseType.N:Relation[0]
+                                            <()>_P <Entity.User.User>_P)))))) -}
+af85326e8bc49ceb924ac424af31cb1a
+  selectUser3 ::
+    GHC.Types.Int
+    -> Database.Relational.Query.Internal.Config.Config
+    -> (Database.Relational.Query.Internal.Sub.SubQuery, GHC.Types.Int)
+  {- Arity: 2, Strictness: <L,U><L,A>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (eta :: GHC.Types.Int)
+                   (eta1 :: Database.Relational.Query.Internal.Config.Config) ->
+                 (Database.Relational.Query.Internal.Sub.Table
+                    Entity.User.tableOfUser
+                      `cast`
+                    (Database.Relational.Query.Table.N:Table[0] <Entity.User.User>_P),
+                  eta)) -}
+1f6fa1978b81ec398d7f7181100494b5
+  selectUser_key ::
+    Database.Relational.Query.Pi.Unsafe.Pi'
+      Entity.User.User GHC.Types.Int
+  {- HasNoCafRefs,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Map
+                   @ Entity.User.User
+                   @ GHC.Types.Int
+                   Entity.User.$fHasConstraintKeyPrimaryUserInt1) -}
+3121d2af5de9c0b3606047edc1503dd3
+  selectUser_key1 ::
+    Database.Relational.Query.Pi.Unsafe.Pi
+      Entity.User.User GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Database.Relational.Query.Pi.Unsafe.Pi
+                   @ Entity.User.User
+                   @ GHC.Types.Int
+                   Entity.User.selectUser_key
+                   Database.Record.Persistable.unsafeValueWidth1
+                     `cast`
+                   (Sym (Database.Record.Persistable.N:PersistableRecordWidth[0]
+                             <GHC.Types.Int>_P))) -}
+eacc81d6716ab03862a378b3e104c3de
+  tableOfUser ::
+    Database.Relational.Query.Table.Table Entity.User.User
+  {- Unfolding: (case Database.Relational.Query.Table.$wtable
+                        @ Entity.User.User
+                        Entity.User.tableOfUser7
+                        Entity.User.tableOfUser1 of ww { (#,,#) ww1 ww2 ww3 ->
+                 (Database.Relational.Query.Internal.UntypedTable.Untyped
+                    ww1
+                    ww2
+                    ww3)
+                   `cast`
+                 (Sym (Database.Relational.Query.Table.N:Table[0]
+                           <Entity.User.User>_P)) }) -}
+a67eaa3a66088accf7793e3f18222023
+  tableOfUser1 :: [GHC.Base.String]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Base.String
+                   Entity.User.tableOfUser6
+                   Entity.User.tableOfUser2) -}
+aa2d7570b9bd0891b339c4cf447e46cc
+  tableOfUser2 :: [GHC.Base.String]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Base.String
+                   Entity.User.tableOfUser5
+                   Entity.User.tableOfUser3) -}
+b32416fb5752bf8cf49eb032dc6c5725
+  tableOfUser3 :: [GHC.Base.String]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Base.String
+                   Entity.User.tableOfUser4
+                   (GHC.Types.[] @ GHC.Base.String)) -}
+081f6b842afda86ce4364e4232c31e05
+  tableOfUser4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "password"#) -}
+ed355332dba7d40df77e9470d0edcf85
+  tableOfUser5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "name"#) -}
+c29734b20d82fe3978af414be7ee9a92
+  tableOfUser6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "id"#) -}
+3725e5bdc11cf65db778d8bb2ac2d5eb
+  tableOfUser7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "MAIN.user"#) -}
+eacc81d6716ab03862a378b3e104c3de
+  toSqlOfUser ::
+    Database.Record.ToSql.RecordToSql
+      Database.HDBC.SqlValue.SqlValue Entity.User.User
+  {- Arity: 1, Strictness: <S(LSS),1*U(U,U,U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Entity.User.toSqlOfUser1
+                  `cast`
+                (Sym (Database.Record.ToSql.N:RecordToSql[0]
+                          <Database.HDBC.SqlValue.SqlValue>_N <Entity.User.User>_R)) -}
+eacc81d6716ab03862a378b3e104c3de
+  toSqlOfUser1 ::
+    Entity.User.User
+    -> Database.Record.ToSql.ToSqlM Database.HDBC.SqlValue.SqlValue ()
+  {- Arity: 1, Strictness: <S(LSS),1*U(U,U,U)>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Entity.User.User) ->
+                 case w of ww { Entity.User.User ww1 ww2 ww3 ->
+                 case Entity.User.$wtoSqlOfUser
+                        ww1
+                        ww2
+                        ww3 of ww4 { (#,#) ww5 ww6 ->
+                 (ww5, ww6)
+                   `cast`
+                 (Trans
+                      (Sym (Data.Functor.Identity.N:Identity[0]
+                                <((), Data.DList.DList Database.HDBC.SqlValue.SqlValue)>_R))
+                      (Sym (Control.Monad.Trans.Writer.Lazy.N:WriterT[0]
+                                <Data.DList.DList Database.HDBC.SqlValue.SqlValue>_N
+                                <Data.Functor.Identity.Identity>_R
+                                <()>_N))) } }) -}
+77bcddcbb44704fb4c5474a94069a371
+  updateUser ::
+    Database.Relational.Query.Type.KeyUpdate
+      GHC.Types.Int Entity.User.User
+  {- Strictness: m,
+     Unfolding: (Database.Relational.Query.Type.KeyUpdate
+                   @ GHC.Types.Int
+                   @ Entity.User.User
+                   Entity.User.selectUser_key1
+                   Entity.User.updateUser1) -}
+1b0bd889b1c92230cd9b080b8f3dd268
+  updateUser1 :: GHC.Base.String
+  {- Unfolding: (Database.Relational.Query.SQL.updateOtherThanKeySQL
+                   @ Entity.User.User
+                   @ GHC.Types.Int
+                   Entity.User.tableOfUser
+                   Entity.User.selectUser_key1) -}
+481caf2797c123ac2abdfd23de756ce3
+  user ::
+    Database.Relational.Query.Monad.BaseType.Relation
+      () Entity.User.User
+  {- Arity: 2, Strictness: <L,U><L,A>m,
+     Unfolding: InlineRule (0, True, True)
+                Entity.User.selectUser3
+                  `cast`
+                (Trans
+                     (<GHC.Types.Int>_R
+                      ->_R Trans
+                               (<Database.Relational.Query.Internal.Config.Config>_R
+                                ->_R Sym (Data.Functor.Identity.N:Identity[0]
+                                              <(Database.Relational.Query.Internal.Sub.SubQuery,
+                                                GHC.Types.Int)>_R))
+                               (Trans
+                                    (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                              <*>_N
+                                              <Database.Relational.Query.Internal.Config.Config>_R
+                                              <Data.Functor.Identity.Identity>_R
+                                              <(Database.Relational.Query.Internal.Sub.SubQuery,
+                                                GHC.Types.Int)>_N))
+                                    (Sym (Database.Relational.Query.Monad.Trans.Config.N:QueryConfig[0]) <Data.Functor.Identity.Identity>_N <(Database.Relational.Query.Internal.Sub.SubQuery,
+                                                                                                                                              GHC.Types.Int)>_N)))
+                     (Trans
+                          (Sym (Control.Monad.Trans.State.Lazy.N:StateT[0]
+                                    <GHC.Types.Int>_N
+                                    <Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                                       Data.Functor.Identity.Identity>_R
+                                    <Database.Relational.Query.Internal.Sub.SubQuery>_N))
+                          (Trans
+                               (Sym (Database.Relational.Query.Monad.Trans.Qualify.N:Qualify[0]) <Database.Relational.Query.Monad.Trans.Config.QueryConfig
+                                                                                                    Data.Functor.Identity.Identity>_N <Database.Relational.Query.Internal.Sub.SubQuery>_N)
+                               (Sym (Database.Relational.Query.Monad.BaseType.N:Relation[0]
+                                         <()>_P <Entity.User.User>_P))))) -}
+instance Database.Record.FromSql.FromSql [Database.HDBC.SqlValue.SqlValue,
+                                          Entity.User.User]
+  = Entity.User.$fFromSqlSqlValueUser
+instance Database.Record.KeyConstraint.HasColumnConstraint [Database.Record.KeyConstraint.NotNull,
+                                                            Entity.User.User]
+  = Entity.User.$fHasColumnConstraintNotNullUser
+instance Database.Record.KeyConstraint.HasColumnConstraint [Database.Record.KeyConstraint.Primary,
+                                                            Entity.User.User]
+  = Entity.User.$fHasColumnConstraintPrimaryUser
+instance Database.Relational.Query.Constraint.HasConstraintKey [Database.Record.KeyConstraint.Primary,
+                                                                Entity.User.User, GHC.Types.Int]
+  = Entity.User.$fHasConstraintKeyPrimaryUserInt
+instance Database.Record.KeyConstraint.HasKeyConstraint [Database.Record.KeyConstraint.Primary,
+                                                         Entity.User.User]
+  = Entity.User.$fHasKeyConstraintPrimaryUser
+instance Database.Record.Persistable.PersistableWidth [Entity.User.User]
+  = Entity.User.$fPersistableWidthUser
+instance Database.Relational.Query.Pure.ProductConstructor [(->)]
+  = Entity.User.$fProductConstructor(->)
+instance GHC.Show.Show [Entity.User.User] = Entity.User.$fShowUser
+instance Database.Relational.Query.Table.TableDerivable [Entity.User.User]
+  = Entity.User.$fTableDerivableUser
+instance Database.Record.ToSql.ToSql [Database.HDBC.SqlValue.SqlValue,
+                                      Entity.User.User]
+  = Entity.User.$fToSqlSqlValueUser
+"SPEC/Entity.User id' @ User" [ALWAYS] forall ($dPersistableWidth :: Database.Record.Persistable.PersistableWidth
+                                                                       Entity.User.User)
+  Database.Relational.Query.Pi.id' @ Entity.User.User
+                                   $dPersistableWidth
+  = Entity.User.$sid'
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

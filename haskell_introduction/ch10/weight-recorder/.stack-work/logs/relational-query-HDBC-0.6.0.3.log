@@ -1,0 +1,26 @@
+Configuring relational-query-HDBC-0.6.0.3...
+Building relational-query-HDBC-0.6.0.3...
+Preprocessing library relational-query-HDBC-0.6.0.3...
+[ 1 of 20] Compiling Database.HDBC.SqlValueExtra ( src/Database/HDBC/SqlValueExtra.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/SqlValueExtra.o )
+[ 2 of 20] Compiling Database.HDBC.Schema.Driver ( src/Database/HDBC/Schema/Driver.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Schema/Driver.o )
+[ 3 of 20] Compiling Database.HDBC.Record.TH ( src/Database/HDBC/Record/TH.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Record/TH.o )
+[ 4 of 20] Compiling Database.HDBC.Record.Statement ( src/Database/HDBC/Record/Statement.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Record/Statement.o )
+[ 5 of 20] Compiling Database.HDBC.Record.Update ( src/Database/HDBC/Record/Update.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Record/Update.o )
+[ 6 of 20] Compiling Database.HDBC.Record.Query ( src/Database/HDBC/Record/Query.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Record/Query.o )
+[ 7 of 20] Compiling Database.HDBC.Record.KeyUpdate ( src/Database/HDBC/Record/KeyUpdate.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Record/KeyUpdate.o )
+[ 8 of 20] Compiling Database.HDBC.Record.InternalTH ( src/Database/HDBC/Record/InternalTH.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Record/InternalTH.o )
+[ 9 of 20] Compiling Database.HDBC.Record.Persistable ( src/Database/HDBC/Record/Persistable.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Record/Persistable.o )
+[10 of 20] Compiling Database.HDBC.Schema.IBMDB2 ( src/Database/HDBC/Schema/IBMDB2.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Schema/IBMDB2.o )
+[11 of 20] Compiling Database.HDBC.Schema.MySQL ( src/Database/HDBC/Schema/MySQL.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Schema/MySQL.o )
+[12 of 20] Compiling Database.HDBC.Schema.Oracle ( src/Database/HDBC/Schema/Oracle.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Schema/Oracle.o )
+[13 of 20] Compiling Database.HDBC.Schema.PostgreSQL ( src/Database/HDBC/Schema/PostgreSQL.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Schema/PostgreSQL.o )
+[14 of 20] Compiling Database.HDBC.Schema.SQLServer ( src/Database/HDBC/Schema/SQLServer.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Schema/SQLServer.o )
+[15 of 20] Compiling Database.HDBC.Schema.SQLite3 ( src/Database/HDBC/Schema/SQLite3.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Schema/SQLite3.o )
+[16 of 20] Compiling Database.HDBC.Record.InsertQuery ( src/Database/HDBC/Record/InsertQuery.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Record/InsertQuery.o )
+[17 of 20] Compiling Database.HDBC.Record.Insert ( src/Database/HDBC/Record/Insert.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Record/Insert.o )
+[18 of 20] Compiling Database.HDBC.Record.Delete ( src/Database/HDBC/Record/Delete.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Record/Delete.o )
+[19 of 20] Compiling Database.HDBC.Record ( src/Database/HDBC/Record.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Record.o )
+[20 of 20] Compiling Database.HDBC.Query.TH ( src/Database/HDBC/Query/TH.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/HDBC/Query/TH.o )
+Installing library in
+/Users/kiron/.stack/snapshots/x86_64-osx/lts-8.24/8.0.2/lib/x86_64-osx-ghc-8.0.2/relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc
+Registering relational-query-HDBC-0.6.0.3...

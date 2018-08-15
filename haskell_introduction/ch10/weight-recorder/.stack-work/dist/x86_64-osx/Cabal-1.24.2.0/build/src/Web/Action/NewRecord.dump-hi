@@ -1,0 +1,480 @@
+
+==================== FINAL INTERFACE ====================
+2018-08-15 02:42:22.675018 UTC
+
+interface weight-recorder-0.1.0.0-2Cz4nHR2skdHQxdlS1Wnkh:Web.Action.NewRecord 8002
+  interface hash: de41207494ffbf92ea0cba84a7fa17fd
+  ABI hash: fe4f39a9a1c5dde0607a43d4f946cac7
+  export-list hash: 12b4366ddf293cacfe9ccb567c993803
+  orphan hash: 7bed042fa0226c04e65e43bd51f6bfa3
+  flag hash: a4c85d9171052207fa18abdfcf6efc3f
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Web.Action.NewRecord.newRecordAction
+module dependencies: Entity.User Entity.WeightRecord
+                     Model.WeightRecord Web.Core Web.View.Main
+package dependencies: HDBC-2.4.0.1@HDBC-2.4.0.1-LNXn2N08eDoGJ5oIBmpngp
+                      HDBC-session-0.1.1.1@HDBC-session-0.1.1.1-JDTu7GaiWFA1X5nFX78y9e
+                      HDBC-sqlite3-2.3.3.1@HDBC-sqlite3-2.3.3.1-JU8hYIEMLA12FsMcPNRVAY
+                      MonadRandom-0.5.1@MonadRandom-0.5.1-IY6HiWu00vQLARukQW3KMH
+                      Spock-0.12.0.0@Spock-0.12.0.0-6O0xvDdhdvjBe89VjQ0Brn
+                      Spock-core-0.12.0.0@Spock-core-0.12.0.0-8w9OLkKz20fD58S5LNd2nn
+                      aeson-1.0.2.1@aeson-1.0.2.1-1etpxceMb6x9mZOLZOXYsC
+                      appar-0.1.4@appar-0.1.4-DGWHHt2WRn9FI49prcwO9
+                      array-0.5.1.1@array-0.5.1.1
+                      async-2.1.1.1@async-2.1.1.1-8yywY4inVGRLJSCg60gBXj
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-IEEYoTzFh3JE4HjRWbqraH
+                      attoparsec-iso8601-1.0.0.0@attoparsec-iso8601-1.0.0.0-4MOd6xlwKyM9z08XC1d09i
+                      auto-update-0.1.4@auto-update-0.1.4-EmUvNdmhEju51bHrtaEMpz
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.5.4@base-orphans-0.5.4-ABoxiBf7nXc7Qqh66CgYc9
+                      base64-bytestring-1.0.0.1@base64-bytestring-1.0.0.1-4O9TExPPz6eI82Yj7L4SIj
+                      bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT
+                      binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-CGB8BvrFgghHy5bLy0SFOg
+                      byteorder-1.0.4@byteorder-1.0.4-9NlNHkBVdo7F1prFVKrkcH
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      case-insensitive-1.2.0.10@case-insensitive-1.2.0.10-Fiik8BUGIOz3LnHv8R26NC
+                      comonad-5.0.1@comonad-5.0.1-7j4AeOMTFovFSFO9XMFm1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU
+                      cookie-0.4.2.1@cookie-0.4.2.1-K68NuFIZ07nEstxwB6c3aL
+                      cryptonite-0.21@cryptonite-0.21-KGlwixLJXrd6sgN0FjLIwH
+                      data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 directory-1.3.0.0@directory-1.3.0.0
+                      distributive-0.5.2@distributive-0.5.2-JCgfTXNR3ywAyV7fFWIBI5
+                      dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD
+                      either-4.4.1.1@either-4.4.1.1-IRRdQbXZmZQ2emmKWcojaa
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      filepath-1.4.1.1@filepath-1.4.1.1
+                      foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa
+                      free-4.12.4@free-4.12.4-GP8SJAzGfyq6UeKHSkzaha
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-I8TtfTMw8kCEo1q1h2BgxU
+                      http-api-data-0.3.7.1@http-api-data-0.3.7.1-MDikHkokKn81PsqfyL2eF
+                      http-date-0.0.6.1@http-date-0.0.6.1-ICLjftrhQ5dDNj4DUILAr7
+                      http-types-0.9.1@http-types-0.9.1-Qy5Ex19QlZ74tBRRG3v2y
+                      http2-1.6.3@http2-1.6.3-FPkuQP5aF0AHAOcRUVbUvK
+                      hvect-0.4.0.0@hvect-0.4.0.0-Bz3s0s4mhGy1edxe23N084
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.1@integer-logarithms-1.0.1-IEHCuEd5sG4JjSjlx7m5JF
+                      iproute-1.7.1@iproute-1.7.1-EJjAtfniBUorobFQnk7lR
+                      lifted-base-0.2.3.11@lifted-base-0.2.3.11-GQ8h0b1wJUC11xTxTtHqWV
+                      memory-0.14.6@memory-0.14.6-Aar7hKewN999MXzU9kvt2a
+                      mmorph-1.0.9@mmorph-1.0.9-5bASEvmIkr5CpdAYXwPsn0
+                      monad-control-1.0.2.1@monad-control-1.0.2.1-CqOqIBYVBjy1GnPfyWnFHC
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      mustache-2.1.4@mustache-2.1.4-AMWhGByQnZu8GVK5uxgCfy
+                      names-th-0.2.0.3@names-th-0.2.0.3-FWd9uhhaPk73vacdw3xBxG
+                      network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz
+                      old-locale-1.0.0.7@old-locale-1.0.0.7-KGBP1BSKxH5GCm0LnZP04j
+                      old-time-1.1.0.3@old-time-1.1.0.3-KWRsMSdY26c2L27Y9n9cyq
+                      parsec-3.1.11@parsec-3.1.11-113irVHGgd88sRnywByDNw
+                      persistable-record-0.4.2.0@persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH
+                      psqueues-0.2.3.0@psqueues-0.2.3.0-13RR0saqlyC8xR0YbRzts0
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k
+                      relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc
+                      relational-schemas-0.1.3.1@relational-schemas-0.1.3.1-48FrZ7ufBIEDGv4W1BXtvU
+                      reroute-0.4.1.0@reroute-0.4.1.0-3mO8HtBqYTK8hbJbNA2bBJ
+                      resource-pool-0.2.3.2@resource-pool-0.2.3.2-22oFvkF5YuqFjCXc58bPTg
+                      resourcet-1.1.9@resourcet-1.1.9-4kJNagEzSAo2Kfakyf6y5E
+                      scientific-0.3.5.1@scientific-0.3.5.1-ExDzxC7QmbS5TvW39AAm4A
+                      semigroupoids-5.1@semigroupoids-5.1-G6hp8hbTJmG326ffvAeaw8
+                      simple-sendfile-0.2.25@simple-sendfile-0.2.25-4uYtK5a0djFILo2ePfLs47
+                      sql-words-0.1.5.1@sql-words-0.1.5.1-6ekOanNrtOKYD1ABcjRAD
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      streaming-commons-0.1.17@streaming-commons-0.1.17-ANLyYjCKvHm5Mv911o5sOC
+                      stringsearch-0.3.6.6@stringsearch-0.3.6.6-2soGORichTR6reHVhDqKip
+                      superbuffer-0.2.0.1@superbuffer-0.2.0.1-I9pjBp2f8RQ6fYkBq5QZIb
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR
+                      th-data-compat-0.0.2.4@th-data-compat-0.0.2.4-GbISCvWnyQk60k5xubIzhH
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      th-reify-compat-0.0.1.2@th-reify-compat-0.0.1.2-6M0IwJ7dfMh1DXggrHIiQT
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-base-0.4.4@transformers-base-0.4.4-GKSs0LKukAL8ymq2naFmrH
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unix-2.7.2.1@unix-2.7.2.1
+                      unix-compat-0.4.3.1@unix-compat-0.4.3.1-Ausmw6d7KIwA7sl52mzqxC
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-6txQagwbKwSESVNJVBgwqv
+                      utf8-string-1.0.1.1@utf8-string-1.0.1.1-1DpjxLeTvGg7ttZZojxJR5
+                      uuid-types-1.0.3@uuid-types-1.0.3-3qZyCmY7VWB1pGj23GIEzw
+                      vault-0.3.0.7@vault-0.3.0.7-H4kfNuSlFqmKLHmBSHcOfT
+                      vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG
+                      wai-3.2.1.1@wai-3.2.1.1-2ORFowrqBlw8LrI3bTChZy
+                      wai-extra-3.0.20.0@wai-extra-3.0.20.0-HN0gYybL47N4tpo8gvinr6
+                      warp-3.2.13@warp-3.2.13-HAkmfE8mH7WK3Wj46XjM7G
+                      word8-0.1.2@word8-0.1.2-9WDPGCTpW7JJnsiAQavtd1
+orphans: Spock-0.12.0.0@Spock-0.12.0.0-6O0xvDdhdvjBe89VjQ0Brn:Web.Spock.Internal.Monad
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-IEEYoTzFh3JE4HjRWbqraH:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-IEEYoTzFh3JE4HjRWbqraH:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.C
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Map
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Num
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Text
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Time
+         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Collection.Collection
+         hashable-1.2.6.1@hashable-1.2.6.1-I8TtfTMw8kCEo1q1h2BgxU:Data.Hashable.Generic
+         mustache-2.1.4@mustache-2.1.4-AMWhGByQnZu8GVK5uxgCfy:Text.Mustache.Types
+         network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz:Network.Socket
+         persistable-record-0.4.2.0@persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO:Database.Record.Instances
+         relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Monad.Aggregate
+         relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.Record.Persistable
+         relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.Schema.SQLite3
+         relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.SqlValueExtra
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Show
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed
+family instance modules: MonadRandom-0.5.1@MonadRandom-0.5.1-IY6HiWu00vQLARukQW3KMH:Control.Monad.Trans.Random.Lazy
+                         Spock-0.12.0.0@Spock-0.12.0.0-6O0xvDdhdvjBe89VjQ0Brn:Web.Spock.Internal.Monad
+                         Spock-0.12.0.0@Spock-0.12.0.0-6O0xvDdhdvjBe89VjQ0Brn:Web.Spock.Internal.Types
+                         Spock-core-0.12.0.0@Spock-core-0.12.0.0-8w9OLkKz20fD58S5LNd2nn:Web.Spock.Internal.Wire
+                         attoparsec-0.13.1.0@attoparsec-0.13.1.0-IEEYoTzFh3JE4HjRWbqraH:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Biff
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Clown
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Flip
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Join
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Joker
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Product
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Tannen
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Wrapped
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD:Data.DList
+                         either-4.4.1.1@either-4.4.1.1-IRRdQbXZmZQ2emmKWcojaa:Control.Monad.Trans.Either
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Array.Bitmap
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Array.Boxed
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Array.Chunked.Unboxed
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Boot.Builder
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Collection.Buildable
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Collection.Collection
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Collection.Element
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Collection.Keyed
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Collection.Mutable
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Monad.Exception
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Numerical.Subtractive
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Primitive.Block.Base
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Primitive.Monad
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Primitive.Types.OffsetSize
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Primitive.UArray.Base
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Primitive.UTF8.Base
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.String.Encoding.ASCII7
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.String.Encoding.ISO_8859_1
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.String.Encoding.UTF16
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.String.Encoding.UTF32
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.String.UTF8
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Tuple
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         iproute-1.7.1@iproute-1.7.1-EJjAtfniBUorobFQnk7lR:Data.IP.Addr
+                         iproute-1.7.1@iproute-1.7.1-EJjAtfniBUorobFQnk7lR:Data.IP.Range
+                         monad-control-1.0.2.1@monad-control-1.0.2.1-CqOqIBYVBjy1GnPfyWnFHC:Control.Monad.Trans.Control
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH:Control.Monad.Primitive
+                         resourcet-1.1.9@resourcet-1.1.9-4kJNagEzSAo2Kfakyf6y5E:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-6txQagwbKwSESVNJVBgwqv:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-6txQagwbKwSESVNJVBgwqv:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-3qZyCmY7VWB1pGj23GIEzw:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-3qZyCmY7VWB1pGj23GIEzw:Data.UUID.Types.Internal.Builder
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Primitive
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Storable
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed.Base
+import  -/  Spock-0.12.0.0@Spock-0.12.0.0-6O0xvDdhdvjBe89VjQ0Brn:Web.Spock a6c776b9d010bbcff56948dee183bc30
+import  -/  Spock-core-0.12.0.0@Spock-core-0.12.0.0-8w9OLkKz20fD58S5LNd2nn:Web.Spock.Internal.CoreAction 4bd993ec681ec7caf0d05b4239109603
+import  -/  base-4.9.1.0:Control.Monad a6784c5dab0d75c63dabec5a37843f98
+import  -/  base-4.9.1.0:Control.Monad.IO.Class 1a4384f66ee999caf5366398edb6ca7b
+import  -/  base-4.9.1.0:Data.Functor 5ab1dc703df5b482e77efb697833ca3c
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Clock d420842231bc20d081db7abf42048f2d
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Clock.POSIX ca9431d4d4936fe9d9df8e3106abfbce
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime 60caa95741700c9c499e3cb90b4be40d
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime 7c0577d8171eae7ec83c841433ddc85a
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.TimeZone 40efa2c566bfef99e63d59b8f6d567cf
+import  -/  Entity.User 59a334beca52fa5d94356eafcbe9606b
+  exports: dd6135568efdddc9f04b2e3ff24c5ccf
+  id 5c5c05f1d42d1cbef4242532b9399827
+import  -/  Model.WeightRecord de7548d7b11a4587c3a27e9e8940f742
+  exports: a4e16a4e6e9c5a9770d9e6d0b3ba678e
+  NewWRecord fc0652a6259c0a905012b5973c5f4349
+  insertNewWRecord 2b13c94ff98c4b2a4cfb99412cedfa41
+import  -/  Web.Core f5e8c7a421ec2212f66406f7f0b8116b
+  exports: 2cad8e9d8c79d42ecafd9343547de042
+  WRAction 3531a6ca56360a04f120149e95c90350
+  runSqlite 6acdfc803326a1a6a7ee694760ad1439
+  wrconUser 110b8273fce36704716e0dc9bc9293f2
+import  -/  Web.View.Main 0436bd7da1ff0cdb7a070294e4180bd7
+  exports: def3765acb2573431e896a84aaf25319
+  mainView 05f2c128b8358daff3d99d417cd14361
+87840fdc427574bd05962549864976b2
+  $s$fMonadIOResourceT ::
+    Control.Monad.IO.Class.MonadIO
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                  Web.Spock.Internal.Monad.$fHasSpockt_$s$fMonadIOResourceT_$cp1MonadIO
+                  Web.Action.NewRecord.$s$fMonadIOResourceT_$s$fMonadIOResourceT_$cliftIO -}
+e72f072ba5a33cef5268b96e773aee39
+  $s$fMonadIOResourceT_$s$fMonadIOResourceT_$cliftIO ::
+    GHC.Types.IO a
+    -> Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO a
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,A>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a (eta2 :: GHC.Types.IO a) ->
+                 let {
+                   eta3 :: GHC.Types.IO a = GHC.Base.id @ (GHC.Types.IO a) eta2
+                 } in
+                 (\ (ds :: GHC.IORef.IORef
+                             Control.Monad.Trans.Resource.Internal.ReleaseMap) ->
+                  eta3)
+                   `cast`
+                 (Sym (Control.Monad.Trans.Resource.Internal.N:ResourceT[0]
+                           <GHC.Types.IO>_R <a>_N))) -}
+607f8dd0f9605df65bec35c7738534e5
+  $s$fMonadIOWebStateT ::
+    Control.Monad.IO.Class.MonadIO
+      (Web.Spock.Internal.Types.WebStateT
+         conn
+         sess
+         st
+         (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ conn @ sess @ st.
+                  @ (Web.Spock.Internal.Types.WebStateT
+                       conn
+                       sess
+                       st
+                       (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+                  (Web.Action.NewRecord.$s$fMonadIOWebStateT_$s$fMonadIOWebStateT_$cp1MonadIO
+                     @ conn
+                     @ sess
+                     @ st)
+                  (Web.Spock.Internal.Types.$fMonadIOWebStateT_$cliftIO
+                     @ conn
+                     @ sess
+                     @ st
+                     @ (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+                     Web.Action.NewRecord.$s$fMonadIOWebStateT1) -}
+12c7c1a664263351deff69df040f9886
+  $s$fMonadIOWebStateT1 ::
+    Control.Monad.IO.Class.MonadIO
+      (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Web.Action.NewRecord.$s$fMonadIOResourceT -}
+79798e12e95e17aac1d515a04b2fbcfa
+  $s$fMonadIOWebStateT_$s$fMonadIOWebStateT_$cp1MonadIO ::
+    GHC.Base.Monad
+      (Web.Spock.Internal.Types.WebStateT
+         conn
+         sess
+         st
+         (Control.Monad.Trans.Resource.Internal.ResourceT GHC.Types.IO))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Web.Spock.Internal.Monad.$fHasSpockt_$s$fMonadWebStateT -}
+3965d98443e6f45945d1179947058850
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Web.Action.NewRecord.$trModule2
+                   Web.Action.NewRecord.$trModule1) -}
+9a650872a9547c4daeae2d09759f83ab
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Web.Action.NewRecord"#) -}
+90e271134a7dc0bc9f9a50aee23b3e60
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "weight-recorder-0.1.0.0-2Cz4nHR2skdHQxdlS1Wnkh"#) -}
+c814b7b8d83517916bb8450bf13e45f8
+  newRecordAction :: Web.Core.WRAction a
+  {- Arity: 5,
+     Strictness: <L,U(U,U,U,U(U,U,U),U,U)><L,U><L,U(U(U,U,U(U),U,U(U),U(U,U,U),U),U,U(U,U(U,U,U)),U)><L,U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Web.Action.NewRecord.newRecordAction1
+                  `cast`
+                (forall (a :: <*>_N).
+                 Trans
+                     (<Web.Spock.Internal.Wire.RequestInfo Web.Core.WRContext>_R
+                      ->_R <Web.Spock.Internal.Wire.ResponseState>_R
+                      ->_R Trans
+                               (<Web.Spock.Internal.Types.WebState
+                                   Database.HDBC.Sqlite3.ConnectionImpl.Connection
+                                   Web.Core.WRSession
+                                   Web.Core.WRState>_R
+                                ->_R Trans
+                                         (<GHC.IORef.IORef
+                                             Control.Monad.Trans.Resource.Internal.ReleaseMap>_R
+                                          ->_R Sym (GHC.Types.N:IO[0]
+                                                        <(Data.Either.Either
+                                                            Web.Spock.Internal.Wire.ActionInterupt
+                                                            a,
+                                                          Web.Spock.Internal.Wire.ResponseState,
+                                                          ())>_R))
+                                         (Sym (Control.Monad.Trans.Resource.Internal.N:ResourceT[0]
+                                                   <GHC.Types.IO>_R
+                                                   <(Data.Either.Either
+                                                       Web.Spock.Internal.Wire.ActionInterupt a,
+                                                     Web.Spock.Internal.Wire.ResponseState,
+                                                     ())>_N)))
+                               (Trans
+                                    (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                              <*>_N
+                                              <Web.Spock.Internal.Types.WebState
+                                                 Database.HDBC.Sqlite3.ConnectionImpl.Connection
+                                                 Web.Core.WRSession
+                                                 Web.Core.WRState>_R
+                                              <Control.Monad.Trans.Resource.Internal.ResourceT
+                                                 GHC.Types.IO>_R
+                                              <(Data.Either.Either
+                                                  Web.Spock.Internal.Wire.ActionInterupt a,
+                                                Web.Spock.Internal.Wire.ResponseState, ())>_N))
+                                    (Sym (Web.Spock.Internal.Types.N:WebStateT[0]
+                                              <Database.HDBC.Sqlite3.ConnectionImpl.Connection>_N
+                                              <Web.Core.WRSession>_N
+                                              <Web.Core.WRState>_N) <Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                       GHC.Types.IO>_N <(Data.Either.Either
+                                                                                           Web.Spock.Internal.Wire.ActionInterupt
+                                                                                           a,
+                                                                                         Web.Spock.Internal.Wire.ResponseState,
+                                                                                         ())>_N)))
+                     (Trans
+                          (Sym (Control.Monad.Trans.RWS.Strict.N:RWST[0]
+                                    <Web.Spock.Internal.Wire.RequestInfo Web.Core.WRContext>_R
+                                    <()>_N
+                                    <Web.Spock.Internal.Wire.ResponseState>_N
+                                    <Web.Spock.Internal.Types.WebStateT
+                                       Web.Core.WRConnection
+                                       Web.Core.WRSession
+                                       Web.Core.WRState
+                                       (Control.Monad.Trans.Resource.Internal.ResourceT
+                                          GHC.Types.IO)>_R
+                                    <Data.Either.Either
+                                       Web.Spock.Internal.Wire.ActionInterupt a>_N))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                         <Web.Spock.Internal.Wire.ActionInterupt>_N
+                                         <Control.Monad.Trans.RWS.Strict.RWST
+                                            (Web.Spock.Internal.Wire.RequestInfo Web.Core.WRContext)
+                                            ()
+                                            Web.Spock.Internal.Wire.ResponseState
+                                            (Web.Spock.Internal.Types.WebStateT
+                                               Web.Core.WRConnection
+                                               Web.Core.WRSession
+                                               Web.Core.WRState
+                                               (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                  GHC.Types.IO))>_R
+                                         <a>_N))
+                               (Sym (Web.Spock.Internal.Wire.N:ActionCtxT[0]
+                                         <Web.Core.WRContext>_N
+                                         <Web.Spock.Internal.Types.WebStateT
+                                            Web.Core.WRConnection
+                                            Web.Core.WRSession
+                                            Web.Core.WRState
+                                            (Control.Monad.Trans.Resource.Internal.ResourceT
+                                               GHC.Types.IO)>_N) <a>_N)))) -}
+444e4c1623c0d19f53598f2f25b5bf16
+  newRecordAction1 ::
+    Web.Spock.Internal.Wire.RequestInfo Web.Core.WRContext
+    -> Web.Spock.Internal.Wire.ResponseState
+    -> Web.Spock.Internal.Types.WebState
+         Database.HDBC.Sqlite3.ConnectionImpl.Connection
+         Web.Core.WRSession
+         Web.Core.WRState
+    -> GHC.IORef.IORef Control.Monad.Trans.Resource.Internal.ReleaseMap
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Data.Either.Either Web.Spock.Internal.Wire.ActionInterupt a,
+           Web.Spock.Internal.Wire.ResponseState, ()) #)
+  {- Arity: 5,
+     Strictness: <L,U(U,U,U,U(U,U,U),U,U)><L,U><L,U(U(U,U,U(U),U,U(U),U(U,U,U),U),U,U(U,U(U,U,U)),U)><L,U><S,U> -}
+"SPEC/Web.Action.NewRecord $fMonadIOResourceT @ IO" [ALWAYS] forall ($dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                                    GHC.Types.IO)
+  Control.Monad.Trans.Resource.Internal.$fMonadIOResourceT @ GHC.Types.IO
+                                                           $dMonadIO
+  = Web.Action.NewRecord.$s$fMonadIOResourceT
+"SPEC/Web.Action.NewRecord $fMonadIOResourceT_$cliftIO @ IO" [ALWAYS] forall ($dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                                             GHC.Types.IO)
+  Control.Monad.Trans.Resource.Internal.$fMonadIOResourceT_$cliftIO @ GHC.Types.IO
+                                                                    $dMonadIO
+  = Web.Action.NewRecord.$s$fMonadIOResourceT_$s$fMonadIOResourceT_$cliftIO
+"SPEC/Web.Action.NewRecord $fMonadIOWebStateT _ _ _ @ (ResourceT IO)" [ALWAYS] forall @ conn
+                                                                                      @ sess
+                                                                                      @ st
+                                                                                      ($dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                                                      (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                                         GHC.Types.IO))
+  Web.Spock.Internal.Types.$fMonadIOWebStateT @ conn
+                                              @ sess
+                                              @ st
+                                              @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                   GHC.Types.IO)
+                                              $dMonadIO
+  = Web.Action.NewRecord.$s$fMonadIOWebStateT @ conn @ sess @ st
+"SPEC/Web.Action.NewRecord $fMonadIOWebStateT_$cp1MonadIO _ _ _ @ (ResourceT
+                                                                    IO)" [ALWAYS] forall @ conn
+                                                                                                                                                                      @ sess
+                                                                                                                                                                      @ st
+                                                                                                                                                                      ($dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                                                                                                                                      (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                                                                                                                                                         GHC.Types.IO))
+  Web.Spock.Internal.Types.$fMonadIOWebStateT_$cp1MonadIO @ conn
+                                                          @ sess
+                                                          @ st
+                                                          @ (Control.Monad.Trans.Resource.Internal.ResourceT
+                                                               GHC.Types.IO)
+                                                          $dMonadIO
+  = Web.Action.NewRecord.$s$fMonadIOWebStateT_$s$fMonadIOWebStateT_$cp1MonadIO
+      @ conn
+      @ sess
+      @ st
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

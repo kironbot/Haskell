@@ -1,0 +1,691 @@
+
+==================== FINAL INTERFACE ====================
+2018-08-15 03:32:46.221828 UTC
+
+interface main@main:Main 8002
+  interface hash: 7bc8b856f3326bceefb08c2605852587
+  ABI hash: 23d87b1093c067efef631c1394d41db1
+  export-list hash: 41dceae6ec4d400d276ee3af77b7d4d9
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: a8ec9437a7d5cbc3af08e481e0de1b6d
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+module dependencies: Paths_weight_recorder
+package dependencies: HDBC-2.4.0.1@HDBC-2.4.0.1-LNXn2N08eDoGJ5oIBmpngp
+                      HDBC-session-0.1.1.1@HDBC-session-0.1.1.1-JDTu7GaiWFA1X5nFX78y9e
+                      HDBC-sqlite3-2.3.3.1@HDBC-sqlite3-2.3.3.1-JU8hYIEMLA12FsMcPNRVAY
+                      MonadRandom-0.5.1@MonadRandom-0.5.1-IY6HiWu00vQLARukQW3KMH
+                      Spock-0.12.0.0@Spock-0.12.0.0-6O0xvDdhdvjBe89VjQ0Brn
+                      Spock-core-0.12.0.0@Spock-core-0.12.0.0-8w9OLkKz20fD58S5LNd2nn
+                      aeson-1.0.2.1@aeson-1.0.2.1-1etpxceMb6x9mZOLZOXYsC
+                      ansi-terminal-0.6.3.1@ansi-terminal-0.6.3.1-3RTqikoQf47ajVD9m8zgB
+                      ansi-wl-pprint-0.6.7.3@ansi-wl-pprint-0.6.7.3-A79v826bgPr574HtaZPPqC
+                      appar-0.1.4@appar-0.1.4-DGWHHt2WRn9FI49prcwO9
+                      array-0.5.1.1@array-0.5.1.1
+                      async-2.1.1.1@async-2.1.1.1-8yywY4inVGRLJSCg60gBXj
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-IEEYoTzFh3JE4HjRWbqraH
+                      attoparsec-iso8601-1.0.0.0@attoparsec-iso8601-1.0.0.0-4MOd6xlwKyM9z08XC1d09i
+                      auto-update-0.1.4@auto-update-0.1.4-EmUvNdmhEju51bHrtaEMpz
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.5.4@base-orphans-0.5.4-ABoxiBf7nXc7Qqh66CgYc9
+                      base-prelude-1.0.1.1@base-prelude-1.0.1.1-4AORg8JFeUgA2GTGpr6FgI
+                      base64-bytestring-1.0.0.1@base64-bytestring-1.0.0.1-4O9TExPPz6eI82Yj7L4SIj
+                      bcrypt-0.0.10@bcrypt-0.0.10-7O2Q66KBj5j3FP4y49padE
+                      bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT
+                      binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-CGB8BvrFgghHy5bLy0SFOg
+                      byteorder-1.0.4@byteorder-1.0.4-9NlNHkBVdo7F1prFVKrkcH
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      case-insensitive-1.2.0.10@case-insensitive-1.2.0.10-Fiik8BUGIOz3LnHv8R26NC
+                      comonad-5.0.1@comonad-5.0.1-7j4AeOMTFovFSFO9XMFm1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU
+                      cookie-0.4.2.1@cookie-0.4.2.1-K68NuFIZ07nEstxwB6c3aL
+                      cryptonite-0.21@cryptonite-0.21-KGlwixLJXrd6sgN0FjLIwH
+                      data-default-0.7.1.1@data-default-0.7.1.1-7EGYJX2YWqWJRbPFUHNoCr
+                      data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD
+                      data-default-instances-containers-0.0.1@data-default-instances-containers-0.0.1-bob6IQGdJq92c061H46zK
+                      data-default-instances-dlist-0.0.1@data-default-instances-dlist-0.0.1-FKnZBeovJMk4M89wQxDhjl
+                      data-default-instances-old-locale-0.0.1@data-default-instances-old-locale-0.0.1-9zaGDEmgOixKkmLylWdN5l
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 directory-1.3.0.0@directory-1.3.0.0
+                      distributive-0.5.2@distributive-0.5.2-JCgfTXNR3ywAyV7fFWIBI5
+                      dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD
+                      either-4.4.1.1@either-4.4.1.1-IRRdQbXZmZQ2emmKWcojaa
+                      entropy-0.3.8@entropy-0.3.8-14HIw40nRRY968j6AdY1H4
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      filepath-1.4.1.1@filepath-1.4.1.1
+                      focus-0.1.5@focus-0.1.5-EUtVM0OXYwNt0D6PY38VZ
+                      foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa
+                      free-4.12.4@free-4.12.4-GP8SJAzGfyq6UeKHSkzaha
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-I8TtfTMw8kCEo1q1h2BgxU
+                      http-api-data-0.3.7.1@http-api-data-0.3.7.1-MDikHkokKn81PsqfyL2eF
+                      http-date-0.0.6.1@http-date-0.0.6.1-ICLjftrhQ5dDNj4DUILAr7
+                      http-types-0.9.1@http-types-0.9.1-Qy5Ex19QlZ74tBRRG3v2y
+                      http2-1.6.3@http2-1.6.3-FPkuQP5aF0AHAOcRUVbUvK
+                      hvect-0.4.0.0@hvect-0.4.0.0-Bz3s0s4mhGy1edxe23N084
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.1@integer-logarithms-1.0.1-IEHCuEd5sG4JjSjlx7m5JF
+                      iproute-1.7.1@iproute-1.7.1-EJjAtfniBUorobFQnk7lR
+                      lifted-base-0.2.3.11@lifted-base-0.2.3.11-GQ8h0b1wJUC11xTxTtHqWV
+                      list-t-1@list-t-1-D12obi3mQT874qMWbChLN3
+                      memory-0.14.6@memory-0.14.6-Aar7hKewN999MXzU9kvt2a
+                      mmorph-1.0.9@mmorph-1.0.9-5bASEvmIkr5CpdAYXwPsn0
+                      monad-control-1.0.2.1@monad-control-1.0.2.1-CqOqIBYVBjy1GnPfyWnFHC
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      mustache-2.1.4@mustache-2.1.4-AMWhGByQnZu8GVK5uxgCfy
+                      names-th-0.2.0.3@names-th-0.2.0.3-FWd9uhhaPk73vacdw3xBxG
+                      network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz
+                      old-locale-1.0.0.7@old-locale-1.0.0.7-KGBP1BSKxH5GCm0LnZP04j
+                      old-time-1.1.0.3@old-time-1.1.0.3-KWRsMSdY26c2L27Y9n9cyq
+                      optparse-applicative-0.13.2.0@optparse-applicative-0.13.2.0-EqIYOWOFTvf23sT5QTYn9U
+                      parsec-3.1.11@parsec-3.1.11-113irVHGgd88sRnywByDNw
+                      persistable-record-0.4.2.0@persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH
+                      process-1.4.3.0@process-1.4.3.0
+                      psqueues-0.2.3.0@psqueues-0.2.3.0-13RR0saqlyC8xR0YbRzts0
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k
+                      relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc
+                      relational-schemas-0.1.3.1@relational-schemas-0.1.3.1-48FrZ7ufBIEDGv4W1BXtvU
+                      reroute-0.4.1.0@reroute-0.4.1.0-3mO8HtBqYTK8hbJbNA2bBJ
+                      resource-pool-0.2.3.2@resource-pool-0.2.3.2-22oFvkF5YuqFjCXc58bPTg
+                      resourcet-1.1.9@resourcet-1.1.9-4kJNagEzSAo2Kfakyf6y5E
+                      scientific-0.3.5.1@scientific-0.3.5.1-ExDzxC7QmbS5TvW39AAm4A
+                      semigroupoids-5.1@semigroupoids-5.1-G6hp8hbTJmG326ffvAeaw8
+                      simple-sendfile-0.2.25@simple-sendfile-0.2.25-4uYtK5a0djFILo2ePfLs47
+                      sql-words-0.1.5.1@sql-words-0.1.5.1-6ekOanNrtOKYD1ABcjRAD
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      stm-containers-0.2.15@stm-containers-0.2.15-2D4ZIczmX5e8LvnE6PuXbu
+                      streaming-commons-0.1.17@streaming-commons-0.1.17-ANLyYjCKvHm5Mv911o5sOC
+                      stringsearch-0.3.6.6@stringsearch-0.3.6.6-2soGORichTR6reHVhDqKip
+                      superbuffer-0.2.0.1@superbuffer-0.2.0.1-I9pjBp2f8RQ6fYkBq5QZIb
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR
+                      th-data-compat-0.0.2.4@th-data-compat-0.0.2.4-GbISCvWnyQk60k5xubIzhH
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      th-reify-compat-0.0.1.2@th-reify-compat-0.0.1.2-6M0IwJ7dfMh1DXggrHIiQT
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-base-0.4.4@transformers-base-0.4.4-GKSs0LKukAL8ymq2naFmrH
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unix-2.7.2.1@unix-2.7.2.1
+                      unix-compat-0.4.3.1@unix-compat-0.4.3.1-Ausmw6d7KIwA7sl52mzqxC
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-6txQagwbKwSESVNJVBgwqv
+                      utf8-string-1.0.1.1@utf8-string-1.0.1.1-1DpjxLeTvGg7ttZZojxJR5
+                      uuid-types-1.0.3@uuid-types-1.0.3-3qZyCmY7VWB1pGj23GIEzw
+                      vault-0.3.0.7@vault-0.3.0.7-H4kfNuSlFqmKLHmBSHcOfT
+                      vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG
+                      wai-3.2.1.1@wai-3.2.1.1-2ORFowrqBlw8LrI3bTChZy
+                      wai-extra-3.0.20.0@wai-extra-3.0.20.0-HN0gYybL47N4tpo8gvinr6
+                      warp-3.2.13@warp-3.2.13-HAkmfE8mH7WK3Wj46XjM7G
+                      weight-recorder-0.1.0.0@weight-recorder-0.1.0.0-2Cz4nHR2skdHQxdlS1Wnkh
+                      word8-0.1.2@word8-0.1.2-9WDPGCTpW7JJnsiAQavtd1
+orphans: Spock-0.12.0.0@Spock-0.12.0.0-6O0xvDdhdvjBe89VjQ0Brn:Web.Spock.Internal.Monad
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-IEEYoTzFh3JE4HjRWbqraH:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-IEEYoTzFh3JE4HjRWbqraH:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.C
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Map
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Num
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Text
+         convertible-1.1.1.0@convertible-1.1.1.0-Ak7QFuhDUEhAAS6OXXN1vU:Data.Convertible.Instances.Time
+         data-default-instances-containers-0.0.1@data-default-instances-containers-0.0.1-bob6IQGdJq92c061H46zK:Data.Default.Instances.Containers
+         data-default-instances-dlist-0.0.1@data-default-instances-dlist-0.0.1-FKnZBeovJMk4M89wQxDhjl:Data.Default.Instances.DList
+         data-default-instances-old-locale-0.0.1@data-default-instances-old-locale-0.0.1-9zaGDEmgOixKkmLylWdN5l:Data.Default.Instances.OldLocale
+         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Collection.Collection
+         hashable-1.2.6.1@hashable-1.2.6.1-I8TtfTMw8kCEo1q1h2BgxU:Data.Hashable.Generic
+         mustache-2.1.4@mustache-2.1.4-AMWhGByQnZu8GVK5uxgCfy:Text.Mustache.Types
+         network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz:Network.Socket
+         persistable-record-0.4.2.0@persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO:Database.Record.Instances
+         relational-query-0.8.4.0@relational-query-0.8.4.0-7rDDxPKjwJ36nKNPTVVa7k:Database.Relational.Query.Monad.Aggregate
+         relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.Record.Persistable
+         relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.Schema.SQLite3
+         relational-query-HDBC-0.6.0.3@relational-query-HDBC-0.6.0.3-3GI5sROyxVABeYler4IlQc:Database.HDBC.SqlValueExtra
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         stm-containers-0.2.15@stm-containers-0.2.15-2D4ZIczmX5e8LvnE6PuXbu:STMContainers.Map
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Show
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed
+family instance modules: MonadRandom-0.5.1@MonadRandom-0.5.1-IY6HiWu00vQLARukQW3KMH:Control.Monad.Trans.Random.Lazy
+                         Spock-0.12.0.0@Spock-0.12.0.0-6O0xvDdhdvjBe89VjQ0Brn:Web.Spock.Internal.Monad
+                         Spock-0.12.0.0@Spock-0.12.0.0-6O0xvDdhdvjBe89VjQ0Brn:Web.Spock.Internal.SessionVault
+                         Spock-0.12.0.0@Spock-0.12.0.0-6O0xvDdhdvjBe89VjQ0Brn:Web.Spock.Internal.Types
+                         Spock-core-0.12.0.0@Spock-core-0.12.0.0-8w9OLkKz20fD58S5LNd2nn:Web.Spock.Internal.Wire
+                         attoparsec-0.13.1.0@attoparsec-0.13.1.0-IEEYoTzFh3JE4HjRWbqraH:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Biff
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Clown
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Flip
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Join
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Joker
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Product
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Tannen
+                         bifunctors-5.4.2@bifunctors-5.4.2-wt6HPG9UFgCjbd0zbVYNT:Data.Bifunctor.Wrapped
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD:Data.DList
+                         either-4.4.1.1@either-4.4.1.1-IRRdQbXZmZQ2emmKWcojaa:Control.Monad.Trans.Either
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Array.Bitmap
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Array.Boxed
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Array.Chunked.Unboxed
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Boot.Builder
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Collection.Buildable
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Collection.Collection
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Collection.Element
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Collection.Keyed
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Collection.Mutable
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Monad.Exception
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Numerical.Subtractive
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Primitive.Block.Base
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Primitive.Monad
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Primitive.Types.OffsetSize
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Primitive.UArray.Base
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Primitive.UTF8.Base
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.String.Encoding.ASCII7
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.String.Encoding.ISO_8859_1
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.String.Encoding.UTF16
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.String.Encoding.UTF32
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.String.UTF8
+                         foundation-0.0.13@foundation-0.0.13-G4GHWkMwmXnF7HKMtT8vGa:Foundation.Tuple
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         iproute-1.7.1@iproute-1.7.1-EJjAtfniBUorobFQnk7lR:Data.IP.Addr
+                         iproute-1.7.1@iproute-1.7.1-EJjAtfniBUorobFQnk7lR:Data.IP.Range
+                         list-t-1@list-t-1-D12obi3mQT874qMWbChLN3:ListT
+                         monad-control-1.0.2.1@monad-control-1.0.2.1-CqOqIBYVBjy1GnPfyWnFHC:Control.Monad.Trans.Control
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH:Control.Monad.Primitive
+                         resourcet-1.1.9@resourcet-1.1.9-4kJNagEzSAo2Kfakyf6y5E:Control.Monad.Trans.Resource.Internal
+                         stm-containers-0.2.15@stm-containers-0.2.15-2D4ZIczmX5e8LvnE6PuXbu:STMContainers.Map
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-6txQagwbKwSESVNJVBgwqv:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-6txQagwbKwSESVNJVBgwqv:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-3qZyCmY7VWB1pGj23GIEzw:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-3qZyCmY7VWB1pGj23GIEzw:Data.UUID.Types.Internal.Builder
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Primitive
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Storable
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed.Base
+import  -/  base-4.9.1.0:Data.Functor 5ab1dc703df5b482e77efb697833ca3c
+import  -/  base-4.9.1.0:Data.Monoid 51cc9cd8c130d49ba96b7c2c2406022b
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  filepath-1.4.1.1@filepath-1.4.1.1:System.FilePath a3d1d13ac7dd86705b5dfaf58a5c0b9e
+import  -/  filepath-1.4.1.1@filepath-1.4.1.1:System.FilePath.Posix 6a5e3ee74184fdcc5da09a368e7c40f5
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  Paths_weight_recorder 4212f85b0d37b31322bb3c5aa85bf2a5
+  exports: f22667cdeb503f6166ac4181e05cfb3a
+  getDataDir c913dda1a5ea9b064b5fc03f1e0a514b
+import  -/  optparse-applicative-0.13.2.0@optparse-applicative-0.13.2.0-EqIYOWOFTvf23sT5QTYn9U:Options.Applicative 23f520fcf2cade55e41560c008c2a3d8
+import  -/  optparse-applicative-0.13.2.0@optparse-applicative-0.13.2.0-EqIYOWOFTvf23sT5QTYn9U:Options.Applicative.Builder 9af5be12ece5b5d5a516e8dfd0a31ae0
+import  -/  optparse-applicative-0.13.2.0@optparse-applicative-0.13.2.0-EqIYOWOFTvf23sT5QTYn9U:Options.Applicative.Extra b1f9bd035b3f0e3d7dcacd48ff90ce62
+import  -/  optparse-applicative-0.13.2.0@optparse-applicative-0.13.2.0-EqIYOWOFTvf23sT5QTYn9U:Options.Applicative.Types 51a5ed351e52971e6533467cf30252fe
+import  -/  weight-recorder-0.1.0.0@weight-recorder-0.1.0.0-2Cz4nHR2skdHQxdlS1Wnkh:Web.Core f5e8c7a421ec2212f66406f7f0b8116b
+import  -/  weight-recorder-0.1.0.0@weight-recorder-0.1.0.0-2Cz4nHR2skdHQxdlS1Wnkh:Web.WeightRecorder e964d61f9a728d6d99966dc46197adf7
+d6831ef04cb9301b090dfae6f7bb7ec7
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Main.$trModule2 Main.$trModule1) -}
+847d9fc3b8e6f0b424199f36b4999bb2
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Main"#) -}
+24ef6042833e75ffd7aa98b83ecca98d
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+1d4e4ea8798f0e1b59020302571d943a
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+253ee7731dfa7bfd227a9ad1f24414ff
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.catch#
+                        @ GHC.Base.String
+                        @ GHC.Exception.SomeException
+                        Paths_weight_recorder.getDataDir3
+                          `cast`
+                        (GHC.Types.N:IO[0] <GHC.Base.String>_R)
+                        Paths_weight_recorder.getDataDir2
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case System.Environment.getArgs1 ipv of ds { (#,#) ipv2 ipv3 ->
+                 case Options.Applicative.Extra.customExecParser2
+                        @ Web.Core.WRConfig
+                        (Options.Applicative.Extra.execParserPure
+                           @ Web.Core.WRConfig
+                           Options.Applicative.Builder.defaultPrefs
+                           (Options.Applicative.Types.ParserInfo
+                              @ Web.Core.WRConfig
+                              (Options.Applicative.Types.MultP
+                                 @ Web.Core.WRConfig
+                                 @ Web.Core.WRConfig
+                                 (Options.Applicative.Extra.helper @ Web.Core.WRConfig)
+                                 (Options.Applicative.Types.MultP
+                                    @ Web.Core.WRConfig
+                                    @ GHC.Types.Int
+                                    (Options.Applicative.Types.MultP
+                                       @ (GHC.Types.Int -> Web.Core.WRConfig)
+                                       @ [GHC.IO.FilePath]
+                                       Main.main36
+                                       (Options.Applicative.Types.$fApplicativeParser_$cfmap
+                                          @ GHC.IO.FilePath
+                                          @ [GHC.IO.FilePath]
+                                          Main.main35
+                                          (Options.Applicative.Types.AltP
+                                             @ GHC.IO.FilePath
+                                             Main.main24
+                                             (Options.Applicative.Types.NilP
+                                                @ GHC.IO.FilePath
+                                                (GHC.Base.Just
+                                                   @ GHC.IO.FilePath
+                                                   (System.FilePath.Posix.combine
+                                                      ipv1
+                                                      Main.main23))))))
+                                    Main.main6))
+                              GHC.Types.True
+                              Main.main4
+                              Main.main2
+                              (GHC.Base.Nothing @ Text.PrettyPrint.ANSI.Leijen.Doc)
+                                `cast`
+                              (Sym (Options.Applicative.Help.Chunk.N:Chunk[0]) <Text.PrettyPrint.ANSI.Leijen.Doc>_N)
+                              Options.Applicative.Builder.info1
+                              GHC.Types.True)
+                           ipv3)
+                        ipv2 of ds2 { (#,#) ipv4 ipv5 ->
+                 Web.WeightRecorder.runWeightRecorder1 ipv5 ipv4 } } }) -}
+838f1ca2767f9b416c01e484b34a03e1
+  main10 :: Options.Applicative.Types.Parser GHC.Types.Int
+  {- Unfolding: (Options.Applicative.Types.OptP
+                   @ GHC.Types.Int
+                   Main.main11) -}
+6489a32712acfa5e7eaa328d1f2f4d77
+  main11 :: Options.Applicative.Types.Option GHC.Types.Int
+  {- Unfolding: (Options.Applicative.Types.Option
+                   @ GHC.Types.Int
+                   Main.main15
+                   Main.main12) -}
+5b073ce5ba2728bbbf34058f25e7d476
+  main12 :: Options.Applicative.Types.OptProperties
+  {- Unfolding: (Options.Applicative.Types.OptProperties
+                   Options.Applicative.Types.Visible
+                   Main.main13
+                   Main.main_var
+                   (GHC.Base.Nothing @ GHC.Base.String)) -}
+a768bb08a9bd9d4d32ecb4dbae4e319d
+  main13 ::
+    Options.Applicative.Help.Chunk.Chunk
+      Text.PrettyPrint.ANSI.Leijen.Doc
+  {- Unfolding: (Data.OldList.wordsFB
+                   @ (Options.Applicative.Help.Chunk.Chunk
+                        Text.PrettyPrint.ANSI.Leijen.Doc)
+                   Options.Applicative.Help.Chunk.paragraph1
+                   (GHC.Base.Nothing @ Text.PrettyPrint.ANSI.Leijen.Doc)
+                     `cast`
+                   (Sym (Options.Applicative.Help.Chunk.N:Chunk[0]) <Text.PrettyPrint.ANSI.Leijen.Doc>_N)
+                   Main.main14) -}
+d8626912fafdaa3c795b5859168ed321
+  main14 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "listen PORT"#) -}
+1dadaf0de1f0436fd847d3e7aabcc981
+  main15 :: Options.Applicative.Types.OptReader GHC.Types.Int
+  {- Unfolding: (Options.Applicative.Types.OptReader
+                   @ GHC.Types.Int
+                   Main.main18
+                   Main.main16
+                   Options.Applicative.Builder.abortOption3) -}
+e1bdeb810ef7c41e5ce9ff5cfb82714c
+  main16 :: Options.Applicative.Types.CReader GHC.Types.Int
+  {- Unfolding: (Options.Applicative.Types.CReader
+                   @ GHC.Types.Int
+                   Options.Applicative.Types.$fMonoidCompleter4
+                     `cast`
+                   (Trans
+                        (<GHC.Base.String>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <[GHC.Base.String]>_R))
+                        (Sym (Options.Applicative.Types.N:Completer[0])))
+                   Main.main17
+                     `cast`
+                   (Trans
+                        (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                  <*>_N
+                                  <GHC.Base.String>_R
+                                  <Control.Monad.Trans.Except.Except
+                                     Options.Applicative.Types.ParseError>_R
+                                  <GHC.Types.Int>_N))
+                        (Sym (Options.Applicative.Types.N:ReadM[0]) <GHC.Types.Int>_N))) -}
+06a1d90a96c59467afc7b4c091db0ab4
+  main17 ::
+    GHC.Base.String
+    -> Control.Monad.Trans.Except.Except
+         Options.Applicative.Types.ParseError GHC.Types.Int
+  {- Arity: 1,
+     Unfolding: (Options.Applicative.Builder.auto1
+                   @ GHC.Types.Int
+                   GHC.Read.$fReadInt) -}
+d544d97b38aa2b0be1d77bf394d4400b
+  main18 :: [Options.Applicative.Types.OptName]
+  {- Unfolding: (GHC.Types.:
+                   @ Options.Applicative.Types.OptName
+                   Main.main22
+                   Main.main19) -}
+6bb7b954b1561f2a2a9651e00683106c
+  main19 :: [Options.Applicative.Types.OptName]
+  {- Unfolding: (GHC.Types.:
+                   @ Options.Applicative.Types.OptName
+                   Main.main20
+                   (GHC.Types.[] @ Options.Applicative.Types.OptName)) -}
+68118ac0e4355bd7745388cdd336d79a
+  main2 ::
+    Options.Applicative.Help.Chunk.Chunk
+      Text.PrettyPrint.ANSI.Leijen.Doc
+  {- Unfolding: (Data.OldList.wordsFB
+                   @ (Options.Applicative.Help.Chunk.Chunk
+                        Text.PrettyPrint.ANSI.Leijen.Doc)
+                   Options.Applicative.Help.Chunk.paragraph1
+                   (GHC.Base.Nothing @ Text.PrettyPrint.ANSI.Leijen.Doc)
+                     `cast`
+                   (Sym (Options.Applicative.Help.Chunk.N:Chunk[0]) <Text.PrettyPrint.ANSI.Leijen.Doc>_N)
+                   Main.main3) -}
+c831206c90f051dad6d309b57ec93bc0
+  main20 :: Options.Applicative.Types.OptName
+  {- Unfolding: (Options.Applicative.Types.OptLong Main.main21) -}
+1178fc09a49e3bc87359239eb285b75c
+  main21 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "port"#) -}
+2fd2dedbaf9ff6d6e42b5376e08911ec
+  main22 :: Options.Applicative.Types.OptName
+  {- HasNoCafRefs,
+     Unfolding: (Options.Applicative.Types.OptShort 'p'#) -}
+ad2696219b73f1e5e0ebb13531f6b980
+  main23 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "templates"#) -}
+3b118f8aedccc0b59057fbef2169b148
+  main24 :: Options.Applicative.Types.Parser GHC.IO.FilePath
+  {- Unfolding: (Options.Applicative.Types.OptP
+                   @ GHC.IO.FilePath
+                   Main.main25) -}
+6b033c03c56181bbd0e86ef99e6d7b39
+  main25 :: Options.Applicative.Types.Option GHC.IO.FilePath
+  {- Unfolding: (Options.Applicative.Types.Option
+                   @ GHC.IO.FilePath
+                   Main.main29
+                   Main.main26) -}
+3e3b265093e8a5795841c4cd1472697e
+  main26 :: Options.Applicative.Types.OptProperties
+  {- Unfolding: (Options.Applicative.Types.OptProperties
+                   Options.Applicative.Types.Visible
+                   Main.main27
+                   Main.main_var1
+                   (GHC.Base.Nothing @ GHC.Base.String)) -}
+7ec7a5251b2610f36b11e36adc4c2630
+  main27 ::
+    Options.Applicative.Help.Chunk.Chunk
+      Text.PrettyPrint.ANSI.Leijen.Doc
+  {- Unfolding: (Data.OldList.wordsFB
+                   @ (Options.Applicative.Help.Chunk.Chunk
+                        Text.PrettyPrint.ANSI.Leijen.Doc)
+                   Options.Applicative.Help.Chunk.paragraph1
+                   (GHC.Base.Nothing @ Text.PrettyPrint.ANSI.Leijen.Doc)
+                     `cast`
+                   (Sym (Options.Applicative.Help.Chunk.N:Chunk[0]) <Text.PrettyPrint.ANSI.Leijen.Doc>_N)
+                   Main.main28) -}
+2fff05b8b4cbc58772b9d86fb570f269
+  main28 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "the root path of template directory"#) -}
+1d2c6491c18e0418dcae21444648c013
+  main29 :: Options.Applicative.Types.OptReader GHC.IO.FilePath
+  {- Unfolding: (Options.Applicative.Types.OptReader
+                   @ GHC.IO.FilePath
+                   Main.main32
+                   Main.main30
+                   Options.Applicative.Builder.abortOption3) -}
+1ddd9c7c892fc3ca826aa18b6620f178
+  main3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "weight-recorder - A web application to record your weights"#) -}
+765fc37d0f5a179ff467b95e294197e5
+  main30 :: Options.Applicative.Types.CReader [GHC.Types.Char]
+  {- Unfolding: (Options.Applicative.Types.CReader
+                   @ [GHC.Types.Char]
+                   Options.Applicative.Types.$fMonoidCompleter4
+                     `cast`
+                   (Trans
+                        (<GHC.Base.String>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <[GHC.Base.String]>_R))
+                        (Sym (Options.Applicative.Types.N:Completer[0])))
+                   Main.main31
+                     `cast`
+                   (Trans
+                        (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                  <*>_N
+                                  <GHC.Base.String>_R
+                                  <Control.Monad.Trans.Except.Except
+                                     Options.Applicative.Types.ParseError>_R
+                                  <[GHC.Types.Char]>_N))
+                        (Sym (Options.Applicative.Types.N:ReadM[0]) <[GHC.Types.Char]>_N))) -}
+cc516b90b8fabdf42f5aff5b8e769459
+  main31 ::
+    GHC.Base.String
+    -> Control.Monad.Trans.Except.Except
+         Options.Applicative.Types.ParseError [GHC.Types.Char]
+  {- Arity: 1,
+     Unfolding: (Options.Applicative.Builder.auto1
+                   @ [GHC.Types.Char]
+                   GHC.Read.$fRead[]_$s$fRead[]1) -}
+743e5e188a39109df2604e3e7b9984c8
+  main32 :: [Options.Applicative.Types.OptName]
+  {- Unfolding: (GHC.Types.:
+                   @ Options.Applicative.Types.OptName
+                   Main.main_n1
+                   Main.main33) -}
+2ca2cceeb13be5cca269331c6cdf41ea
+  main33 :: [Options.Applicative.Types.OptName]
+  {- Unfolding: (GHC.Types.:
+                   @ Options.Applicative.Types.OptName
+                   Main.main_n
+                   (GHC.Types.[] @ Options.Applicative.Types.OptName)) -}
+289f0969e459f0a913ad75ab291018d3
+  main34 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "tplroot"#) -}
+413ab0b29d7a5f59fef683983ee6d9e1
+  main35 :: GHC.IO.FilePath -> [GHC.IO.FilePath]
+  {- Arity: 1, HasNoCafRefs,
+     Unfolding: (\ (ds :: GHC.IO.FilePath) ->
+                 GHC.Types.:
+                   @ GHC.IO.FilePath
+                   ds
+                   (GHC.Types.[] @ GHC.IO.FilePath)) -}
+7bc2a13833a27a0bec8995f6fe71a792
+  main36 ::
+    Options.Applicative.Types.Parser
+      ([GHC.IO.FilePath] -> GHC.Types.Int -> Web.Core.WRConfig)
+  {- Unfolding: (Options.Applicative.Types.$fApplicativeParser_$cfmap
+                   @ GHC.IO.FilePath
+                   @ ([GHC.IO.FilePath] -> GHC.Types.Int -> Web.Core.WRConfig)
+                   Web.Core.$WWRConfig
+                   Main.main37) -}
+e8a41fcac326d5d7dd6463ae9cee6611
+  main37 :: Options.Applicative.Types.Parser [GHC.Types.Char]
+  {- Unfolding: (Options.Applicative.Types.AltP
+                   @ [GHC.Types.Char]
+                   Main.main41
+                   Main.main38) -}
+274ef3f1c6b04d972d63f7165d5208e3
+  main38 :: Options.Applicative.Types.Parser [GHC.Types.Char]
+  {- Unfolding: (Options.Applicative.Types.NilP
+                   @ [GHC.Types.Char]
+                   Main.main39) -}
+7cae694e07236f9fd5a4c2fe6e7c41e5
+  main39 :: GHC.Base.Maybe [GHC.Types.Char]
+  {- Unfolding: (GHC.Base.Just @ [GHC.Types.Char] Main.main40) -}
+c65f57424324edac99fcb41b4a76a888
+  main4 ::
+    Options.Applicative.Help.Chunk.Chunk
+      Text.PrettyPrint.ANSI.Leijen.Doc
+  {- Unfolding: (Data.OldList.wordsFB
+                   @ (Options.Applicative.Help.Chunk.Chunk
+                        Text.PrettyPrint.ANSI.Leijen.Doc)
+                   Options.Applicative.Help.Chunk.paragraph1
+                   (GHC.Base.Nothing @ Text.PrettyPrint.ANSI.Leijen.Doc)
+                     `cast`
+                   (Sym (Options.Applicative.Help.Chunk.N:Chunk[0]) <Text.PrettyPrint.ANSI.Leijen.Doc>_N)
+                   Main.main5) -}
+ce7788007ced4f23c3a9bd4b931f2c43
+  main40 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "weight.db"#) -}
+9bbb90b815e4a24ad14ffbef732fce58
+  main41 :: Options.Applicative.Types.Parser [GHC.Types.Char]
+  {- Unfolding: (Options.Applicative.Types.OptP
+                   @ [GHC.Types.Char]
+                   Main.main42) -}
+eb5b8ed857efc5bfa64818af670ca2be
+  main42 :: Options.Applicative.Types.Option [GHC.Types.Char]
+  {- Unfolding: (Options.Applicative.Types.Option
+                   @ [GHC.Types.Char]
+                   Main.main46
+                   Main.main43) -}
+e17c64f19a58b65c89c1aded5d46290f
+  main43 :: Options.Applicative.Types.OptProperties
+  {- Unfolding: (Options.Applicative.Types.OptProperties
+                   Options.Applicative.Types.Visible
+                   Main.main44
+                   Main.main_var2
+                   (GHC.Base.Nothing @ GHC.Base.String)) -}
+d48e4aff1e78f8725737c7866cc8a0a8
+  main44 ::
+    Options.Applicative.Help.Chunk.Chunk
+      Text.PrettyPrint.ANSI.Leijen.Doc
+  {- Unfolding: (Data.OldList.wordsFB
+                   @ (Options.Applicative.Help.Chunk.Chunk
+                        Text.PrettyPrint.ANSI.Leijen.Doc)
+                   Options.Applicative.Help.Chunk.paragraph1
+                   (GHC.Base.Nothing @ Text.PrettyPrint.ANSI.Leijen.Doc)
+                     `cast`
+                   (Sym (Options.Applicative.Help.Chunk.N:Chunk[0]) <Text.PrettyPrint.ANSI.Leijen.Doc>_N)
+                   Main.main45) -}
+07cef402daa14c0417ac3a1b63d0f8ed
+  main45 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "SQLite DB"#) -}
+c7f14bcee93343480d2bcfc9e2aaf5f0
+  main46 :: Options.Applicative.Types.OptReader [GHC.Types.Char]
+  {- Unfolding: (Options.Applicative.Types.OptReader
+                   @ [GHC.Types.Char]
+                   Main.main47
+                   Main.main30
+                   Options.Applicative.Builder.abortOption3) -}
+bb0469e2957d14e506676304e52956b0
+  main47 :: [Options.Applicative.Types.OptName]
+  {- Unfolding: (GHC.Types.:
+                   @ Options.Applicative.Types.OptName
+                   Main.main51
+                   Main.main48) -}
+104ef9d4e3c10cb437a7fc8e91c99e70
+  main48 :: [Options.Applicative.Types.OptName]
+  {- Unfolding: (GHC.Types.:
+                   @ Options.Applicative.Types.OptName
+                   Main.main49
+                   (GHC.Types.[] @ Options.Applicative.Types.OptName)) -}
+d377d8b25b0d587f5aa0d053081c9d89
+  main49 :: Options.Applicative.Types.OptName
+  {- Unfolding: (Options.Applicative.Types.OptLong Main.main50) -}
+9545ac774696191544db541f529468c6
+  main5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Run the Weight Recorder server"#) -}
+071d4239da7a67d41b28e424efe3e01f
+  main50 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "db"#) -}
+583cbe823f2963c984388cbec32fdff9
+  main51 :: Options.Applicative.Types.OptName
+  {- HasNoCafRefs,
+     Unfolding: (Options.Applicative.Types.OptShort 'd'#) -}
+09fe6995a108a5328b52e00e02fa26ae
+  main52 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+616c15dc60bbbb3a826f29ca789a62b1
+  main6 :: Options.Applicative.Types.Parser GHC.Types.Int
+  {- Unfolding: (Options.Applicative.Types.AltP
+                   @ GHC.Types.Int
+                   Main.main10
+                   Main.main7) -}
+3d614d2384d0f70d6597df0ff31ba587
+  main7 :: Options.Applicative.Types.Parser GHC.Types.Int
+  {- HasNoCafRefs,
+     Unfolding: (Options.Applicative.Types.NilP
+                   @ GHC.Types.Int
+                   Main.main8) -}
+eb2c340d5cad9cc4d8f311956feffb38
+  main8 :: GHC.Base.Maybe GHC.Types.Int
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just @ GHC.Types.Int Main.main9) -}
+86f091328f23e859437e0ec725093f8d
+  main9 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 8080#) -}
+dfbff133837cbd5ac844d0a9bdc893ef
+  main_n :: Options.Applicative.Types.OptName
+  {- Strictness: m2,
+     Unfolding: (Options.Applicative.Types.OptLong Main.main34) -}
+b0a501b000eb3c5b6af3b9ca60d973d9
+  main_n1 :: Options.Applicative.Types.OptName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (Options.Applicative.Types.OptShort 't'#) -}
+064480ac886f7ac00c5fcc8790fcc634
+  main_var :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "PORT"#) -}
+a42d592896db701a323c9f17fa834a56
+  main_var1 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "ROOT"#) -}
+f5f06c2baa2947e6b0e036baf9fcd3d9
+  main_var2 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "DB"#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

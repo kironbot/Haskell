@@ -1,0 +1,29 @@
+Configuring persistable-record-0.4.2.0...
+Building persistable-record-0.4.2.0...
+Preprocessing library persistable-record-0.4.2.0...
+[1 of 7] Compiling Database.Record.Persistable ( src/Database/Record/Persistable.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/Record/Persistable.o )
+[2 of 7] Compiling Database.Record.KeyConstraint ( src/Database/Record/KeyConstraint.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/Record/KeyConstraint.o )
+[3 of 7] Compiling Database.Record.ToSql ( src/Database/Record/ToSql.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/Record/ToSql.o )
+[4 of 7] Compiling Database.Record.FromSql ( src/Database/Record/FromSql.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/Record/FromSql.o )
+[5 of 7] Compiling Database.Record  ( src/Database/Record.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/Record.o )
+[6 of 7] Compiling Database.Record.TH ( src/Database/Record/TH.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/Record/TH.o )
+
+src/Database/Record/TH.hs:228:21: warning: [-Wdeprecations]
+    In the use of ‘varStrictType’
+    (imported from Language.Haskell.TH, but defined in Language.Haskell.TH.Lib):
+    Deprecated: "As of @template-haskell-2.11.0.0@, 'VarStrictType' has been replaced by 'VarBangType'. Please use 'varBangType' instead."
+
+src/Database/Record/TH.hs:228:48: warning: [-Wdeprecations]
+    In the use of ‘strictType’
+    (imported from Language.Haskell.TH, but defined in Language.Haskell.TH.Lib):
+    Deprecated: "As of @template-haskell-2.11.0.0@, 'StrictType' has been replaced by 'BangType'. Please use 'bangType' instead."
+
+src/Database/Record/TH.hs:228:59: warning: [-Wdeprecations]
+    In the use of ‘isStrict’
+    (imported from Language.Haskell.TH, but defined in Language.Haskell.TH.Lib):
+    Deprecated: "Use 'bang'. See https://ghc.haskell.org/trac/ghc/wiki/Migration/8.0. 
+                 Example usage: 'bang noSourceUnpackedness sourceStrict'"
+[7 of 7] Compiling Database.Record.Instances ( src/Database/Record/Instances.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Database/Record/Instances.o )
+Installing library in
+/Users/kiron/.stack/snapshots/x86_64-osx/lts-8.24/8.0.2/lib/x86_64-osx-ghc-8.0.2/persistable-record-0.4.2.0-CdUyxcHSadO3IIFApmrmrO
+Registering persistable-record-0.4.2.0...
